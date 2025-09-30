@@ -1,56 +1,370 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsinghua.edu.cn/en/) and [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/csen/), [Tsinghua University](https://www.tsinghua.edu.cn/en/). In addition, I am also minoring in Economics and Finance at [School of Economics and Management](https://www.sem.tsinghua.edu.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/). My research interests are focused on computer vision, computer graphics and generative models. I also hope to expand my research boundaries, for example, into the intersection of AI and other disciplines.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# Education
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<!-- * B.S. Minor in Economics and Finance, School of Economics and Management, Tsinghua University, 2026(expected)
+* B.S. Major in Computer Science and Technology, Xinya College & Department of Computer Science and Technology, Tsinghua University, 2026 (expected) -->
+<style>
+  .edu-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 10px; */
+    padding: 12px 16px;
+    margin: 10px 0;
+    /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+    width: 700px; 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  .edu-text {
+    font-size: 15px;
+    line-height: 1.5;
+    flex: 2; 
+  }
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+  .edu-image {
+    flex: 1;
+    text-align: right;
+  }
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  .edu-image img {
+    max-width: 240px; 
+    border-radius: 6px;
+  }
+</style>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="edu-card">
+  <div class="edu-text">
+    B.S. Minor in Economics and Finance <br>
+    School of Economics and Management <br>
+    Tsinghua University<br>
+    2022-2026 (Expected)
+  </div>
+  <div class="edu-image">
+    <img src="../images/educations/bs_minor.png" alt="School of Economics and Management">
+  </div>
+</div>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="edu-card">
+  <div class="edu-text">
+    B.S. Major in Computer Science and Technology<br>
+    Xinya College & Department of Computer Science and Technology<br>
+    Tsinghua University<br> 
+    2022-2026 (Expected)
+  </div>
+  <div class="edu-image">
+    <img src="../images/educations/bs_major.png" alt="Computer Science Department">
+  </div>
+</div>
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+# Work and Internship Experience
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<style>
+  .intern-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* border: 1px solid #ddd;
+    border-radius: 10px; */
+    padding: 16px;
+    margin: 12px 0;
+    /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+    width: 750px; 
+    /* background-color: #fff; */
+  }
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+  .intern-text {
+    flex: 2;
+    font-size: 15px;
+    line-height: 1.5;
+  }
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+  .intern-text h4 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .intern-text ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .intern-text li {
+    margin-bottom: 4px;
+  }
+
+  .intern-image {
+    flex: 1;
+    text-align: right;
+  }
+
+  .intern-image img {
+    max-width: 120px;
+    border-radius: 6px;
+  }
+</style>
+<div class="intern-card">
+  <div class="intern-text">
+    <h4>Jun.2025 - Aug.2025: Research Intern</h4>
+    <ul>
+      <li>Guangming Laboratory</li>
+      <li>Duties includes: Agentic AI research</li>
+      <li>Supervisor: Prof. Ming Li</li>
+    </ul>
+  </div>
+  <div class="intern-image">
+    <img src="../images/intern/guangminglab.png" alt="Guangming Lab">
+  </div>
+</div>
+<div class="intern-card">
+  <div class="intern-text">
+    <h4>Jul.2024 - Feb.2025: Research Intern</h4>
+    <ul>
+      <li>Gensi Lab @ Tsinghua University</li>
+      <li>Duties included: Generative model research and Molecular optimization framework research</li>
+      <li>Supervisor: Prof. Hao Zhou</li>
+    </ul>
+  </div>
+  <div class="intern-image">
+    <img src="../images/intern/Tsinghua.png" alt="Gensi Lab">
+  </div>
+</div>
+
+<div class="intern-card">
+  <div class="intern-text">
+    <h4>Feb.2024 - Jun.2024: Research Intern</h4>
+    <ul>
+      <li>ATOM Lab @ Tsinghua University</li>
+      <li>Duties included: AI4Science pipeline development and Data analysis</li>
+      <li>Supervisor: Prof. Yanyan Lan</li>
+    </ul>
+  </div>
+  <div class="intern-image">
+    <img src="../images/intern/Tsinghua.png" alt="ATOM Lab">
+  </div>
+</div>
+
+  
+# Publications
+
+<style>
+  .pub-card {
+    display: flex;
+    width: 800px;         
+    height: 200px;        
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px 0;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .pub-card img {
+    width: 300px;
+    height: 100%;         
+    /* object-fit: cover; */
+  }
+
+  .pub-content {
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+
+  .pub-content h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .pub-content p {
+    margin: 2px 0;
+  }
+
+  .card-authors {
+    font-size: 10px; 
+    color: #555;     
+  }
+
+  .conference_or_journal{
+    font-size: 14px;
+  }
+
+  .functions {
+    font-size: 14px;
+  }
+
+</style>
+
+<div class="pub-card">
+  <img src="../images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png" alt="paper">
+  <div class="pub-content">
+    <h3><a href="https://arxiv.org/pdf/2508.06555?">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</a></h3>
+    <p class="card-authors"> <strong><u>Hongbo Ma</u></strong>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li<sup>†</sup></p>
+    <p class="conference_or_journal"><em>Arxiv</em></p>
+    <p class="functions">
+      <a href="https://arxiv.org/pdf/2508.06555?">Paper</a> /
+      <a href="https://arxiv.org/abs/2508.06555?">ArXiv</a> /
+      <a href="https://mahb-thu.github.io/StyleTailor.github.io/">Project</a> /
+      <a href="https://github.com/mahb-THU/StyleTailor">Code</a> 
+    </p>
+  </div>
+</div>
+
+<div class="pub-card">
+  <img src="../images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png" alt="paper">
+  <div class="pub-content">
+    <h3><a href="https://arxiv.org/pdf/2411.13280">Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks</a></h3>
+    <p class="card-authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <strong><u>Hongbo Ma</u></strong>, Ziyao Cao, Zhilong Zhang, Yushuai Wu, Mingyue Zheng<sup>†</sup>, Hao Zhou<sup>†</sup>, Wei-Ying Ma<sup>†</sup></p>
+    <p class="conference_or_journal"><em>ICML 2025 Poster</em></p>
+    <p class="functions">
+      <a href="https://arxiv.org/pdf/2411.13280">Paper</a> /
+      <a href="https://arxiv.org/abs/2411.13280">ArXiv</a>
+    </p>
+  </div>
+</div>
+
+<div class="pub-card">
+  <img src="../images/publications/Redefining the task of Bioactivity Prediction.png" alt="paper">
+  <div class="pub-content">
+    <h3><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/dee8f820d86aca28ab0328a9243020f9-Paper-Conference.pdf">Redefining the task of Bioactivity Prediction</a></h3>
+    <p class="card-authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <strong><u>Hongbo Ma</u></strong>, Wei-Ying Ma<sup>†</sup>, Ya-Qin Zhang<sup>†</sup>, Yanyan Lan<sup>†</sup></p>
+    <p class="conference_or_journal"><em>ICLR 2025 Poster</em></p>
+    <p class="functions">
+      <a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a> /
+      <a href="https://arxiv.org/html/2406.08961v1">ArXiv</a>
+    </p>
+  </div>
+</div>
+
+<style>
+  .follow-us-container {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+  }
+  .follow-us-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  .follow-us-title span {
+    display: inline-block;
+    position: relative;
+  }
+  .follow-us-title span::before,
+  .follow-us-title span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  .follow-us-title span::before {
+    left: -20px;
+  }
+  .follow-us-title span::after {
+    right: -20px;
+  }
+  .follow-us-subtitle {
+    font-size: 20px;
+    color: #6f6e6eff;
+    margin: 6px 0 18px 0; 
+    text-align: center;  
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 24px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    height: 80px;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .card-profile {
+    display: flex;
+    align-items: center;
+  }
+  .card-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  .card-username {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .follow-button_xiaohongshu {
+    background-color: #f03d3dff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .follow-button_zhihu {
+    background-color: #4fabecff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
+
+<div class="follow-us-container">
+  <h2 class="follow-us-title"><span>Follow Me</span></h2>
+  <p class="follow-us-subtitle">Here are my social media accounts. I share explanations of AI concepts as well as snippets of my daily life. If you’re interested, feel free to follow me!</p>
+  <div class="cards-container">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-profile">
+          <img src="../images/followme/Xiaohongshu.png" alt="Myxiaohongshu" class="card-profile-pic">
+          <span class="card-username">Double_M</span>
+        </div>
+        <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" target="_blank" class="follow-button_xiaohongshu">Follow</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-profile">
+          <img src="../images/followme/zhihu.png" alt="Myzhihu" class="card-profile-pic">
+          <span class="card-username">double_M</span>
+        </div>
+        <a href="https://www.zhihu.com/people/22-13-70-62-20" target="_blank" class="follow-button_zhihu">Follow</a>
+      </div>
+    </div>
+
+  </div>
+</div>

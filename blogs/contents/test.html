@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown & LaTeX 渲染示例</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-nK8P92U94FzYlRz3k6DkS4Rz5q/f6bVz8f3tV4W4Fk8A6Vz8q/f5b2w3d9qD4B1Zz" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-t3F3x+vE/t/w9q2E/S4rG9qA8/jW7W7D5/v6A8E8H7Z4q/9jY2/5E2/gW8v7z8x9O/q4B1Zz" crossorigin="anonymous"></script>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-t4zB4W97/54L4K4H/1bM6F4z8JqM6N4W8h4F2q/7b9D7bV4Z9w/4e2/gW8v7z8x9O/q4B1Zz" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .katex-display { margin-top: 1em; margin-bottom: 1em; }
+    </style>
+</head>
+<body>
+
+    <script type="text/markdown" id="markdown-source">
+## 🧪 我的科研笔记
+
+这是一段使用 **Markdown** 语法编写的文本。
+
+- 它可以包含列表。
+- 也可以包含 **粗体** 或 *斜体* 格式。
+
+### 嵌入 LaTeX 公式
+
+您可以在 Markdown 文本中轻松嵌入 LaTeX 数学公式。
+
+#### 1. 行内公式 (Inline Math)
+
+爱因斯坦的质能方程是 $\text{E} = \text{mc}^2$。这是一个行内公式，使用 `$` 符号包裹。
+
+#### 2. 块级公式 (Display Math)
+
+以下是一个使用 `$$` 符号包裹的块级公式：
+
+$$
+\frac{\partial L}{\partial w_{i,j}} = x_i \cdot \delta_j
+$$
+
+该公式展示了神经网络中损失函数对权重的梯度。
+
+### 总结
+
+这种方法允许您在一个静态 HTML 文件中编写 Markdown 和 LaTeX，并由浏览器实时渲染。
+
+[点击查看 Marked.js 文档](https://marked.js.org/)
+
+    </script>
+
+    <div id="content-display">
+        <h1>正在加载内容...</h1>
+    </div>
+
+    <script>
+        const markdownSource = document.getElementById('markdown-source').textContent;
+        const displayContainer = document.getElementById('content-display');
+        marked.parse(markdownSource).then((htmlContent) => {
+            displayContainer.innerHTML = htmlContent;
+
+            renderMathInElement(displayContainer, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},  
+                    {left: "$", right: "$", display: false}   
+                ],
+                ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"],
+                errorCallback: function(msg, err) {
+                    console.log("KaTeX 渲染错误: " + msg, err);
+                }
+            });
+        }).catch((err) => {
+            displayContainer.innerHTML = '<h1>Markdown 渲染失败</h1><p>' + err + '</p>';
+        });
+    </script>
+</body>
+</html>

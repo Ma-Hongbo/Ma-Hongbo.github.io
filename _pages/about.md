@@ -368,3 +368,5 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
 
   </div>
 </div>
+
+[Blog]()

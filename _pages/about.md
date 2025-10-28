@@ -292,19 +292,6 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   }
 </style>
 
-<div class="blog-cta-container">
-  <h2 class="blog-cta-title">
-    🚀 Explore My Research Blog
-  </h2>
-  <p class="blog-cta-subtitle">
-    Dive into deep technical insights on Computer Vision, Generative Models, and AI's intersection with other fields.
-  </p>
-  <a href="blogs/" class="blog-cta-button">
-    Read Latest Posts →
-  </a>
-</div>
-
----
 
 <style>
   .follow-us-container {
@@ -402,7 +389,7 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
 
 <div class="follow-us-container">
   <h2 class="follow-us-title"><span>Follow Me</span></h2>
-  <p class="follow-us-subtitle">Here are my social media accounts. I share explanations of AI concepts as well as snippets of my daily life. If you’re interested, feel free to follow me!</p>
+  <p class="follow-us-subtitle">Here are my social media accounts and blog. I share explanations of AI concepts as well as snippets of my daily life. If you’re interested, feel free to follow me!</p>
   <div class="cards-container">
     <div class="card">
       <div class="card-header">
@@ -426,4 +413,14 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   </div>
 </div>
 
-
+<div class="blog-cta-container">
+  <h2 class="blog-cta-title">
+    🚀 Explore My Research Blog
+  </h2>
+  <p class="blog-cta-subtitle">
+    Dive into deep technical insights on Computer Vision, Generative Models, and AI's intersection with other fields.
+  </p>
+  <a href="blogs/" class="blog-cta-button">
+    Read Latest Posts →
+  </a>
+</div>

@@ -26,23 +26,24 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="index.html">博客</a></li>
+							<li><a href="https://ma-hongbo.github.io/">学术主页</a></li>
 						</ul>
 						<ul class="icons">
 							<li>
 								<a href="https://github.com/Ma-Hongbo" aria-label="GitHub">
-									<img src="./icons/github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+									<img src="./icons/github.svg" alt="GitHub" style="width: 36px; height: 36px;">
 								</a>
 							</li>
 
 							<li>
 								<a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" aria-label="Xiaohongshu">
-									<img src="./icons/xiaohongshu.svg" alt="Xiaohongshu" style="width: 24px; height: 24px;">
+									<img src="./icons/xiaohongshu.svg" alt="Xiaohongshu" style="width: 36px; height: 36px;">
 								</a>
 							</li>
 
 							<li>
 								<a href="https://www.zhihu.com/people/22-13-70-62-20" aria-label="Zhihu">
-									<img src="./icons/zhihu.svg" alt="Zhihu" style="width: 24px; height: 24px;">
+									<img src="./icons/zhihu.svg" alt="Zhihu" style="width: 36px; height: 36px;">
 								</a>
 							</li>
 						</ul>
@@ -50,23 +51,84 @@
 
 				<!-- Main -->
 					<div id="main">
+						<style>
+						.profile-card-container {
+							display: flex; 
+							align-items: center;
+							justify-content: space-between; 
+							max-width: 1100px;
+							margin: 50px auto;
+							padding: 40px;
+							background-color: #ffffff; 
+							border-radius: 12px;
+							box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+						}
+						.profile-card-text {
+							flex: 2; 
+							padding-right: 40px;
+						}
+						.profile-card-name {
+							font-size: 50px; 
+							font-weight: 800; 
+							color: #2c3e50; 
+							margin-bottom: 10px;
+							line-height: 1.1;
+						}
+						.profile-card-bio {
+							font-size: 24px;
+							font-weight: 500;
+							color: #555;
+							margin-bottom: 15px;
+						}
+						.profile-card-interests {
+							font-size: 18px;
+							color: #777;
+							margin-top: 20px;
+						}
+						.profile-card-image-container {
+							flex: 1; 
+							max-width: 350px; 
+							position: relative;
+							overflow: hidden;
+							border-radius: 8px; 
+						}
+						.profile-card-image {
+							width: 100%;
+							height: auto;
+							display: block;
+							border-radius: 8px;
+						}
+						
+						@media (max-width: 900px) {
+							.profile-card-container {
+							flex-direction: column; 
+							padding: 30px;
+							}
+							.profile-card-text {
+							padding-right: 0;
+							margin-bottom: 30px;
+							}
+							.profile-card-image-container {
+							max-width: 100%; 
+							}
+						}
+						</style>
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-							</section>
+						<section class="profile-card-container">
+							
+							<div class="profile-card-text">
+								<h1 class="profile-card-name">Hongbo Ma</h1>
+								
+								<p class="profile-card-bio">Senior @ THU CST</p>
+								</div>
 
-					</div>
+							<div class="profile-card-image-container">
+								<img src="../images/profile.jpg" alt="Profile Image" class="profile-card-image"/>
+								</div>
+
+						</section>
+    
+    				</div>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -86,19 +148,19 @@
 								<ul class="icons alt">
 									<li>
 										<a href="https://github.com/Ma-Hongbo" aria-label="GitHub">
-											<img src="./icons/github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+											<img src="./icons/github.svg" alt="GitHub" style="width: 36px; height: 36px;">
 										</a>
 									</li>
 
 									<li>
 										<a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" aria-label="Xiaohongshu">
-											<img src="./icons/xiaohongshu.svg" alt="Xiaohongshu" style="width: 24px; height: 24px;">
+											<img src="./icons/xiaohongshu.svg" alt="Xiaohongshu" style="width: 36px; height: 36px;">
 										</a>
 									</li>
 
 									<li>
 										<a href="https://www.zhihu.com/people/22-13-70-62-20" aria-label="Zhihu">
-											<img src="./icons/zhihu.svg" alt="Zhihu" style="width: 24px; height: 24px;">
+											<img src="./icons/zhihu.svg" alt="Zhihu" style="width: 36px; height: 36px;">
 										</a>
 									</li>
 								</ul>

@@ -249,6 +249,22 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   </div>
 </div>
 
+# Explore My Thoughts
+
+<div style="text-align: center; margin: 40px 0;">
+
+
+  <p style="font-size: 18px; color: #555; margin-bottom: 20px;">
+    Visit my personal blog for deep dives into AI research and more.
+  </p>
+  <a href="blogs/" 
+     style="display: inline-block; padding: 12px 30px; background-color: #ff6a00ff; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 16px; transition: background-color 0.3s ease;"
+     onmouseover="this.style.backgroundColor='#0056b3'" 
+     onmouseout="this.style.backgroundColor='#007bff'">
+    Go to Blog →
+  </a>
+</div>
+
 <style>
   .follow-us-container {
     text-align: center;
@@ -369,4 +385,4 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   </div>
 </div>
 
-[Blog]()
+

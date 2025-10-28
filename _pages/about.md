@@ -249,21 +249,62 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   </div>
 </div>
 
-# Explore My Thoughts
-
-<div style="text-align: center; margin: 40px 0;">
 
 
-  <p style="font-size: 18px; color: #555; margin-bottom: 20px;">
-    Visit my personal blog for deep dives into AI research and more.
+<style>
+  .blog-cta-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  .blog-cta-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e3c72;
+    margin-bottom: 10px;
+  }
+  .blog-cta-subtitle {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 25px;
+  }
+  .blog-cta-button {
+    display: inline-block;
+    padding: 14px 35px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+    color: white;
+    text-decoration: none;
+    border-radius: 50px; 
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 150, 255, 0.4);
+    border: none;
+  }
+  .blog-cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 150, 255, 0.6);
+  }
+</style>
+
+<div class="blog-cta-container">
+  <h2 class="blog-cta-title">
+    🚀 Explore My Research Blog
+  </h2>
+  <p class="blog-cta-subtitle">
+    Dive into deep technical insights on Computer Vision, Generative Models, and AI's intersection with other fields.
   </p>
-  <a href="blogs/" 
-     style="display: inline-block; padding: 12px 30px; background-color: #ff6a00ff; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 16px; transition: background-color 0.3s ease;"
-     onmouseover="this.style.backgroundColor='#0056b3'" 
-     onmouseout="this.style.backgroundColor='#007bff'">
-    Go to Blog →
+  <a href="blogs/" class="blog-cta-button">
+    Read Latest Posts →
   </a>
 </div>
+
+---
 
 <style>
   .follow-us-container {

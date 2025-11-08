@@ -213,7 +213,7 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
   <div class="pub-content">
     <h3><a href="https://arxiv.org/pdf/2508.06555?">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</a></h3>
     <p class="card-authors"> <strong><u>Hongbo Ma</u></strong>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li<sup>†</sup></p>
-    <p class="conference_or_journal"><em>Arxiv</em></p>
+    <p class="conference_or_journal"><em>AAAI 2026 Oral</em></p>
     <p class="functions">
       <a href="https://arxiv.org/pdf/2508.06555?">Paper</a> /
       <a href="https://arxiv.org/abs/2508.06555?">ArXiv</a> /

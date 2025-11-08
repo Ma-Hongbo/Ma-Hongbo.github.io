@@ -218,7 +218,7 @@ I'm a forth-year undergraudate student from [Xinya College](https://www.xyc.tsin
       <a href="https://arxiv.org/pdf/2508.06555?">Paper</a> /
       <a href="https://arxiv.org/abs/2508.06555?">ArXiv</a> /
       <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> /
-      <a href="https://github.com/mahb-THU/StyleTailor">Code</a> 
+      <a href="https://github.com/ma-hongbo/StyleTailor">Code</a> 
     </p>
   </div>
 </div>

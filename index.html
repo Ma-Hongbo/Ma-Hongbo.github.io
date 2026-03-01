@@ -82,12 +82,7 @@
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">   
-		<heading>Research (Selected Publications)</heading>
-		<p>Robot Learning infuses robots with AI-derived intelligence; conversely, AI for Science exploits AI to generate new scientific intelligence.</p>
-		<h2 style="color:purple; font-size: 20px;">Neuro-Symbolic Foundation Models for Planning</h2>
-              <p>
-                I'm currently interested in integrating Foundation Models with symbolic computing for enhanced reasoning and planning of real and digital robots.
-              </p>
+		<heading>Publications</heading>
             </td>
           </tr>
         </tbody></table>
@@ -135,131 +130,8 @@
       </td>
     </tr>
 
-    <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/R1-Code-Interpreter-fig1.pdf' width="160">
-        <script type="text/javascript">
-          function bakedsdf_start() {
-            document.getElementById('R1-Code-Inter').style.opacity = "1";
-          }
 
-          function bakedsdf_stop() {
-            document.getElementById('R1-Code-Inter').style.opacity = "0";
-          }
-          bakedsdf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2505.21668">
-          <papertitle>R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning</papertitle>
-        </a>
-        <br>
-        <strong>Yongchao Chen</strong>,
-	<a href="https://openreview.net/profile?id=~Yueying_Liu3">Yueying Liu</a>,
-	<a href="https://scholar.google.com/citations?user=bcjZAwUAAAAJ&hl=en">Junwei Zhou</a>,
-	<a href="https://yih301.github.io">Yilun Hao</a>,
-	<a href="https://stat.wisc.edu/staff/wang-jingquan/">Jingquan Wang</a>,
-	<a href="https://mitibmwatsonailab.mit.edu/people/yang-zhang/">Yang Zhang</a>,
-  <a href="https://nali.seas.harvard.edu">Na Li</a>,
-        <a href="http://chuchu.mit.edu">Chuchu Fan</a>
-        <br>
-        <em>The Fourteenth International Conference on Learning Representations (ICLR'2026), <strong><span style="color:#8B0000;">R1-CI-3B/7B/14B have been downloaded over 200K times on HuggingFace since 05/12/2025</span></strong></em>
-        <br>
-	<a href="https://huggingface.co/yongchao98/R1-Code-Interpreter-14B/">HuggingFace🤗</a>(R1-CI-<a href="https://huggingface.co/yongchao98/R1-Code-Interpreter-3B/">3B</a>/<a href="https://huggingface.co/yongchao98/R1-Code-Interpreter-7B/">7B</a>/<a href="https://huggingface.co/yongchao98/R1-Code-Interpreter-14B/">14B</a>)
-	/
-	<a href="https://github.com/yongchao98/R1-Code-Interpreter/">Code</a>
-        /
-	<a href="https://huggingface.co/datasets/yongchao98/R1-Code-Interpreter-Data/">Dataset🤗</a>
-        /
-        <a href="https://arxiv.org/pdf/2505.21668">Paper</a>
-        <p></p>
-        <p>
-        We introduce R1-Code-Interpreter, a framework that enables LLMs to autonomously use a Code Interpreter for diverse reasoning and planning tasks through multi-turn supervised and reinforcement learning. Using a curriculum that prioritizes high-potential samples, the model achieves significantly improved training efficiency and performance, raising accuracy from 44.1% to 72.4% on benchmark tasks. The resulting model, R1-CI-14B, surpasses GPT-4o without a Code Interpreter and slightly exceeds GPT-4o with one, demonstrating emergent self-verification through code generation.
-        </p>
-      </td>
-    </tr>
 
-    <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/ICLR26_visim.png' width="160">
-        <script type="text/javascript">
-          function bakedsdf_start() {
-            document.getElementById('ICLR26_visim').style.opacity = "1";
-          }
-
-          function bakedsdf_stop() {
-            document.getElementById('ICLR26_visim').style.opacity = "0";
-          }
-          bakedsdf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2510.03182">
-          <papertitle>Simulation to Rules: A Dual-VLM Framework for Formal Visual Planning</papertitle>
-        </a>
-        <br>
-	<a href="https://yih301.github.io">Yilun Hao</a>,
-        <strong>Yongchao Chen</strong>,
-	<a href="https://mitibmwatsonailab.mit.edu/people/yang-zhang/">Yang Zhang</a>,
-        <a href="http://chuchu.mit.edu">Chuchu Fan</a>
-        <br>
-        <em>The Fourteenth International Conference on Learning Representations (ICLR'2026)</em>
-        <br>
-	<a href="https://sites.google.com/view/vlmfp">Project Page</a>
-	/
-	<a href="https://sites.google.com/view/vlmfp">Code</a>
-        /
-        <a href="https://arxiv.org/pdf/2510.03182">Paper</a>
-        <p></p>
-        <p>
-        This work introduces VLMFP, a dual-VLM framework that enables fully autonomous generation of both PDDL problem and domain files from visual planning tasks, overcoming prior reliance on human-defined domains or continual environment access. By pairing a SimVLM that simulates and verifies action consequences with a GenVLM that iteratively refines PDDL files through comparison, VLMFP achieves strong generalization across unseen instances, appearances, and rules.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/CVPR_debias.png' width="160">
-        <script type="text/javascript">
-          function bakedsdf_start() {
-            document.getElementById('CVPR_debias').style.opacity = "1";
-          }
-
-          function bakedsdf_stop() {
-            document.getElementById('CVPR_debias').style.opacity = "0";
-          }
-          bakedsdf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2511.18123">
-          <papertitle>Bias Is a Subspace, Not a Coordinate: A Geometric Rethinking of Post-hoc Debiasing in Vision-Language Models</papertitle>
-        </a>
-        <br>
-        <a>Dachuan Zhao</a>,
-        <a>Weiyue Li</a>,
-        <a>Zhenda Shen</a>,
-        <a>Yushu Qiu</a>,
-        <a>Bowen Xu</a>,
-        <a>Haoyu Chen</a>,
-        <strong>Yongchao Chen (Corresponding Author)</strong>,
-        <br>
-        <em>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</em>
-        <br>
-	<a href="https://github.com/zhendashen896/SPD">Project Page</a>
-	/
-	<a href="https://github.com/zhendashen896/SPD">Code</a>
-        /
-        <a href="https://arxiv.org/pdf/2511.18123">Paper</a>
-        <p></p>
-        <p>
-        This work analyzes demographic bias in Vision-Language Models and shows that existing coordinate-wise debiasing methods fail due to feature entanglement, poor generalization, and incomplete bias removal. We find that bias is distributed across linear subspaces rather than isolated dimensions, and propose Subspace Projection Debiasing (SPD) to remove the full bias subspace while preserving semantic information.
-        </p>
-      </td>
-    </tr>
 
     
 		

@@ -1,0 +1,181 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Hongbo Ma"
+title_separator          : "-"
+subtitle                 :
+name                     : "Hongbo Ma"
+description              : "Undergraduate researcher at Tsinghua University, focusing on computer vision, generative models, and intelligent agents."
+url                      : "https://ma-hongbo.github.io"
+baseurl                  : ""
+repository               : "Ma-Hongbo/Ma-Hongbo.github.io"
+google_scholar_stats_use_cdn : true
+
+# google analytics
+google_analytics_id      :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Author
+author:
+  name             : "Hongbo Ma"
+  avatar           : "images/profile.png"
+  bio              : "Tsinghua University"
+  location         : "Beijing, China"
+  employer         :
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=1NIc69QAAAAJ"
+  email            : "mahb22@mails.tsinghua.edu.cn"
+  researchgate     :
+  uri              : "https://ma-hongbo.github.io"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "Ma-Hongbo"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         :
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+languages:
+  - en
+default_lang: "en"
+t:
+  en:
+    home: "Home"
+    about: "About"
+    news: "News"
+    publications: "Publications"
+    educations: "Educations"
+    internships: "Internships"
+    blogs: "Blogs"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - _posts
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

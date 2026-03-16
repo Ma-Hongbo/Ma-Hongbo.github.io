@@ -1,205 +1,335 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hongbo Ma</title>
-  
   <meta name="author" content="Hongbo Ma">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <meta name="description" content="Hongbo Ma | Computer Vision, Generative Models, and AI Agents">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
-
-<style>
-  /* Scrollable window for long lists */
-  .news-scroller {
-    max-height: 220px;      /* adjust to taste */
-    overflow: auto;         /* shows scrollbar when needed */
-    padding-right: 6px;     /* room for the scrollbar */
-  }
-
-  /* Nice, unobtrusive scrollbar (works in modern browsers) */
-  .news-scroller {
-    scrollbar-width: thin;                /* Firefox */
-    scrollbar-color: #b9b9b9 transparent; /* Firefox */
-  }
-  .news-scroller::-webkit-scrollbar { width: 8px; }
-  .news-scroller::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    background: rgba(0,0,0,.25);
-  }
-  .news-scroller::-webkit-scrollbar-track { background: transparent; }
-
-  /* Optional: subtle fade at top/bottom to hint there’s more content */
-  .news-scroller--fade {
-    -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%);
-            mask-image: linear-gradient(180deg, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%);
-  }
-</style>
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
+  <div class="site">
+    <header class="card hero" id="top">
+      <div class="hero-inner">
+        <div>
+          <h1>Hongbo Ma · 马洪博</h1>
+          <p class="subtitle">B.S. Candidate, Tsinghua University (CS + Economics &amp; Management Minor)</p>
+          <p class="lead">
+            I am an undergraduate researcher from
+            <a href="https://www.xyc.tsinghua.edu.cn/en/">Xinya College</a> and
+            <a href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a>,
+            <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>.
+            My research focuses on computer vision, generative models, and intelligent agent systems.
+          </p>
+          <p class="lead">
+            Building on these areas, I aim to develop embodied agents that can perceive, reason, and act in real-world environments,
+            and further explore scientific agents for solving complex real-world problems.
+          </p>
+          <div class="quote">
+            Current interests: visual representation learning, world modeling, efficient agent reasoning, and real-world generalization.
+          </div>
+          <div class="contact-row">
+            <a class="pill-link" href="mailto:mahb22@mails.tsinghua.edu.cn"><i class="fas fa-envelope"></i> Email</a>
+            <a class="pill-link" href="https://scholar.google.com/citations?user=1NIc69QAAAAJ&amp;hl=en"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+            <a class="pill-link" href="data/CV.pdf"><i class="fas fa-file-alt"></i> CV</a>
+            <a class="pill-link" href="https://github.com/Ma-Hongbo"><i class="fab fa-github"></i> GitHub</a>
+            <a class="pill-link" href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e"><i class="fas fa-book-open"></i> Rednote</a>
+            <a class="pill-link" href="https://www.zhihu.com/people/22-13-70-62-20"><i class="fas fa-pen-nib"></i> Zhihu</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <a href="images/profile.png"><img src="images/profile.png" alt="Hongbo Ma"></a>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Page Navigation">
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Research Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#honors">Honors</a>
+      </nav>
+    </header>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Hongbo Ma</Main> - 马洪博</name>
-              </p>
-              <p>
-              I'm a final year undergraudate student from <a href="https://www.xyc.tsinghua.edu.cn/en/">Xinya College</a> and <a href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a>, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>. In addition, I am also minoring in Economics and Finance at <a href="https://www.sem.tsinghua.edu.cn/en/">School of Economics and Management</a>, <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>.
-              </p>
-              <p>
-              My research interests primarily focus on computer vision, generative models, and intelligent agent systems. Building upon these three areas, I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and further explore scientific agents to advance the application of artificial intelligence in solving complex real-world problems.
-              </p>
-              <p>
-              In terms of research methodology, centered around these two core objectives, I plan to conduct broad and in-depth exploration across related upstream and downstream tasks, including:
-              </p>
-              <ul style="margin-top:0;">
-                <li>Visual representation learning and generative modeling</li>
-                <li>World modeling and environment modeling</li>
-                <li>Efficient reasoning and decision-making mechanisms for intelligent agents</li>
-                <li>Training and generalization of agents in real-world environments</li>
-              </ul>
-              <p style="text-align:center">
-                <a href="mahb22@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=1NIc69QAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="data/CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://github.com/Ma-Hongbo">Github</a> &nbsp/&nbsp
-                <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e">Rednote</a> &nbsp/&nbsp
-                <a href="https://www.zhihu.com/people/22-13-70-62-20">Zhihu</a> &nbsp/&nbsp
-                <a href="blogs/">Blog</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/profile.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+    <main>
+      <section class="card" id="overview">
+        <h2 class="section-title"><i class="fas fa-compass"></i> Highlights</h2>
+        <div class="highlights">
+          <article class="highlight">
+            <h3><i class="fas fa-camera"></i> Vision &amp; Generation</h3>
+            <ul>
+              <li>Diffusion/Flow-based generative modeling</li>
+              <li>On-device video generation and deployment</li>
+              <li>3D-aware representation and alignment</li>
+            </ul>
+          </article>
+          <article class="highlight">
+            <h3><i class="fas fa-robot"></i> Agent Systems</h3>
+            <ul>
+              <li>Agent reasoning and multi-agent collaboration</li>
+              <li>RL post-training for LLM reasoning</li>
+              <li>Human-centric AI application design</li>
+            </ul>
+          </article>
+          <article class="highlight">
+            <h3><i class="fas fa-flask"></i> AI for Science</h3>
+            <ul>
+              <li>Drug discovery and molecular optimization</li>
+              <li>Bayesian Flow Network based methods</li>
+              <li>Scalable evaluation and analysis pipelines</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
-              <div class="news-scroller news-scroller--fade" role="region" aria-label="News">
-                <p>2025/11/07- <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Styletailor</a> is accepted by AAAI-26 and selected as Oral 🎉!</p>
-              </div>
-            </td>
-          </tr>
-        </tbody></table>
+      <section class="card" id="news">
+        <h2 class="section-title"><i class="fas fa-bullhorn"></i> News</h2>
+        <ul class="news-list">
+          <li><strong>2025-11-07:</strong> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">StyleTailor</a> is accepted by AAAI 2026 and selected for Oral presentation.</li>
+          <li><strong>2025-12:</strong> Started research internship at UIUC (Siebel School of Computing and Data Science), advised by Prof. Ge Liu.</li>
+        </ul>
+      </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">   
-              <heading>Publications</heading>
-            </td>
-          </tr>
-        </tbody></table>
+      <section class="card" id="publications">
+        <h2 class="section-title"><i class="fas fa-file-alt"></i> Publications</h2>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <div class="one">
-                <img src='images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png' width="160" style="display:block;">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://arxiv.org/abs/2508.06555">
-                <papertitle>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</papertitle>
-              </a>
-              <br>
-              <strong>Hongbo Ma</strong>,
-              Fei Shen, 
-              Hongbin Xu, 
-              Xiaoce Wang, 
-              Gang Xu, 
-              Jinkai Zheng, 
-              Liangqiong Qu, 
-              Ming Li<sup>†</sup>
-              <br>
-              <em>The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI'26)</em>
-              <br>
-              <em><strong><span style="color:#8B0000;">Oral Presentation (1,058/23,680 Top 4.5%)</span></strong></em>
-              <br>
-              <a href="https://arxiv.org/pdf/2508.06555">Paper</a> /
-              <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> /
-              <a href="https://github.com/ma-hongbo/StyleTailor">Code</a>
-            </td>
-          </tr>
-        </tbody></table>
+        <article class="paper-card">
+          <div class="paper-image">
+            <div class="paper-placeholder">Batched Contextual Reinforcement</div>
+          </div>
+          <div>
+            <div class="badge-row">
+              <span class="badge">ICML 2026</span>
+              <span class="badge">Under Review</span>
+            </div>
+            <h3 class="paper-title">Batched Contextual Reinforcement</h3>
+            <p class="paper-meta">Bangji Yang*, <strong>Hongbo Ma*</strong>, Jiajun Fan, Ge Liu</p>
+          </div>
+        </article>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <div class="one">
-                <img src='images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png' width="160" style="display:block;">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://arxiv.org/abs/2411.13280">
-                <papertitle>Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks</papertitle>
-              </a>
-              <br>
-              Keyue Qiu*, 
-              Yuxuan Song*, 
-              Jie Yu, 
-              <strong>Hongbo Ma</strong>, 
-              Ziyao Cao, 
-              Zhilong Zhang, 
-              Yushuai Wu, 
-              Mingyue Zheng<sup>†</sup>, 
-              Hao Zhou<sup>†</sup>, 
-              Wei-Ying Ma<sup>†</sup></p>
-              <em>Forty-Second International Conference on Machine Learning (ICML'25)</em>
-              <br>
-              <em>Poster</em>
-              <br>
-              <a href="https://arxiv.org/abs/2411.13280">Paper</a>
-            </td>
-          </tr>
-        </tbody></table>
+        <article class="paper-card">
+          <div class="paper-image">
+            <img src="images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png" alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer">
+          </div>
+          <div>
+            <div class="badge-row">
+              <span class="badge">CVPR 2026</span>
+              <span class="badge">Under Review</span>
+            </div>
+            <h3 class="paper-title">Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer</h3>
+            <p class="paper-meta">Juncheng Yan, Qi Qin, <strong>Hongbo Ma</strong>, Le Zhuo, Yinan Liang, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</p>
+          </div>
+        </article>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <div class="one">
-                <img src='images/publications/Redefining the task of Bioactivity Prediction.png' width="160" style="display:block;">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://openreview.net/pdf?id=S8gbnkCgxZ">
-                <papertitle>Redefining the task of Bioactivity Prediction</papertitle>
-              </a>
-              <br>
-              Yanwen Huang*, 
-              Bowen Gao*, 
-              Yinjun Jia, 
-              <strong>Hongbo Ma</strong>, 
-              Wei-Ying Ma<sup>†</sup>, 
-              Ya-Qin Zhang<sup>†</sup>, 
-              Yanyan Lan<sup>†</sup></p>
-              <em>The Thirteenth International Conference on Learning Representations (ICLR'25)</em>
-              <br>
-              <em>Poster</em>
-              <br>
-              <a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a>
-            </td>
-          </tr>
-        </tbody></table>
+        <article class="paper-card">
+          <div class="paper-image">
+            <img src="images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png" alt="StyleTailor">
+          </div>
+          <div>
+            <div class="badge-row">
+              <span class="badge">AAAI 2026</span>
+              <span class="badge highlighted">Oral (Top 4.5%)</span>
+            </div>
+            <h3 class="paper-title">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
+            <p class="paper-meta"><strong>Hongbo Ma</strong>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</p>
+            <div class="link-row">
+              <a class="link-btn" href="https://arxiv.org/abs/2508.06555">Paper</a>
+              <a class="link-btn" href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a>
+              <a class="link-btn" href="https://github.com/ma-hongbo/StyleTailor">Code</a>
+            </div>
+          </div>
+        </article>
 
+        <article class="paper-card">
+          <div class="paper-image">
+            <img src="images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png" alt="Empower Structure-based Molecule Optimization with Gradient Guidance">
+          </div>
+          <div>
+            <div class="badge-row">
+              <span class="badge">ICML 2025</span>
+              <span class="badge">Poster</span>
+            </div>
+            <h3 class="paper-title">Empower Structure-based Molecule Optimization with Gradient Guidance</h3>
+            <p class="paper-meta">Keyue Qiu*, Yuxuan Song*, Jie Yu, <strong>Hongbo Ma</strong>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</p>
+            <div class="link-row">
+              <a class="link-btn" href="https://arxiv.org/abs/2411.13280">Paper</a>
+            </div>
+          </div>
+        </article>
 
+        <article class="paper-card">
+          <div class="paper-image">
+            <img src="images/publications/Redefining the task of Bioactivity Prediction.png" alt="Redefining the Task of Bioactivity Prediction">
+          </div>
+          <div>
+            <div class="badge-row">
+              <span class="badge">ICLR 2025</span>
+              <span class="badge">Poster</span>
+            </div>
+            <h3 class="paper-title">Redefining the Task of Bioactivity Prediction</h3>
+            <p class="paper-meta">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <strong>Hongbo Ma</strong>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</p>
+            <div class="link-row">
+              <a class="link-btn" href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a>
+            </div>
+          </div>
+        </article>
+      </section>
 
-    
-		
-    
-		
-  
-					
-      </td>
-    </tr>
-  </tbody></table>
+      <section class="card" id="education">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>Tsinghua University, B.S. in Computer Science and Technology</h3>
+            <span class="timeline-date">2022 - Present</span>
+          </div>
+          <p class="timeline-sub">Beijing, China | GPA: 3.8/4.0</p>
+          <ul class="bullet-list">
+            <li>Selected coursework: Artificial Neural Networks (A), Fundamentals of Computer Graphics (A), Linear Algebra (A), Calculus A(2) (A), Probability and Statistics (A).</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>Tsinghua University, Minor in Economics and Management</h3>
+            <span class="timeline-date">2023 - Present</span>
+          </div>
+          <p class="timeline-sub">Beijing, China | GPA: 3.8/4.0</p>
+          <ul class="bullet-list">
+            <li>Selected coursework: Political Economy (A), Investment (A).</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card" id="experience">
+        <h2 class="section-title"><i class="fas fa-laptop-code"></i> Research Experience</h2>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>Siebel School of Computing and Data Science, UIUC | Research Intern</h3>
+            <span class="timeline-date">Dec 2025 - Present</span>
+          </div>
+          <p class="timeline-sub">Illinois, United States | Advisor: Prof. Ge Liu</p>
+          <ul class="bullet-list">
+            <li>Proposed Batched Contextual Reinforcement (BCR), improving multi-question prompting efficiency with around 50% token reduction.</li>
+            <li>Contributed reward design and training pipeline for post-training mathematical LLMs with TRL.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>i-Vision Group, Department of Automation, Tsinghua University | Research Intern</h3>
+            <span class="timeline-date">Sep 2025 - Oct 2025</span>
+          </div>
+          <p class="timeline-sub">Beijing, China | Advisor: Prof. Jiwen Lu</p>
+          <ul class="bullet-list">
+            <li>Designed compact Diffusion Transformer architecture for on-device video generation under constrained VRAM.</li>
+            <li>Built and optimized inference pipelines with Swift + MLX for edge deployment.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>Guangming Lab (Shenzhen) | Research Intern</h3>
+            <span class="timeline-date">May 2025 - Aug 2025</span>
+          </div>
+          <p class="timeline-sub">Shenzhen, China | Advisor: Prof. Ming Li</p>
+          <ul class="bullet-list">
+            <li>Designed a negative-feedback mechanism across base models and applied it to a multi-agent fashion system.</li>
+            <li>Served as sole first author and completed writing, figure design, and rebuttal preparation.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>GenSi Lab @ AIR Tsinghua | Research Intern</h3>
+            <span class="timeline-date">Jul 2024 - Feb 2025</span>
+          </div>
+          <p class="timeline-sub">Beijing, China | Advisor: Prof. Hao Zhou</p>
+          <ul class="bullet-list">
+            <li>Studied theoretical foundations of generative models and implemented PyTorch-based architectures.</li>
+            <li>Developed a Bayesian Flow Networks based framework for molecule optimization with 3D alignment awareness.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <h3>ATOM Lab @ AIR Tsinghua | Research Intern</h3>
+            <span class="timeline-date">Feb 2024 - Jun 2024</span>
+          </div>
+          <p class="timeline-sub">Beijing, China | Advisor: Prof. Yanyan Lan</p>
+          <ul class="bullet-list">
+            <li>Executed full AI pipeline from preprocessing and model training to hyperparameter tuning.</li>
+            <li>Built statistical evaluation and visualization workflows with Matplotlib.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card" id="projects">
+        <h2 class="section-title"><i class="fas fa-diagram-project"></i> Projects &amp; Leadership</h2>
+        <div class="grid-2">
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h3>AI-Enabled Production and Dissemination of Traditional Culture Videos</h3>
+              <span class="timeline-date">National-Level Program</span>
+            </div>
+            <p class="timeline-sub">Hongbo Ma*, Ailei Wang*</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-head">
+              <h3>Xinya College, Tsinghua University</h3>
+              <span class="timeline-date">Leadership</span>
+            </div>
+            <p class="timeline-sub">President of Student Union</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="skills">
+        <h2 class="section-title"><i class="fas fa-tools"></i> Technical Skills</h2>
+        <div class="grid-2">
+          <article class="timeline-item">
+            <h3>Programming Languages</h3>
+            <p class="timeline-sub">Python, C/C++, Swift, MATLAB, Rust, Java, TypeScript/JavaScript, SystemVerilog</p>
+          </article>
+          <article class="timeline-item">
+            <h3>AI Techniques</h3>
+            <p class="timeline-sub">CNN/RNN/Transformers, AR/VAE/GAN/Diffusion/Flow Matching, PPO/DPO/GRPO, 3D Vision, AI for Drug Discovery</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Frameworks</h3>
+            <p class="timeline-sub">PyTorch, NumPy, MLX</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Other</h3>
+            <p class="timeline-sub">Paper illustration, LaTeX typesetting, research visualization</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card" id="honors">
+        <h2 class="section-title"><i class="fas fa-award"></i> Honors &amp; Awards</h2>
+        <ul class="bullet-list">
+          <li><strong>Outstanding Scientific and Technological Innovation Scholarship</strong>, Tsinghua University (2024-2025).</li>
+          <li><strong>Outstanding Student Leader</strong>, Top 6 among 400+ students in Xinya College, Tsinghua University (2023-2024).</li>
+          <li><strong>Outstanding Social Work Scholarship</strong>, Tsinghua University (2022-2023, 2023-2024, 2024-2025).</li>
+          <li><strong>Second Prize Freshman Scholarship</strong>, Tsinghua University (2022).</li>
+        </ul>
+      </section>
+
+      <section class="card" id="languages">
+        <h2 class="section-title"><i class="fas fa-language"></i> Languages</h2>
+        <ul class="bullet-list">
+          <li>Chinese: Native</li>
+          <li>English: Fluent (TOEFL 96: R26, L24, S21, W25)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Last updated from Homepage + CV sources on 2026-03-16.
+    </footer>
+  </div>
 </body>
-
 </html>

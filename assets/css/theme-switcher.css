@@ -262,10 +262,13 @@ h6 {
 /* Switcher UI */
 .theme-switcher {
   position: fixed;
-  top: 4.25rem;
-  right: 1rem;
+  top: 0.72rem;
+  right: max(0.75rem, env(safe-area-inset-right));
   z-index: 1200;
   font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .theme-switcher__toggle {
@@ -352,8 +355,8 @@ h6 {
 
 @media (max-width: 900px) {
   .theme-switcher {
-    top: 4rem;
-    right: 0.7rem;
+    top: 0.62rem;
+    right: max(0.62rem, env(safe-area-inset-right));
   }
 
   .theme-switcher__toggle {
@@ -371,8 +374,8 @@ h6 {
 
 @media (max-width: 640px) {
   .theme-switcher {
-    top: 3.75rem;
-    right: 0.55rem;
+    top: 0.52rem;
+    right: max(0.5rem, env(safe-area-inset-right));
   }
 
   .theme-switcher__panel {

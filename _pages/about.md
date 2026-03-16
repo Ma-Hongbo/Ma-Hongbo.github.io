@@ -145,7 +145,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 
 # <i class="fas fa-graduation-cap"></i> Educations
 
-- *2023.09 - Present*: B.S. in Economics and Management (Major), <span class="primary-gradient-text">Tsinghua University</span>
+- *2023.09 - Present*: B.S. in Economics and Management (Minor), <span class="primary-gradient-text">Tsinghua University</span>
 - *2022.09 - Present*: B.S. in Computer Science and Technology (Major), <span class="primary-gradient-text">Tsinghua University</span>
 
 <span class='anchor' id='internships'></span>

@@ -16,7 +16,7 @@ My name is <span class="accent-text">Hongbo Ma</span> (马洪博). I am a final-
 
 My research interests primarily focus on <span class="primary-gradient-text">computer vision</span>, <span class="primary-gradient-text">generative models</span>, and <span class="primary-gradient-text">intelligent agent systems</span>. I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and explore scientific agents for solving complex real-world problems.
 
-If you want to learn more about me, feel free to check my <a href="/assets/Hongbo_Ma_CV.pdf" class="link-accent">CV</a>.
+If you want to learn more about me, feel free to check my <a href="/data/CV.pdf" class="link-accent">CV</a>.
 
 <div class="quote-accent methodology-focus">
   <p class="focus-title"><i class="fas fa-compass"></i> Current methodology focus</p>

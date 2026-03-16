@@ -509,8 +509,48 @@ body {
 .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.45rem;
   font-size: 0.9rem;
+}
+
+/* Publication status chips */
+.paper-box .paper-box-text .paper-status {
+  display: inline-flex !important;
+  align-items: center;
+  width: fit-content;
+  margin: 0 0 1rem 0;
+  padding: 0.22rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  white-space: nowrap;
+  -webkit-text-fill-color: currentColor !important;
+  text-transform: uppercase;
+}
+
+.paper-box .paper-box-text .paper-status.status-under-review {
+  color: #4b5563 !important;
+  background: #f3f4f6 !important;
+  border-color: #d1d5db !important;
+  box-shadow: none !important;
+}
+
+.paper-box .paper-box-text .paper-status.status-poster {
+  color: #9f1d4a !important;
+  background: linear-gradient(135deg, #ffe4ec 0%, #ffd0df 100%) !important;
+  border-color: #f3a1bf !important;
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.18) !important;
+}
+
+.paper-box .paper-box-text .paper-status.status-oral {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #fe667b 0%, #e73b68 100%) !important;
+  border-color: #d62f5d !important;
+  box-shadow: 0 6px 16px rgba(231, 59, 104, 0.36) !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
 }
 
 .paper-box-text .links {

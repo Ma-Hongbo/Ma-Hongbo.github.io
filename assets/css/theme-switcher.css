@@ -181,13 +181,24 @@ html[data-color-theme="orange"] .paper-box-text .author-me {
   color: #f97316 !important;
 }
 
+html[data-color-theme="orange"] .paper-box .paper-box-text .paper-status.status-under-review {
+  color: #7c4a2f !important;
+  background: #f7f1ec !important;
+  border-color: #d8b8a0 !important;
+  box-shadow: none !important;
+}
+
 html[data-color-theme="orange"] .paper-box-text .status-poster {
   color: #c2410c !important;
-  background: rgba(249, 115, 22, 0.14) !important;
+  background: linear-gradient(135deg, #ffe7d3 0%, #ffd6b1 100%) !important;
+  border-color: #efb37e !important;
+  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.2) !important;
 }
 
 html[data-color-theme="orange"] .paper-box-text .status-oral {
-  color: #9a3412 !important;
-  background: rgba(249, 115, 22, 0.24) !important;
-  box-shadow: 0 0 0 1px rgba(154, 52, 18, 0.18) inset !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+  border-color: #c2410c !important;
+  box-shadow: 0 6px 16px rgba(234, 88, 12, 0.34) !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
 }

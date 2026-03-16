@@ -167,6 +167,31 @@
   font-family: serif;
 }
 
+/* 方法论模块的可读性增强 */
+.methodology-focus .focus-title {
+  margin: 0 0 0.9rem 0;
+  font-weight: 700;
+  color: #012F63;
+}
+
+.methodology-focus .focus-title i {
+  margin-right: 0.45rem;
+}
+
+.methodology-focus .focus-list {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.methodology-focus .focus-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.85;
+}
+
+.methodology-focus .focus-list li:last-child {
+  margin-bottom: 0;
+}
+
 /* 强调色进度条 */
 .progress-accent {
   height: 8px;

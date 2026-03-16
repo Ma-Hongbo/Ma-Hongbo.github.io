@@ -18,12 +18,14 @@ My research interests primarily focus on <span class="primary-gradient-text">com
 
 If you want to learn more about me, feel free to check my <a href="/assets/Hongbo_Ma_CV.pdf" class="link-accent">CV</a>.
 
-<div class="quote-accent">
-Current methodology focus:
-1) visual representation learning and generative modeling;
-2) world and environment modeling;
-3) efficient reasoning and decision-making for intelligent agents;
-4) training and generalization in real-world environments.
+<div class="quote-accent methodology-focus">
+  <p class="focus-title"><i class="fas fa-compass"></i> Current methodology focus</p>
+  <ol class="focus-list">
+    <li>Visual representation learning and generative modeling</li>
+    <li>World and environment modeling</li>
+    <li>Efficient reasoning and decision-making for intelligent agents</li>
+    <li>Training and generalization in real-world environments</li>
+  </ol>
 </div>
 
 <div class="highlight-blocks">

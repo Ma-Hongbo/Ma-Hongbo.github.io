@@ -57,7 +57,7 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 0 2px 8px rgba(1, 47, 99, 0.1);
+            box-shadow: 0 2px 8px rgba(154, 52, 18, 0.1);
             object-fit: cover;
             border-radius: 6px;
             transition: all 0.3s ease;
@@ -65,7 +65,7 @@
         
         img:hover {
             transform: none;
-            box-shadow: 0 4px 12px rgba(1, 47, 99, 0.12);
+            box-shadow: 0 4px 12px rgba(154, 52, 18, 0.12);
         }
     }
     
@@ -108,9 +108,9 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
+    background: linear-gradient(135deg, #F97316 0%, #FB923C 100%);
     font-size: .8em;
     border-radius: 15px;
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(254, 102, 123, 0.2);
+    box-shadow: 0 2px 8px rgba(249, 115, 22, 0.2);
 }

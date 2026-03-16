@@ -72,13 +72,13 @@ If you want to learn more about me, feel free to check my <a href="/assets/Hongb
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">CVPR 2026 - Under Review</div>
+    <div class="badge pulse-accent">Under Review</div>
     <img src='images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png' alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer</h3>
-    <div class="authors">Juncheng Yan, Qi Qin, <strong>Hongbo Ma</strong>, Le Zhuo, Yinan Liang, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
-    <div class="venue">CVPR 2026, Under Review</div>
+    <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
+    <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <strong>Hongbo Ma</strong>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
+    <div class="venue">Under Review</div>
   </div>
 </div>
 

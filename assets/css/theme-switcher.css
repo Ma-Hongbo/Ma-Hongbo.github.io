@@ -139,7 +139,7 @@ html[data-color-theme="orange"] a {
 
 html[data-color-theme="orange"] .link-accent:hover,
 html[data-color-theme="orange"] a:hover {
-  color: #f97316 !important;
+  color: #fb923c !important;
 }
 
 html[data-color-theme="orange"] .link-accent::after {
@@ -201,13 +201,23 @@ html[data-color-theme="orange"] .floating-card::before {
 html[data-color-theme="orange"] .floating-card:hover,
 html[data-color-theme="orange"] .floating-card:focus-within,
 html[data-color-theme="orange"] .paper-box:hover {
+  background: linear-gradient(135deg, rgba(255, 244, 236, 0.98) 0%, rgba(255, 236, 220, 0.98) 52%, rgba(255, 226, 198, 0.98) 100%) !important;
   border-color: rgba(249, 115, 22, 0.34) !important;
   box-shadow: 0 12px 35px rgba(154, 52, 18, 0.12), 0 4px 15px rgba(249, 115, 22, 0.16) !important;
 }
 
 html[data-color-theme="orange"] .paper-box:focus-within {
+  background: linear-gradient(135deg, rgba(255, 244, 236, 0.98) 0%, rgba(255, 236, 220, 0.98) 52%, rgba(255, 226, 198, 0.98) 100%) !important;
   border-color: rgba(249, 115, 22, 0.34) !important;
   box-shadow: 0 12px 35px rgba(154, 52, 18, 0.12), 0 4px 15px rgba(249, 115, 22, 0.16) !important;
+}
+
+html[data-color-theme="orange"] .page__content p:hover,
+html[data-color-theme="orange"] .page__content li:hover,
+html[data-color-theme="orange"] .paper-box-text h3:hover,
+html[data-color-theme="orange"] .paper-box-text .authors:hover,
+html[data-color-theme="orange"] .paper-box-text .venue:hover {
+  color: #fb923c !important;
 }
 
 html[data-color-theme="orange"] .floating-card:hover::before,

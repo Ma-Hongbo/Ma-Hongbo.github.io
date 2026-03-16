@@ -163,4 +163,4 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 # <i class="fas fa-blog"></i> Blogs
 - <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="link-accent">Rednote</a>
 - <a href="https://www.zhihu.com/people/22-13-70-62-20" class="link-accent">Zhihu</a>
-- Local blog page: <a href="/blogs/" class="link-accent">/blog/</a>
+- Local blog page: <a href="/blogs" class="link-accent">/blog/</a>

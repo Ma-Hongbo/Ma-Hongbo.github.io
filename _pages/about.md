@@ -60,9 +60,9 @@ If you want to learn more about me, feel free to check my <a href="/assets/Hongb
 <span class='anchor' id='news'></span>
 
 # <i class="fas fa-fire"></i> News
-- *2025.11*: <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="link-accent">StyleTailor</a> is accepted by AAAI 2026 and selected as Oral (Top 4.5%).
-- *2025.12*: Joined the Siebel School of Computing and Data Science, UIUC, as a research intern advised by Prof. Ge Liu.
-
+- *2025.11*: <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="link-accent">StyleTailor</a> is accepted by AAAI 2026 and selected as Oral (Top 4.5%)! 🎉🎉🎉
+- *2025.5*: One paper is accepted by ICML 2025! 🎉
+- *2025.1*: One paper is accepted by ICLR 2025! 🎉
 <span class='anchor' id='publications'></span>
 
 # <i class="fas fa-file-alt"></i> Publications

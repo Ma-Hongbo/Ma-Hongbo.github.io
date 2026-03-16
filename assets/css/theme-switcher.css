@@ -1,0 +1,193 @@
+/* ==========================================================================
+   Theme Switcher (Pink baseline + Orange override)
+   ========================================================================== */
+
+.theme-switcher {
+  position: fixed;
+  top: 0.66rem;
+  right: max(0.72rem, env(safe-area-inset-right));
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.34rem 0.52rem;
+  border-radius: 999px;
+  border: 1px solid rgba(1, 47, 99, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 6px 18px rgba(1, 47, 99, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+.theme-switcher__label {
+  margin: 0;
+  color: #012f63;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.theme-switcher__select {
+  border: 1px solid rgba(1, 47, 99, 0.24);
+  border-radius: 999px;
+  background: #fff;
+  color: #012f63;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.28rem 1.45rem 0.28rem 0.62rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.theme-switcher__select:hover,
+.theme-switcher__select:focus {
+  border-color: #fe667b;
+  color: #fe667b;
+}
+
+@media (max-width: 640px) {
+  .theme-switcher {
+    top: 0.48rem;
+    right: max(0.5rem, env(safe-area-inset-right));
+  }
+
+  .theme-switcher__label {
+    display: none;
+  }
+
+  .theme-switcher__select {
+    max-width: 138px;
+    font-size: 0.76rem;
+  }
+}
+
+/* ------------------------------
+   Orange theme override only
+   ------------------------------ */
+
+html[data-color-theme="orange"] .theme-switcher {
+  border-color: rgba(154, 52, 18, 0.2);
+  box-shadow: 0 6px 18px rgba(154, 52, 18, 0.12);
+}
+
+html[data-color-theme="orange"] .theme-switcher__label,
+html[data-color-theme="orange"] .theme-switcher__select {
+  color: #9a3412;
+}
+
+html[data-color-theme="orange"] .theme-switcher__select {
+  border-color: rgba(154, 52, 18, 0.24);
+}
+
+html[data-color-theme="orange"] .theme-switcher__select:hover,
+html[data-color-theme="orange"] .theme-switcher__select:focus {
+  border-color: #f97316;
+  color: #f97316;
+}
+
+html[data-color-theme="orange"] .accent-border-top::before {
+  background: linear-gradient(90deg, #9a3412 0%, #f97316 50%, #c2410c 100%) !important;
+}
+
+html[data-color-theme="orange"] .btn-accent,
+html[data-color-theme="orange"] .paper-box-text .btn-accent,
+html[data-color-theme="orange"] .tag-accent,
+html[data-color-theme="orange"] .badge,
+html[data-color-theme="orange"] .paper-box-image .badge {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%) !important;
+  box-shadow: 0 4px 14px rgba(249, 115, 22, 0.32) !important;
+}
+
+html[data-color-theme="orange"] .btn-accent:hover,
+html[data-color-theme="orange"] .paper-box-text .btn-accent:hover {
+  box-shadow: 0 8px 24px rgba(249, 115, 22, 0.4) !important;
+}
+
+html[data-color-theme="orange"] .accent-text {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 55%, #fdba74 100%) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+html[data-color-theme="orange"] .primary-gradient-text {
+  background: linear-gradient(135deg, #9a3412 0%, #c2410c 55%, #f97316 100%) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  html[data-color-theme="orange"] .accent-text {
+    background: none !important;
+    color: #f97316 !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+
+  html[data-color-theme="orange"] .primary-gradient-text {
+    background: none !important;
+    color: #c2410c !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+}
+
+html[data-color-theme="orange"] .link-accent,
+html[data-color-theme="orange"] a {
+  color: #9a3412 !important;
+}
+
+html[data-color-theme="orange"] .link-accent:hover,
+html[data-color-theme="orange"] a:hover {
+  color: #f97316 !important;
+}
+
+html[data-color-theme="orange"] .link-accent::after {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%) !important;
+}
+
+html[data-color-theme="orange"] .divider-accent {
+  background: linear-gradient(90deg, transparent 0%, #f97316 50%, transparent 100%) !important;
+}
+
+html[data-color-theme="orange"] .quote-accent {
+  border-left: 4px solid #f97316 !important;
+}
+
+html[data-color-theme="orange"] .quote-accent::before {
+  color: #f97316 !important;
+}
+
+html[data-color-theme="orange"] .progress-accent-bar {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%) !important;
+}
+
+html[data-color-theme="orange"] .fas,
+html[data-color-theme="orange"] .fab,
+html[data-color-theme="orange"] .far,
+html[data-color-theme="orange"] .ai {
+  color: #9a3412 !important;
+}
+
+html[data-color-theme="orange"] .fas:hover,
+html[data-color-theme="orange"] .fab:hover,
+html[data-color-theme="orange"] .far:hover,
+html[data-color-theme="orange"] .ai:hover {
+  color: #f97316 !important;
+}
+
+html[data-color-theme="orange"] .paper-box-text .authors strong,
+html[data-color-theme="orange"] .paper-box-text .author-me {
+  color: #f97316 !important;
+}
+
+html[data-color-theme="orange"] .paper-box-text .status-poster {
+  color: #c2410c !important;
+  background: rgba(249, 115, 22, 0.14) !important;
+}
+
+html[data-color-theme="orange"] .paper-box-text .status-oral {
+  color: #9a3412 !important;
+  background: rgba(249, 115, 22, 0.24) !important;
+  box-shadow: 0 0 0 1px rgba(154, 52, 18, 0.18) inset !important;
+}

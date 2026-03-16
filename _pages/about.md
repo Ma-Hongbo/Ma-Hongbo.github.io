@@ -100,7 +100,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
     <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
     <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
     <div class="venue">The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</div>
-    <div class="paper-status status-oral">Oral (Top 4.5%)</div>
+    <div class="paper-status status-oral">Oral (1,058/23,680 Top 4.5%)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>

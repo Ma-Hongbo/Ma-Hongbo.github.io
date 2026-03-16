@@ -10,10 +10,10 @@ main:
     url: "/#publications"
 
   - title: "Educations"
-    url: "/#educations"
+    url: "/#education"
 
   - title: "Internships"
-    url: "/#internships"
+    url: "/#experience"
 
   - title: "Blogs"
     url: "/#blogs"

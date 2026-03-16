@@ -110,46 +110,25 @@ h6 {
   ) !important;
 }
 
-/* Safe fallback first: plain colored text */
+/* Force plain colored text (disable gradient text to avoid block rendering issues) */
 .accent-text {
   background: none !important;
+  background-image: none !important;
   color: var(--ts-accent) !important;
+  -webkit-text-fill-color: currentColor !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
   font-weight: 700;
 }
 
 .primary-gradient-text {
   background: none !important;
+  background-image: none !important;
   color: var(--ts-primary-light) !important;
+  -webkit-text-fill-color: currentColor !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
   font-weight: 700;
-}
-
-/* Enable gradient text only when clipping is reliably supported */
-@supports ((-webkit-background-clip: text) and (-webkit-text-fill-color: transparent)) {
-  .accent-text {
-    background: linear-gradient(
-      135deg,
-      var(--ts-accent) 0%,
-      var(--ts-accent-light) 50%,
-      var(--ts-accent-soft) 100%
-    ) !important;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent !important;
-  }
-
-  .primary-gradient-text {
-    background: linear-gradient(
-      135deg,
-      var(--ts-primary) 0%,
-      var(--ts-primary-light) 50%,
-      var(--ts-accent) 100%
-    ) !important;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent !important;
-  }
 }
 
 .link-accent {

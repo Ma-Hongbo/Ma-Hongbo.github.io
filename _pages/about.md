@@ -145,38 +145,16 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 
 # <i class="fas fa-graduation-cap"></i> Educations
 - *2022.09 - Present*: B.S. in Computer Science and Technology (Major), <span class="primary-gradient-text">Tsinghua University</span>
-- *2023.09 - Present*: Minor in Economics and Management, <span class="primary-gradient-text">Tsinghua University</span>, GPA 3.8/4.0.
+- *2023.09 - Present*: B.S. in Economics and Management (Major), <span class="primary-gradient-text">Tsinghua University</span>
 
 <span class='anchor' id='internships'></span>
 
 # <i class="fas fa-laptop-code"></i> Internships
-- *2025.12 - Present*: Research Intern, Siebel School of Computing and Data Science, UIUC (Advisor: Prof. Ge Liu). Proposed Batched Contextual Reinforcement (BCR) for efficient multi-question prompting and contributed to post-training pipelines for mathematical LLMs.
-- *2025.09 - 2025.10*: Research Intern, i-Vision Group, Tsinghua University (Advisor: Prof. Jiwen Lu). Designed compact Diffusion Transformer architecture and optimized Swift + MLX deployment on mobile devices.
-- *2025.05 - 2025.08*: Research Intern, Guangming Lab (Shenzhen) (Advisor: Prof. Ming Li). Designed a negative-feedback mechanism for multi-agent fashion systems and completed full first-author publication workflow.
-- *2024.07 - 2025.02*: Research Intern, GenSi Lab @ AIR Tsinghua (Advisor: Prof. Hao Zhou). Studied generative model foundations and developed Bayesian Flow Network based molecule optimization methods.
-- *2024.02 - 2024.06*: Research Intern, ATOM Lab @ AIR Tsinghua (Advisor: Prof. Yanyan Lan). Built end-to-end AI pipelines and statistical evaluation visualization tools.
-
-# <i class="fas fa-diagram-project"></i> Projects and Leadership
-- *Project*: Research on AI-Enabled Production and Dissemination of Traditional Culture Videos, National-Level College Students' Innovation and Entrepreneurship Training Program (Hongbo Ma*, Ailei Wang*).
-- *Leadership*: President of Student Union, Xinya College, Tsinghua University.
-
-# <i class="fas fa-tools"></i> Technical Skills
-- **Programming Languages**: Python, C/C++, Swift, MATLAB, Rust, Java, TypeScript/JavaScript, SystemVerilog.
-- **AI Techniques**: CNNs, RNNs, Transformers; AR, VAE, GANs, Diffusion, Flow Matching; PPO, DPO, GRPO; 3D vision; AI for drug discovery.
-- **Tools and Frameworks**: PyTorch, NumPy, MLX.
-- **Other Skills**: Paper illustration, LaTeX typesetting.
-
-<span class='anchor' id='honors'></span>
-
-# <i class="fas fa-award"></i> Honors and Awards
-- *2024 - 2025*: Outstanding Scientific and Technological Innovation Scholarship, Tsinghua University.
-- *2023 - 2024*: Outstanding Student Leader (Top 6 among 400+ students in Xinya College), Tsinghua University.
-- *2022 - 2025*: Outstanding Social Work Scholarship, Tsinghua University.
-- *2022*: Second Prize Freshman Scholarship, Tsinghua University.
-
-# <i class="fas fa-language"></i> Languages
-- Chinese: Native.
-- English: Fluent (TOEFL 96: R26, L24, S21, W25).
+- *2025.12 - Present*: Research Intern, Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign.
+- *2025.09 - 2025.10*: Research Intern, i-Vision Group, Tsinghua University.
+- *2025.05 - 2025.08*: Research Intern, Guangming Lab (Shenzhen), Shenzhen.
+- *2024.07 - 2025.02*: Research Intern, GenSi Lab, Tsinghua University.
+- *2024.02 - 2024.06*: Research Intern, ATOM Lab, Tsinghua University.
 
 <span class='anchor' id='blogs'></span>
 

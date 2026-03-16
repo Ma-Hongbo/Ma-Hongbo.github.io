@@ -9,11 +9,11 @@ main:
   - title: "publications"
     url: "/#publications"
 
-  - title: "education"
-    url: "/#education"
+  - title: "Educations"
+    url: "/#educations"
 
-  - title: "experience"
-    url: "/#experience"
+  - title: "Internships"
+    url: "/#internships"
 
-  - title: "blogs"
+  - title: "Blogs"
     url: "/#blogs"

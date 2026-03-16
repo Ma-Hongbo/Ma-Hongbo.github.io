@@ -67,8 +67,17 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 
 # <i class="fas fa-file-alt"></i> Publications
 
-### Under Review
-- **Batched Contextual Reinforcement**. Bangji Yang*, **Hongbo Ma***, Jiajun Fan, Ge Liu. *ICML 2026, Under Review*.
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Batched Contextual Reinforcement.png' alt="Batched Contextual Reinforcement" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Batched Contextual Reinforcement</h3>
+    <div class="authors">Bangji Yang*, <strong>Hongbo Ma*</strong>, Jiajun Fan*, Ge Liu </div>
+    <div class="venue">Under Review</div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>

@@ -141,14 +141,13 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   </div>
 </div>
 
-<span class='anchor' id='education'></span>
+<span class='anchor' id='educations'></span>
 
 # <i class="fas fa-graduation-cap"></i> Educations
-- *2022.09 - Present*: B.S. in Computer Science and Technology (Major), <span class="primary-gradient-text">Tsinghua University</span>, GPA 3.8/4.0.
+- *2022.09 - Present*: B.S. in Computer Science and Technology (Major), <span class="primary-gradient-text">Tsinghua University</span>
 - *2023.09 - Present*: Minor in Economics and Management, <span class="primary-gradient-text">Tsinghua University</span>, GPA 3.8/4.0.
-- Selected coursework (A): Artificial Neural Networks, Fundamentals of Computer Graphics, Linear Algebra, Calculus A(2), Probability and Statistics, Political Economy, Investment.
 
-<span class='anchor' id='experience'></span>
+<span class='anchor' id='internships'></span>
 
 # <i class="fas fa-laptop-code"></i> Internships
 - *2025.12 - Present*: Research Intern, Siebel School of Computing and Data Science, UIUC (Advisor: Prof. Ge Liu). Proposed Batched Contextual Reinforcement (BCR) for efficient multi-question prompting and contributed to post-training pipelines for mathematical LLMs.

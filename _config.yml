@@ -11,8 +11,8 @@ title                    : "Hongbo Ma"
 title_separator          : "-"
 subtitle                 :
 name                     : "Hongbo Ma"
-description              : "Undergraduate researcher at Tsinghua University, focusing on computer vision, generative models, and intelligent agents."
-url                      : "https://ma-hongbo.github.io"
+# description              : "Undergraduate researcher at Tsinghua University, focusing on computer vision, generative models, and intelligent agents."
+# url                      : "https://ma-hongbo.github.io"
 baseurl                  : ""
 repository               : "Ma-Hongbo/Ma-Hongbo.github.io"
 google_scholar_stats_use_cdn : true

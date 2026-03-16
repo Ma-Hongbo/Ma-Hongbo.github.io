@@ -74,8 +74,9 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   </div>
   <div class='paper-box-text'>
     <h3>Batched Contextual Reinforcement</h3>
-    <div class="authors">Bangji Yang*, <strong>Hongbo Ma*</strong>, Jiajun Fan*, Ge Liu </div>
-    <div class="venue">Under Review</div>
+    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan*, Ge Liu</div>
+    <div class="venue">ICML 2026</div>
+    <div class="paper-status status-under-review">Under Review</div>
   </div>
 </div>
 
@@ -86,20 +87,22 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   </div>
   <div class='paper-box-text'>
     <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
-    <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <strong>Hongbo Ma</strong>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
-    <div class="venue">Under Review</div>
+    <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <span class="author-me">Hongbo Ma</span>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
+    <div class="venue">CVPR 2026</div>
+    <div class="paper-status status-under-review">Under Review</div>
   </div>
 </div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">AAAI 2026 - Oral</div>
+    <div class="badge pulse-accent">AAAI 2026</div>
     <img src='images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png' alt="StyleTailor" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
-    <div class="authors"><strong>Hongbo Ma</strong>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
-    <div class="venue">The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI 2026), Oral</div>
+    <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
+    <div class="venue">The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</div>
+    <div class="paper-status status-oral">Oral Presentation (Top 4.5%)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
@@ -110,13 +113,14 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICML 2025 - Poster</div>
+    <div class="badge pulse-accent">ICML 2025</div>
     <img src='images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png' alt="Empower Structure-based Molecule Optimization with Gradient Guidance" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Empower Structure-based Molecule Optimization with Gradient Guidance</h3>
-    <div class="authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <strong>Hongbo Ma</strong>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</div>
-    <div class="venue">Forty-Second International Conference on Machine Learning (ICML 2025), Poster</div>
+    <div class="authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</div>
+    <div class="venue">Forty-Second International Conference on Machine Learning (ICML 2025)</div>
+    <div class="paper-status status-poster">Poster</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2411.13280" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
     </div>
@@ -125,13 +129,14 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICLR 2025 - Poster</div>
+    <div class="badge pulse-accent">ICLR 2025</div>
     <img src='images/publications/Redefining the task of Bioactivity Prediction.png' alt="Redefining the Task of Bioactivity Prediction" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Redefining the Task of Bioactivity Prediction</h3>
-    <div class="authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <strong>Hongbo Ma</strong>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</div>
-    <div class="venue">The Thirteenth International Conference on Learning Representations (ICLR 2025), Poster</div>
+    <div class="authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</div>
+    <div class="venue">The Thirteenth International Conference on Learning Representations (ICLR 2025)</div>
+    <div class="paper-status status-poster">Poster</div>
     <div class="links">
       <a href="https://openreview.net/pdf?id=S8gbnkCgxZ" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
     </div>

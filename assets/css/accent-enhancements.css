@@ -514,11 +514,44 @@ body {
   font-weight: 700;
 }
 
+.paper-box-text .author-me {
+  color: #fe667b;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
 .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.5rem;
   font-size: 0.9rem;
+}
+
+.paper-box-text .paper-status {
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 1.1rem;
+  padding: 0.22rem 0.72rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.paper-box-text .status-under-review {
+  color: #6c757d;
+  background: rgba(108, 117, 125, 0.12);
+}
+
+.paper-box-text .status-poster {
+  color: #0f4d92;
+  background: rgba(15, 77, 146, 0.12);
+}
+
+.paper-box-text .status-oral {
+  color: #a1003a;
+  background: rgba(254, 102, 123, 0.24);
+  box-shadow: 0 0 0 1px rgba(161, 0, 58, 0.16) inset;
 }
 
 .paper-box-text .links {

@@ -169,6 +169,56 @@ html[data-color-theme="orange"] .ai {
   color: #9a3412 !important;
 }
 
+html[data-color-theme="orange"] body,
+html[data-color-theme="orange"] .page,
+html[data-color-theme="orange"] .page__content,
+html[data-color-theme="orange"] .page__content p,
+html[data-color-theme="orange"] .page__content li,
+html[data-color-theme="orange"] .page__content h1,
+html[data-color-theme="orange"] .page__content h2,
+html[data-color-theme="orange"] .page__content h3,
+html[data-color-theme="orange"] .page__content h4,
+html[data-color-theme="orange"] .page__content h5,
+html[data-color-theme="orange"] .page__content h6,
+html[data-color-theme="orange"] .paper-box-text .authors,
+html[data-color-theme="orange"] .paper-box-text h3 {
+  color: #9a3412 !important;
+}
+
+html[data-color-theme="orange"] .paper-box .paper-box-text .paper-status {
+  padding: 0.12rem 0.48rem;
+  font-size: 0.7rem;
+}
+
+html[data-color-theme="orange"] .paper-box .paper-box-text .paper-status-note {
+  color: #c2410c !important;
+}
+
+html[data-color-theme="orange"] .floating-card::before {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 60%, #fdba74 100%) !important;
+}
+
+html[data-color-theme="orange"] .floating-card:hover,
+html[data-color-theme="orange"] .floating-card:focus-within,
+html[data-color-theme="orange"] .paper-box:hover {
+  border-color: rgba(249, 115, 22, 0.34) !important;
+  box-shadow: 0 12px 35px rgba(154, 52, 18, 0.12), 0 4px 15px rgba(249, 115, 22, 0.16) !important;
+}
+
+html[data-color-theme="orange"] .paper-box:focus-within {
+  border-color: rgba(249, 115, 22, 0.34) !important;
+  box-shadow: 0 12px 35px rgba(154, 52, 18, 0.12), 0 4px 15px rgba(249, 115, 22, 0.16) !important;
+}
+
+html[data-color-theme="orange"] .floating-card:hover::before,
+html[data-color-theme="orange"] .floating-card:focus-within::before {
+  opacity: 1 !important;
+}
+
+html[data-color-theme="orange"] .greedy-nav .visible-links a:before {
+  background: #f97316 !important;
+}
+
 html[data-color-theme="orange"] .fas:hover,
 html[data-color-theme="orange"] .fab:hover,
 html[data-color-theme="orange"] .far:hover,

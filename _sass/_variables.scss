@@ -58,24 +58,24 @@
    $lighter-gray               : mix(#fff, $gray, 90%);
    
    // 主色调系统 - 深蓝色系
-   $primary-color              : #9A3412;
-   $primary-light              : #C2410C;
-   $primary-lighter            : #EA580C;
-   $primary-dark               : #7C2D12;
-   $primary-darker             : #431407;
+   $primary-color              : #012F63;
+   $primary-light              : #1a4f8a;
+   $primary-lighter            : #336fa1;
+   $primary-dark               : #001f42;
+   $primary-darker             : #001529;
    
    // 强调色系统 - 珊瑚粉系
-   $accent-color               : #F97316;
-   $accent-light               : #FB923C;
-   $accent-lighter             : #FDBA74;
-   $accent-dark                : #EA580C;
-   $accent-darker              : #C2410C;
+   $accent-color               : #FE667B;
+   $accent-light               : #ff8599;
+   $accent-lighter             : #ffa4b7;
+   $accent-dark                : #e5475d;
+   $accent-darker              : #cc2840;
    
    // 辅助色彩
-   $secondary-color            : #F59E0B;
-   $secondary-light            : #FDBA74;
-   $tertiary-color             : #FBBF24;
-   $tertiary-light             : #FDE68A;
+   $secondary-color            : #6c5ce7;
+   $secondary-light            : #a29bfe;
+   $tertiary-color             : #00cec9;
+   $tertiary-light             : #55eae7;
    
    // 渐变色彩
    $gradient-primary           : linear-gradient(135deg, $primary-color 0%, $primary-light 50%, $accent-color 100%);
@@ -167,9 +167,9 @@
    $border-radius              : 8px;
    $border-radius-large        : 12px;
    $border-radius-small        : 4px;
-   $box-shadow                 : 0 4px 15px rgba(154, 52, 18, 0.08);
-   $box-shadow-hover           : 0 8px 25px rgba(154, 52, 18, 0.12);
-   $box-shadow-accent          : 0 4px 15px rgba(249, 115, 22, 0.15);
+   $box-shadow                 : 0 4px 15px rgba(1, 47, 99, 0.08);
+   $box-shadow-hover           : 0 8px 25px rgba(1, 47, 99, 0.12);
+   $box-shadow-accent          : 0 4px 15px rgba(254, 102, 123, 0.15);
    $navicon-width              : 28px;
    $navicon-height             : 4px;
    $global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

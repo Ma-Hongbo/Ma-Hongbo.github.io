@@ -1,50 +1,7 @@
 <div id="theme-switcher" class="theme-switcher" aria-label="Color theme switcher">
-  <button
-    id="theme-switcher-toggle"
-    class="theme-switcher__toggle"
-    type="button"
-    aria-expanded="false"
-    aria-controls="theme-switcher-panel"
-    aria-label="Switch color theme"
-  >
-    <span class="theme-switcher__toggle-dot" aria-hidden="true"></span>
-    <span class="theme-switcher__toggle-text">Theme</span>
-  </button>
-
-  <div id="theme-switcher-panel" class="theme-switcher__panel" hidden>
-    <button class="theme-switcher__option" type="button" data-theme="orange" data-color="#f97316">
-      <span class="theme-switcher__swatch" style="--swatch-a:#9a3412;--swatch-b:#f97316;"></span>
-      <span class="theme-switcher__label">Orange</span>
-    </button>
-    <button class="theme-switcher__option" type="button" data-theme="amber" data-color="#f59e0b">
-      <span class="theme-switcher__swatch" style="--swatch-a:#92400e;--swatch-b:#f59e0b;"></span>
-      <span class="theme-switcher__label">Amber</span>
-    </button>
-    <button class="theme-switcher__option" type="button" data-theme="copper" data-color="#ea580c">
-      <span class="theme-switcher__swatch" style="--swatch-a:#7c2d12;--swatch-b:#ea580c;"></span>
-      <span class="theme-switcher__label">Copper</span>
-    </button>
-    <button class="theme-switcher__option" type="button" data-theme="tangerine" data-color="#fb923c">
-      <span class="theme-switcher__swatch" style="--swatch-a:#9a3412;--swatch-b:#fb923c;"></span>
-      <span class="theme-switcher__label">Tangerine</span>
-    </button>
-    <button class="theme-switcher__option" type="button" data-theme="sunset" data-color="#f97316">
-      <span class="theme-switcher__swatch" style="--swatch-a:#b45309;--swatch-b:#fb923c;"></span>
-      <span class="theme-switcher__label">Sunset</span>
-    </button>
-
-    <!-- Reserved slots for future palettes -->
-    <button class="theme-switcher__option theme-switcher__option--reserved" type="button" data-theme="slot-a" data-color="#f97316">
-      <span class="theme-switcher__swatch" style="--swatch-a:#7c2d12;--swatch-b:#fb923c;"></span>
-      <span class="theme-switcher__label">Slot A</span>
-    </button>
-    <button class="theme-switcher__option theme-switcher__option--reserved" type="button" data-theme="slot-b" data-color="#f97316">
-      <span class="theme-switcher__swatch" style="--swatch-a:#92400e;--swatch-b:#fbbf24;"></span>
-      <span class="theme-switcher__label">Slot B</span>
-    </button>
-    <button class="theme-switcher__option theme-switcher__option--reserved" type="button" data-theme="slot-c" data-color="#f97316">
-      <span class="theme-switcher__swatch" style="--swatch-a:#c2410c;--swatch-b:#fdba74;"></span>
-      <span class="theme-switcher__label">Slot C</span>
-    </button>
-  </div>
+  <label class="theme-switcher__label" for="theme-select">Theme</label>
+  <select id="theme-select" class="theme-switcher__select" aria-label="Select color theme">
+    <option value="pink">Pink (v1)</option>
+    <option value="orange">Orange (v2)</option>
+  </select>
 </div>

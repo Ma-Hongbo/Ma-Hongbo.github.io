@@ -19,13 +19,13 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #9A3412 0%, #F97316 50%, #C2410C 100%);
+  background: linear-gradient(90deg, #012F63 0%, #FE667B 50%, #1a4f8a 100%);
   z-index: 10;
 }
 
 /* 强调色按钮样式 */
 .btn-accent {
-  background: #F97316;
+  background: #FE667B;
   color: white !important;
   border: none;
   padding: 12px 24px;
@@ -34,7 +34,7 @@
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 4px 15px rgba(254, 102, 123, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -56,7 +56,7 @@
 
 .btn-accent:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(249, 115, 22, 0.4);
+  box-shadow: 0 8px 25px rgba(254, 102, 123, 0.4);
   color: white !important;
 }
 
@@ -68,9 +68,9 @@
 .floating-card {
   background: #ffffff !important; /* 强制使用白色背景 */
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(154, 52, 18, 0.06);
+  border: 1px solid rgba(1, 47, 99, 0.06);
   position: relative;
   overflow: hidden;
 }
@@ -82,15 +82,15 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #F97316 0%, #FB923C 50%, #FDBA74 100%);
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .floating-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 35px rgba(154, 52, 18, 0.15);
-  border-color: rgba(249, 115, 22, 0.2);
+  box-shadow: 0 12px 35px rgba(1, 47, 99, 0.15);
+  border-color: rgba(254, 102, 123, 0.2);
 }
 
 .floating-card:hover::before {
@@ -99,7 +99,7 @@
 
 /* 强调色文字效果 */
 .accent-text {
-  background: linear-gradient(135deg, #F97316 0%, #FB923C 50%, #FDBA74 100%);
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -107,7 +107,7 @@
 }
 
 .primary-gradient-text {
-  background: linear-gradient(135deg, #9A3412 0%, #C2410C 50%, #F97316 100%);
+  background: linear-gradient(135deg, #012F63 0%, #1a4f8a 50%, #FE667B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -116,30 +116,30 @@
 
 /* 图标样式 - 使用主色而不是强调色 */
 .fas, .fab, .far {
-  color: #9A3412; /* 主色 */
+  color: #012F63; /* 主色 */
   transition: all 0.3s ease;
 }
 
 .fas:hover, .fab:hover, .far:hover {
-  color: #C2410C; /* 主色的浅色变体 */
+  color: #1a4f8a; /* 主色的浅色变体 */
   transform: scale(1.05);
 }
 
 /* Sidebar图标保持主色 */
 .sidebar .fas, .sidebar .fab, .sidebar .far,
 .author__urls .fas, .author__urls .fab, .author__urls .far {
-  color: #9A3412 !important;
+  color: #012F63 !important;
 }
 
 .sidebar .fas:hover, .sidebar .fab:hover, .sidebar .far:hover,
 .author__urls .fas:hover, .author__urls .fab:hover, .author__urls .far:hover {
-  color: #F97316 !important; /* 悬停时使用强调色 */
+  color: #FE667B !important; /* 悬停时使用强调色 */
 }
 
 /* 强调色分割线 */
 .divider-accent {
   height: 2px;
-  background: linear-gradient(90deg, transparent 0%, #F97316 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, #FE667B 50%, transparent 100%);
   margin: 2rem 0;
   border: none;
 }
@@ -147,49 +147,24 @@
 /* 强调色引用块 */
 .quote-accent {
   background: #f8f9fa !important; /* 强制使用浅色背景 */
-  border-left: 4px solid #F97316;
+  border-left: 4px solid #FE667B;
   padding: 1.5rem 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
   position: relative;
   margin: 2rem 0;
-  color: #9A3412 !important; /* 确保文字颜色 */
+  color: #012F63 !important; /* 确保文字颜色 */
 }
 
 .quote-accent::before {
   content: '"';
   font-size: 4rem;
-  color: #F97316;
+  color: #FE667B;
   opacity: 0.2;
   position: absolute;
   top: -10px;
   left: 15px;
   font-family: serif;
-}
-
-/* 方法论模块的可读性增强 */
-.methodology-focus .focus-title {
-  margin: 0 0 0.9rem 0;
-  font-weight: 700;
-  color: #9A3412;
-}
-
-.methodology-focus .focus-title i {
-  margin-right: 0.45rem;
-}
-
-.methodology-focus .focus-list {
-  margin: 0;
-  padding-left: 1.4rem;
-}
-
-.methodology-focus .focus-list li {
-  margin-bottom: 0.75rem;
-  line-height: 1.85;
-}
-
-.methodology-focus .focus-list li:last-child {
-  margin-bottom: 0;
 }
 
 /* 强调色进度条 */
@@ -203,7 +178,7 @@
 
 .progress-accent-bar {
   height: 100%;
-  background: linear-gradient(90deg, #F97316 0%, #FB923C 100%);
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 100%);
   border-radius: 10px;
   transition: width 1s ease;
   position: relative;
@@ -227,7 +202,7 @@
 
 /* 强调色标签 */
 .tag-accent {
-  background: linear-gradient(135deg, #F97316 0%, #FB923C 100%);
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -235,18 +210,18 @@
   font-weight: 600;
   display: inline-block;
   margin: 0.25rem;
-  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.3);
   transition: all 0.3s ease;
 }
 
 .tag-accent:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+  box-shadow: 0 4px 12px rgba(254, 102, 123, 0.4);
 }
 
 /* 强调色链接装饰 */
 .link-accent {
-  color: #9A3412;
+  color: #012F63;
   text-decoration: none;
   position: relative;
   font-weight: 500;
@@ -260,12 +235,12 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #F97316 0%, #FB923C 100%);
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 100%);
   transition: width 0.3s ease;
 }
 
 .link-accent:hover {
-  color: #F97316;
+  color: #FE667B;
 }
 
 .link-accent:hover::after {
@@ -279,7 +254,7 @@
 
 .hover-float:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(154, 52, 18, 0.12);
+  box-shadow: 0 8px 25px rgba(1, 47, 99, 0.12);
 }
 
 /* 强调色脉冲动画 */
@@ -289,19 +264,19 @@
 
 @keyframes pulse-accent {
   0% {
-    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
+    box-shadow: 0 0 0 0 rgba(254, 102, 123, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(249, 115, 22, 0);
+    box-shadow: 0 0 0 10px rgba(254, 102, 123, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0);
+    box-shadow: 0 0 0 0 rgba(254, 102, 123, 0);
   }
 }
 
 /* 强调色渐变背景动画 */
 .bg-gradient-animate {
-  background: linear-gradient(-45deg, #9A3412, #C2410C, #F97316, #FB923C);
+  background: linear-gradient(-45deg, #012F63, #1a4f8a, #FE667B, #ff8599);
   background-size: 400% 400%;
   animation: gradient-shift 15s ease infinite;
 }
@@ -333,20 +308,20 @@
 @media (prefers-color-scheme: dark) {
   .floating-card, .highlight-block, .paper-box, .quote-accent {
     background: #ffffff !important;
-    color: #9A3412 !important;
-    border-color: rgba(154, 52, 18, 0.08) !important;
+    color: #012F63 !important;
+    border-color: rgba(1, 47, 99, 0.08) !important;
   }
   
   .floating-card *, .highlight-block *, .paper-box *, .quote-accent * {
-    color: #9A3412 !important;
+    color: #012F63 !important;
   }
   
   .floating-card a, .highlight-block a, .paper-box a, .quote-accent a {
-    color: #9A3412 !important;
+    color: #012F63 !important;
   }
   
   .floating-card a:hover, .highlight-block a:hover, .paper-box a:hover, .quote-accent a:hover {
-    color: #F97316 !important;
+    color: #FE667B !important;
   }
 }
 
@@ -367,7 +342,7 @@
   width: 40px;
   height: 40px;
   border: 3px solid #e9ecef;
-  border-top: 3px solid #F97316;
+  border-top: 3px solid #FE667B;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -380,16 +355,16 @@
 /* 确保所有重要元素的背景和文字颜色 */
 body {
   background-color: #ffffff !important;
-  color: #9A3412 !important;
+  color: #012F63 !important;
 }
 
 .highlight-block, .paper-box, .floating-card, blockquote, .quote-accent {
   background: #ffffff !important;
-  color: #9A3412 !important;
+  color: #012F63 !important;
 }
 
 .highlight-block *, .paper-box *, .floating-card *, blockquote *, .quote-accent * {
-  color: #9A3412 !important;
+  color: #012F63 !important;
 }
 
 /* 但保持按钮和标签的颜色 */
@@ -404,8 +379,8 @@ body {
   background: #ffffff !important;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(154, 52, 18, 0.06), 0 2px 6px rgba(154, 52, 18, 0.04);
-  border: 1px solid rgba(154, 52, 18, 0.04);
+  box-shadow: 0 6px 20px rgba(1, 47, 99, 0.06), 0 2px 6px rgba(1, 47, 99, 0.04);
+  border: 1px solid rgba(1, 47, 99, 0.04);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   margin-bottom: 2rem;
@@ -415,8 +390,8 @@ body {
 
 .paper-box:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 35px rgba(154, 52, 18, 0.1), 0 4px 15px rgba(249, 115, 22, 0.08);
-  border-color: rgba(249, 115, 22, 0.12);
+  box-shadow: 0 12px 35px rgba(1, 47, 99, 0.1), 0 4px 15px rgba(254, 102, 123, 0.08);
+  border-color: rgba(254, 102, 123, 0.12);
 }
 
 .paper-box-image {
@@ -440,7 +415,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(249, 115, 22, 0.02) 0%, rgba(154, 52, 18, 0.02) 100%);
+  background: linear-gradient(135deg, rgba(254, 102, 123, 0.02) 0%, rgba(1, 47, 99, 0.02) 100%);
   z-index: 1;
 }
 
@@ -450,28 +425,28 @@ body {
   object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 4px 12px rgba(1, 47, 99, 0.08);
   position: relative;
   z-index: 2;
 }
 
 .paper-box:hover .paper-box-image img {
   transform: none;
-  box-shadow: 0 8px 25px rgba(154, 52, 18, 0.12);
+  box-shadow: 0 8px 25px rgba(1, 47, 99, 0.12);
 }
 
 .paper-box-image .badge {
   position: absolute;
   top: 16px;
   left: 16px;
-  background: linear-gradient(135deg, #F97316 0%, #FB923C 100%);
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
   color: white;
   padding: 0.4em 0.8em;
   border-radius: 20px;
   font-size: 0.75em;
   font-weight: 700;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.25);
+  box-shadow: 0 4px 12px rgba(254, 102, 123, 0.25);
   z-index: 10;
   text-transform: uppercase;
   backdrop-filter: blur(10px);
@@ -490,7 +465,7 @@ body {
   margin: 0 0 1rem 0;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #9A3412;
+  color: #012F63;
   line-height: 1.3;
   letter-spacing: -0.02em;
 }
@@ -504,54 +479,21 @@ body {
 
 .paper-box-text .authors {
   font-weight: 600;
-  color: #9A3412;
+  color: #012F63;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
 }
 
 .paper-box-text .authors strong {
-  color: #F97316;
+  color: #FE667B;
   font-weight: 700;
-}
-
-.paper-box-text .author-me {
-  color: #f97316;
-  font-weight: 800;
-  letter-spacing: 0.01em;
 }
 
 .paper-box-text .venue {
   color: #6c757d;
   font-style: italic;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
   font-size: 0.9rem;
-}
-
-.paper-box-text .paper-status {
-  display: inline-block;
-  width: fit-content;
-  margin-bottom: 1.1rem;
-  padding: 0.22rem 0.72rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.paper-box-text .status-under-review {
-  color: #6c757d;
-  background: rgba(108, 117, 125, 0.12);
-}
-
-.paper-box-text .status-poster {
-  color: #b45309;
-  background: rgba(249, 115, 22, 0.14);
-}
-
-.paper-box-text .status-oral {
-  color: #9a3412;
-  background: rgba(249, 115, 22, 0.24);
-  box-shadow: 0 0 0 1px rgba(154, 52, 18, 0.18) inset;
 }
 
 .paper-box-text .links {
@@ -577,7 +519,7 @@ body {
   }
   
   .paper-box-image::before {
-    background: linear-gradient(45deg, rgba(249, 115, 22, 0.03) 0%, rgba(154, 52, 18, 0.03) 100%);
+    background: linear-gradient(45deg, rgba(254, 102, 123, 0.03) 0%, rgba(1, 47, 99, 0.03) 100%);
   }
   
   .paper-box:hover .paper-box-image img {
@@ -604,7 +546,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #F97316;
+  background: #FE667B;
   color: white !important;
   padding: 0.5rem 1rem;
   border-radius: 25px;
@@ -612,7 +554,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   border: none;
-  box-shadow: 0 3px 8px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 3px 8px rgba(254, 102, 123, 0.2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -635,7 +577,7 @@ body {
 
 .paper-box-text .btn-accent:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 6px 15px rgba(254, 102, 123, 0.3);
   color: white !important;
 }
 
@@ -650,13 +592,13 @@ body {
 
 @keyframes pulse-accent {
   0% {
-    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.25);
+    box-shadow: 0 4px 12px rgba(254, 102, 123, 0.25);
   }
   50% {
-    box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
+    box-shadow: 0 4px 20px rgba(254, 102, 123, 0.4);
   }
   100% {
-    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.25);
+    box-shadow: 0 4px 12px rgba(254, 102, 123, 0.25);
   }
 }
 
@@ -672,14 +614,14 @@ body {
   background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 12px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 2px 12px rgba(1, 47, 99, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 
 .blog-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(154, 52, 18, 0.15);
+  box-shadow: 0 8px 25px rgba(1, 47, 99, 0.15);
 }
 
 .blog-card-image {
@@ -704,13 +646,13 @@ body {
   position: absolute;
   top: 12px;
   left: 12px;
-  background: #F97316;
+  background: #FE667B;
   color: white;
   padding: 0.4em 0.8em;
   border-radius: 20px;
   font-size: 0.75em;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.3);
   z-index: 10;
 }
 
@@ -721,7 +663,7 @@ body {
 .blog-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #9A3412 !important;
+  color: #012F63 !important;
   margin-bottom: 0.8rem;
   line-height: 1.3;
   display: -webkit-box;
@@ -757,13 +699,13 @@ body {
   align-items: center;
   gap: 0.4rem;
   padding: 0.5rem 1rem;
-  background: #F97316;
+  background: #FE667B;
   color: white !important;
   text-decoration: none !important;
   border-radius: 25px;
   font-size: 0.85rem;
   font-weight: 600;
-  box-shadow: 0 3px 8px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 3px 8px rgba(254, 102, 123, 0.2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -792,7 +734,7 @@ body {
 
 .blog-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 6px 15px rgba(254, 102, 123, 0.3);
   color: white !important;
   text-decoration: none !important;
 }
@@ -889,7 +831,7 @@ body {
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 1.5rem;
-  box-shadow: 0 4px 15px rgba(154, 52, 18, 0.1);
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.1);
 }
 
 .post-cover img {
@@ -902,7 +844,7 @@ body {
 .post-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #9A3412;
+  color: #012F63;
   line-height: 1.3;
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
@@ -948,11 +890,11 @@ body {
 }
 
 .post-original-link:hover {
-  color: #9A3412;
+  color: #012F63;
 }
 
 .post-meta i {
-  color: #F97316;
+  color: #FE667B;
   font-size: 0.9em;
 }
 
@@ -985,7 +927,7 @@ body {
 }
 
 .post-tags i {
-  color: #F97316;
+  color: #FE667B;
   margin-right: 0.25rem;
 }
 
@@ -1007,7 +949,7 @@ body {
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  color: #9A3412;
+  color: #012F63;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -1017,7 +959,7 @@ body {
 .post-content h2 {
   font-size: 1.6rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid rgba(249, 115, 22, 0.2);
+  border-bottom: 2px solid rgba(254, 102, 123, 0.2);
 }
 
 .post-content h3 {
@@ -1033,22 +975,22 @@ body {
 }
 
 .post-content a {
-  color: #9A3412;
+  color: #012F63;
   text-decoration: none;
-  border-bottom: 2px solid rgba(249, 115, 22, 0.3);
+  border-bottom: 2px solid rgba(254, 102, 123, 0.3);
   transition: all 0.3s ease;
 }
 
 .post-content a:hover {
-  color: #F97316;
-  border-bottom-color: #F97316;
+  color: #FE667B;
+  border-bottom-color: #FE667B;
 }
 
 .post-content img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(154, 52, 18, 0.1);
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.1);
   margin: 1.5rem 0;
 }
 
@@ -1056,12 +998,12 @@ body {
   margin: 2em 1em 2em 0;
   padding: 1.5em 2em;
   background: #f8f9fa !important;
-  border-left: 4px solid #F97316;
+  border-left: 4px solid #FE667B;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
   position: relative;
   font-style: italic;
-  color: #9A3412 !important;
+  color: #012F63 !important;
 }
 
 .post-content code {
@@ -1070,7 +1012,7 @@ body {
   border-radius: 4px;
   font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
   font-size: 0.9em;
-  color: #F97316;
+  color: #FE667B;
 }
 
 .post-content pre {
@@ -1105,7 +1047,7 @@ body {
   margin: 1.5rem 0;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(154, 52, 18, 0.08);
+  box-shadow: 0 2px 8px rgba(1, 47, 99, 0.08);
 }
 
 .post-content th,
@@ -1116,7 +1058,7 @@ body {
 }
 
 .post-content th {
-  background: linear-gradient(135deg, #9A3412 0%, #C2410C 100%);
+  background: linear-gradient(135deg, #012F63 0%, #1a4f8a 100%);
   color: white;
   font-weight: 600;
 }
@@ -1167,7 +1109,7 @@ body {
 
 .local-blogs-header h3 {
   margin: 0;
-  color: #9A3412;
+  color: #012F63;
   font-size: 1.2rem;
 }
 
@@ -1175,14 +1117,14 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: #F97316;
+  background: #FE667B;
   color: white !important;
   padding: 0.5rem 1.2rem;
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none !important;
-  box-shadow: 0 3px 8px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 3px 8px rgba(254, 102, 123, 0.2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1192,7 +1134,7 @@ body {
 
 .view-all-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(249, 115, 22, 0.3);
+  box-shadow: 0 6px 15px rgba(254, 102, 123, 0.3);
   color: white !important;
   text-decoration: none !important;
 }
@@ -1217,7 +1159,7 @@ body {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(154, 52, 18, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(1, 47, 99, 0.15), transparent);
 }
 
 .external-blogs-divider span {

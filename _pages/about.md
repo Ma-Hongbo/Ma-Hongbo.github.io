@@ -16,14 +16,7 @@ My name is <span class="accent-text">Hongbo Ma</span> (马洪博). I am a final-
 
 My research interests primarily focus on <span class="primary-gradient-text">computer vision</span>, <span class="primary-gradient-text">generative models</span>, and <span class="primary-gradient-text">intelligent agent systems</span>. I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and explore scientific agents for solving complex real-world problems.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1rem 0 0.5rem 0;">
-  <a href="mailto:mahb22@mails.tsinghua.edu.cn" class="btn-accent"><i class="fas fa-envelope"></i> Email</a>
-  <a href="https://scholar.google.com/citations?user=1NIc69QAAAAJ&amp;hl=en" class="btn-accent"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-  <a href="/assets/Hongbo_Ma_CV.pdf" class="btn-accent"><i class="fas fa-file-alt"></i> CV</a>
-  <a href="https://github.com/Ma-Hongbo" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="btn-accent"><i class="fas fa-book-open"></i> Rednote</a>
-  <a href="https://www.zhihu.com/people/22-13-70-62-20" class="btn-accent"><i class="fas fa-pen-nib"></i> Zhihu</a>
-</div>
+If you want to learn more about me, feel free to check my <a href="/assets/Hongbo_Ma_CV.pdf" class="link-accent">CV</a>.
 
 <div class="quote-accent">
 Current methodology focus:

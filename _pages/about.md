@@ -75,7 +75,6 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   <div class='paper-box-text'>
     <h3>Batched Contextual Reinforcement</h3>
     <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan*, Ge Liu</div>
-    <div class="venue">ICML 2026</div>
     <div class="paper-status status-under-review">Under Review</div>
   </div>
 </div>
@@ -88,7 +87,6 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   <div class='paper-box-text'>
     <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
     <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <span class="author-me">Hongbo Ma</span>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
-    <div class="venue">CVPR 2026</div>
     <div class="paper-status status-under-review">Under Review</div>
   </div>
 </div>
@@ -102,7 +100,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
     <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
     <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
     <div class="venue">The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</div>
-    <div class="paper-status status-oral">Oral Presentation (Top 4.5%)</div>
+    <div class="paper-status status-oral">Oral (Top 4.5%)</div>
     <div class="links">
       <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>

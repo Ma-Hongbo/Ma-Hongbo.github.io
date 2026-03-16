@@ -101,17 +101,34 @@
 .accent-text {
   background: linear-gradient(135deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
 .primary-gradient-text {
   background: linear-gradient(135deg, #012F63 0%, #1a4f8a 50%, #FE667B 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
+}
+
+/* Fallback: if text clipping is unavailable, keep readable solid text */
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .accent-text {
+    background: none;
+    color: #FE667B;
+    -webkit-text-fill-color: currentColor;
+  }
+
+  .primary-gradient-text {
+    background: none;
+    color: #1a4f8a;
+    -webkit-text-fill-color: currentColor;
+  }
 }
 
 /* 图标样式 - 使用主色而不是强调色 */

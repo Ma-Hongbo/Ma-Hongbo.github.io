@@ -14,7 +14,7 @@ redirect_from:
 
 My name is <span class="accent-text">Hongbo Ma</span> (马洪博). I am a final-year student at <i class="fas fa-university"></i> <a href="https://www.xyc.tsinghua.edu.cn/en/" class="link-accent">Xinya College</a> and <i class="fas fa-university"></i> <a href="https://www.cs.tsinghua.edu.cn/csen/" class="link-accent">Department of Computer Science and Technology</a>, <i class="fas fa-university"></i> <a href="https://www.tsinghua.edu.cn/en/" class="link-accent">Tsinghua University</a>. I am also minoring in Economics and Management at <i class="fas fa-university"></i> <a href="https://www.sem.tsinghua.edu.cn/en/" class="link-accent">School of Economics and Management</a>, Tsinghua University.
 
-My research interests primarily focus on <span class="primary-gradient-text">computer vision</span>, <span class="primary-gradient-text">generative models</span>, and <span class="primary-gradient-text">intelligent agent systems</span>. I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and explore scientific agents for solving complex real-world problems.
+My research interests primarily focus on <span class="primary-gradient-text">world models</span>, <span class="primary-gradient-text">generative models</span>, and <span class="primary-gradient-text">intelligent agent systems</span>. I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and explore scientific agents for solving complex real-world problems.
 
 If you want to learn more about me, feel free to check my <a href="/data/CV.pdf" class="link-accent">CV</a>.
 
@@ -161,4 +161,4 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 <span class='anchor' id='blogs'></span>
 
 # <i class="fas fa-blog"></i> Blogs
-If you'd like to follow more of my ideas and updates, feel free to visit my <a href="https://www.zhihu.com/people/22-13-70-62-20" class="link-accent">Zhihu</a> for longer reflections, my <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="link-accent">Rednote</a> for lighter day-to-day sharing, and my local <a href="/blogs/" class="link-accent">blog page</a> for organized posts and archives.
+If you'd like to follow more of my ideas and updates, feel free to visit my <i class="fas fa-feather-alt"></i> <a href="https://www.zhihu.com/people/22-13-70-62-20" class="link-accent">Zhihu</a> for longer reflections, my <i class="fas fa-camera-retro"></i> <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="link-accent">Rednote</a> for lighter day-to-day sharing, and my local <i class="fas fa-book-open"></i> <a href="/blogs/" class="link-accent">blog page</a> for organized posts and archives.

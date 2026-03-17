@@ -55,7 +55,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
     </div>
 
     <div class="mindmap-branch floating-card">
-      <h3><i class="fas fa-industry"></i> Part III: Real-World Deployment (Sim2Real)</h3>
+      <h3><i class="fas fa-industry"></i> Part III: Real Deployment (Sim2Real)</h3>
       <ul>
         <li>Efficient reasoning and execution under real-world constraints</li>
         <li>Training and generalization in dynamic real environments</li>
@@ -64,10 +64,12 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
     </div>
   </div>
 
+  <div class="mindmap-divider" aria-hidden="true"></div>
+
   <div class="mindmap-extension-wrap">
     <div class="mindmap-extension floating-card">
       <p class="mindmap-extension__title"><i class="fas fa-flask"></i> Extension: Scientific Agents</p>
-      <p>From agent intelligence to AI for Science, enabling domain-specific discovery workflows in complex scientific environments.</p>
+      <p>Based on a world model research route, we first abstract real environments into controllable modeled spaces, solve scientific tasks in the abstracted environments, and then feed validated solutions back into real-world settings.</p>
     </div>
   </div>
 </div>

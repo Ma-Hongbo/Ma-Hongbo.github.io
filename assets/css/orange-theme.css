@@ -152,6 +152,24 @@ body,
   color: #f97316 !important;
 }
 
+/* Sidebar author/location hover should stay orange (override legacy pink rules) */
+.sidebar .fas:hover,
+.sidebar .fab:hover,
+.sidebar .far:hover,
+.author__urls .fas:hover,
+.author__urls .fab:hover,
+.author__urls .far:hover,
+.author__urls .fa:hover {
+  color: #f97316 !important;
+}
+
+.sidebar .author__urls li:hover,
+.sidebar .author__urls a:hover,
+.profile_box .author__urls li:hover,
+.profile_box .author__urls a:hover {
+  color: #f97316 !important;
+}
+
 .paper-box-text .authors strong,
 .paper-box-text .author-me {
   color: #f97316 !important;

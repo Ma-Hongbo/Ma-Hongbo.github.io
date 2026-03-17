@@ -45,18 +45,13 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
       </ul>
     </div>
 
-    <div class="mindmap-branch mindmap-branch--agent floating-card">
+    <div class="mindmap-branch floating-card">
       <h3><i class="fas fa-robot"></i> Part II: Intelligent Agents (Sim2Sim)</h3>
       <ul>
         <li><strong>Perceive</strong>: learn grounded state understanding in simulated worlds</li>
         <li><strong>Decision-making</strong>: reason and plan with efficient policy mechanisms</li>
         <li><strong>Act</strong>: optimize agent behaviors through closed-loop interaction</li>
       </ul>
-
-      <div class="mindmap-extension floating-card">
-        <p class="mindmap-extension__title"><i class="fas fa-flask"></i> Extension: Sci Agent</p>
-        <p>From intelligent agents to AI for Science, enabling domain-specific discovery workflows in complex scientific environments.</p>
-      </div>
     </div>
 
     <div class="mindmap-branch floating-card">
@@ -66,6 +61,13 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
         <li>Training and generalization in dynamic real environments</li>
         <li>Deployment-centric adaptation loop for reliable long-horizon behavior</li>
       </ul>
+    </div>
+  </div>
+
+  <div class="mindmap-extension-wrap">
+    <div class="mindmap-extension floating-card">
+      <p class="mindmap-extension__title"><i class="fas fa-flask"></i> Extension: Scientific Agents</p>
+      <p>From agent intelligence to AI for Science, enabling domain-specific discovery workflows in complex scientific environments.</p>
     </div>
   </div>
 </div>

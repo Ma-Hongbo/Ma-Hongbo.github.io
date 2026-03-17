@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Orange-Only Accent Overrides
+   ========================================================================== */
+
+.accent-border-top::before {
+  background: linear-gradient(90deg, #9a3412 0%, #f97316 50%, #c2410c 100%) !important;
+}
+
+.btn-accent,
+.paper-box-text .btn-accent,
+.tag-accent,
+.badge,
+.paper-box-image .badge {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%) !important;
+  box-shadow: 0 4px 14px rgba(249, 115, 22, 0.32) !important;
+}
+
+.btn-accent:hover,
+.paper-box-text .btn-accent:hover {
+  box-shadow: 0 8px 24px rgba(249, 115, 22, 0.4) !important;
+}
+
+.accent-text {
+  background-image: linear-gradient(135deg, #f97316 0%, #fb923c 55%, #fdba74 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.primary-gradient-text {
+  background-image: linear-gradient(135deg, #9a3412 0%, #c2410c 55%, #f97316 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .accent-text {
+    background: none !important;
+    color: #f97316 !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+
+  .primary-gradient-text {
+    background: none !important;
+    color: #c2410c !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+}
+
+.link-accent,
+a {
+  color: #012f63 !important;
+}
+
+.link-accent:hover,
+a:hover {
+  color: #fb923c !important;
+}
+
+.link-accent::after {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%) !important;
+}
+
+.divider-accent {
+  background: linear-gradient(90deg, transparent 0%, #f97316 50%, transparent 100%) !important;
+}
+
+.quote-accent {
+  border-left: 4px solid #f97316 !important;
+}
+
+.quote-accent::before {
+  color: #f97316 !important;
+}
+
+.progress-accent-bar {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%) !important;
+}
+
+.fas,
+.fab,
+.far,
+.ai {
+  color: #9a3412 !important;
+}
+
+body,
+.page,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.paper-box-text .authors,
+.paper-box-text h3 {
+  color: #012f63 !important;
+}
+
+.paper-box .paper-box-text .paper-status {
+  padding: 0.12rem 0.48rem;
+  font-size: 0.7rem;
+}
+
+.paper-box .paper-box-text .paper-status-note {
+  color: #c2410c !important;
+}
+
+.floating-card::before {
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 60%, #fdba74 100%) !important;
+}
+
+.floating-card:hover,
+.floating-card:focus-within {
+  border-color: rgba(249, 115, 22, 0.2) !important;
+  box-shadow: 0 12px 35px rgba(1, 47, 99, 0.15) !important;
+}
+
+.paper-box:hover,
+.paper-box:focus-within {
+  border-color: rgba(249, 115, 22, 0.12) !important;
+  box-shadow: 0 12px 35px rgba(1, 47, 99, 0.1), 0 4px 15px rgba(249, 115, 22, 0.08) !important;
+}
+
+.page__content p:hover,
+.page__content li:hover,
+.paper-box-text h3:hover,
+.paper-box-text .authors:hover,
+.paper-box-text .venue:hover {
+  color: #fb923c !important;
+}
+
+.floating-card:hover::before,
+.floating-card:focus-within::before {
+  opacity: 1 !important;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #f97316 !important;
+}
+
+.fas:hover,
+.fab:hover,
+.far:hover,
+.ai:hover {
+  color: #f97316 !important;
+}
+
+.paper-box-text .authors strong,
+.paper-box-text .author-me {
+  color: #f97316 !important;
+}
+
+.paper-box .paper-box-text .paper-status.status-under-review {
+  color: #7c4a2f !important;
+  background: #f7f1ec !important;
+  border-color: #d8b8a0 !important;
+  box-shadow: none !important;
+}
+
+.paper-box-text .status-poster {
+  color: #c2410c !important;
+  background: linear-gradient(135deg, #ffe7d3 0%, #ffd6b1 100%) !important;
+  border-color: #efb37e !important;
+  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.2) !important;
+}
+
+.paper-box-text .status-oral {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+  border-color: #c2410c !important;
+  box-shadow: 0 6px 16px rgba(234, 88, 12, 0.34) !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.16);
+}

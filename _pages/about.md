@@ -65,6 +65,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   </div>
 
   <div class="mindmap-divider" aria-hidden="true"></div>
+  <div class="mindmap-connector" aria-hidden="true"></div>
 
   <div class="mindmap-extension-wrap">
     <div class="mindmap-extension floating-card">

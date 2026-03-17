@@ -307,16 +307,13 @@ body,
   position: relative;
 }
 
-.research-mindmap .mindmap-extension-wrap::before {
-  content: "";
-  position: absolute;
-  top: -0.72rem;
-  left: 50%;
-  width: 2px;
-  height: 0.72rem;
-  transform: translateX(-50%);
-  background: linear-gradient(180deg, rgba(249, 115, 22, 0.72) 0%, rgba(249, 115, 22, 0.22) 100%);
+.research-mindmap .mindmap-connector {
+  width: 3px;
+  height: 14px;
+  margin: 0.1rem auto 0.2rem;
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.9) 0%, rgba(249, 115, 22, 0.35) 100%);
   border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.08);
 }
 
 .research-mindmap .mindmap-divider {
@@ -388,6 +385,11 @@ body,
 
   .research-mindmap .mindmap-extension-wrap {
     margin-top: 0.82rem;
+  }
+
+  .research-mindmap .mindmap-connector {
+    height: 10px;
+    margin: 0.05rem auto 0.12rem;
   }
 
   .research-mindmap .mindmap-divider {

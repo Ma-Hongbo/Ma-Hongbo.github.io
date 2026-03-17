@@ -321,9 +321,9 @@ body,
 }
 
 .research-mindmap .mindmap-extension {
-  width: min(96%, 460px);
+  width: min(98%, 620px);
   margin: 0;
-  padding: 0.78rem 0.9rem 0.74rem;
+  padding: 0.6rem 1.05rem 0.56rem;
   border: 1px dashed rgba(249, 115, 22, 0.5) !important;
   border-radius: 12px;
   background: linear-gradient(135deg, #fff4ea 0%, #ffe8d4 100%) !important;
@@ -331,14 +331,14 @@ body,
 }
 
 .research-mindmap .mindmap-extension__title {
-  margin: 0 0 0.34rem;
+  margin: 0 0 0.22rem;
   font-weight: 700;
   color: #c2410c !important;
 }
 
 .research-mindmap .mindmap-extension p {
   margin: 0;
-  line-height: 1.45;
+  line-height: 1.34;
   color: #4c1d06 !important;
 }
 

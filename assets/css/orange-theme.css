@@ -307,6 +307,18 @@ body,
   position: relative;
 }
 
+.research-mindmap .mindmap-extension-wrap::before {
+  content: "";
+  position: absolute;
+  top: -0.72rem;
+  left: 50%;
+  width: 2px;
+  height: 0.72rem;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.72) 0%, rgba(249, 115, 22, 0.22) 100%);
+  border-radius: 999px;
+}
+
 .research-mindmap .mindmap-divider {
   width: min(760px, 92%);
   height: 2px;

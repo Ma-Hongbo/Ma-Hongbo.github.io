@@ -161,6 +161,4 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
 <span class='anchor' id='blogs'></span>
 
 # <i class="fas fa-blog"></i> Blogs
-- <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="link-accent">Rednote</a>
-- <a href="https://www.zhihu.com/people/22-13-70-62-20" class="link-accent">Zhihu</a>
-- Local blog page: <a href="/blogs" class="link-accent">/blogs/</a>
+If you'd like to follow more of my ideas and updates, feel free to visit my <a href="https://www.zhihu.com/people/22-13-70-62-20" class="link-accent">Zhihu</a> for longer reflections, my <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e" class="link-accent">Rednote</a> for lighter day-to-day sharing, and my local <a href="/blogs/" class="link-accent">blog page</a> for organized posts and archives.

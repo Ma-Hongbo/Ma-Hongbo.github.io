@@ -170,6 +170,17 @@ body,
   color: #f97316 !important;
 }
 
+/* Hard override: sidebar author block hover text/icon color */
+.sidebar .author__bio:hover,
+.sidebar .author__urls li:hover,
+.sidebar .author__urls li:hover *,
+.sidebar .author__urls a:hover,
+.sidebar .author__urls a:hover *,
+.sidebar .author__urls_sm a:hover,
+.sidebar .author__urls_sm a:hover * {
+  color: #f97316 !important;
+}
+
 .paper-box-text .authors strong,
 .paper-box-text .author-me {
   color: #f97316 !important;

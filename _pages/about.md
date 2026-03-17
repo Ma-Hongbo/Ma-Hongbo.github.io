@@ -28,32 +28,45 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   </ol>
 </div>
 
-<div class="highlight-blocks">
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-eye"></i> Vision and Generation</h3>
-    <ul>
-      <li>Visual representation learning and generative modeling</li>
-      <li>On-device video synthesis with compact Diffusion Transformers</li>
-      <li>3D-aware modeling and molecular structure understanding</li>
-    </ul>
+<div class="research-mindmap">
+  <div class="mindmap-core floating-card">
+    <p class="mindmap-core__label"><i class="fas fa-bullseye"></i> Core Theme</p>
+    <h3><i class="fas fa-globe"></i> World Models</h3>
+    <p>A unified research loop from <strong>Real2Sim</strong> to <strong>Sim2Sim</strong>, and then back to robust <strong>real-world deployment</strong>.</p>
   </div>
 
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-robot"></i> Agent Systems</h3>
-    <ul>
-      <li>Reasoning and decision-making mechanisms for AI agents</li>
-      <li>Negative-feedback mechanisms for multi-agent systems</li>
-      <li>End-to-end evaluation protocols for agentic tasks</li>
-    </ul>
-  </div>
+  <div class="mindmap-branches">
+    <div class="mindmap-branch floating-card">
+      <h3><i class="fas fa-cubes"></i> Part I: World Modeling (Real2Sim)</h3>
+      <ul>
+        <li>Visual representation learning and generative modeling</li>
+        <li>World and environment modeling for structured simulation spaces</li>
+        <li>Build high-fidelity, controllable simulators from real observations</li>
+      </ul>
+    </div>
 
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-flask"></i> AI for Science</h3>
-    <ul>
-      <li>AI for drug discovery and molecule optimization</li>
-      <li>Bayesian Flow Networks and generative learning methods</li>
-      <li>Bridging theory, implementation, and application</li>
-    </ul>
+    <div class="mindmap-branch floating-card">
+      <h3><i class="fas fa-robot"></i> Part II: Intelligent Agents (Sim2Sim)</h3>
+      <ul>
+        <li><strong>Perceive</strong>: learn grounded state understanding in simulated worlds</li>
+        <li><strong>Decision-making</strong>: reason and plan with efficient policy mechanisms</li>
+        <li><strong>Act</strong>: optimize agent behaviors through closed-loop interaction</li>
+      </ul>
+
+      <div class="mindmap-sub-branch">
+        <p class="mindmap-sub-branch__title"><i class="fas fa-flask"></i> Extension: Scientific Agents</p>
+        <p>From agent intelligence to AI for Science, enabling domain-specific discovery workflows in complex scientific environments.</p>
+      </div>
+    </div>
+
+    <div class="mindmap-branch floating-card">
+      <h3><i class="fas fa-industry"></i> Part III: Real-World Deployment (Sim2Real)</h3>
+      <ul>
+        <li>Efficient reasoning and execution under real-world constraints</li>
+        <li>Training and generalization in dynamic real environments</li>
+        <li>Deployment-centric adaptation loop for reliable long-horizon behavior</li>
+      </ul>
+    </div>
   </div>
 </div>
 

@@ -69,7 +69,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   <div class="mindmap-extension-wrap">
     <div class="mindmap-extension floating-card">
       <p class="mindmap-extension__title"><i class="fas fa-flask"></i> Extension: Scientific Agents</p>
-      <p>Based on a world model research route, we first abstract real scientific environments into controllable modeled spaces, solve tasks such as molecular design, reaction and mechanism hypothesis generation, and experiment planning in the abstracted environments, and then feed validated strategies and hypotheses back into real-world settings.</p>
+      <p>Based on a world model research route, we first abstract real scientific environments into controllable modeled spaces, solve tasks such as molecular design, and experiment planning in the abstracted environments, and then feed validated strategies and hypotheses back into real-world settings.</p>
     </div>
   </div>
 </div>

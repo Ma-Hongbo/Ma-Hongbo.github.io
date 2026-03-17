@@ -32,7 +32,7 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
   <div class="mindmap-core floating-card">
     <p class="mindmap-core__label"><i class="fas fa-bullseye"></i> Core Theme</p>
     <h3><i class="fas fa-globe"></i> World Models</h3>
-    <p>A unified research loop from <strong>Real2Sim</strong> to <strong>Sim2Sim</strong>, and then back to robust <strong>real-world deployment (Sim2Real)</strong>.</p>
+    <p>A unified research loop from <strong>Real2Sim</strong> to <strong>Sim2Sim</strong>, and then back to robust and efficient <strong>real-world deployment (Sim2Real)</strong>.</p>
   </div>
 
   <div class="mindmap-branches">

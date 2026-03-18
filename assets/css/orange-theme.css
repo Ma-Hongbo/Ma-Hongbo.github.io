@@ -455,19 +455,19 @@ body,
   font-weight: 400 !important;
 }
 
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4,
-.page__content h5,
-.page__content h6,
-.post-title,
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6,
-.paper-box-text h3 {
-  font-family: Georgia, "Times New Roman", Times, serif !important;
+.page__content > h1,
+.post-content > h1 {
+  position: relative;
+  padding-bottom: 0.35rem;
+}
+
+.page__content > h1::after,
+.post-content > h1::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 2px;
+  margin-top: 0.35rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%);
 }

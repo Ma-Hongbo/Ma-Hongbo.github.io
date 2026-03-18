@@ -12,11 +12,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Hongbo Ma</span> (马洪博). I am a final-year student at <i class="fas fa-university"></i> <a href="https://www.xyc.tsinghua.edu.cn/en/" class="link-accent">Xinya College</a> and <i class="fas fa-university"></i> <a href="https://www.cs.tsinghua.edu.cn/csen/" class="link-accent">Department of Computer Science and Technology</a>, <i class="fas fa-university"></i> <a href="https://www.tsinghua.edu.cn/en/" class="link-accent">Tsinghua University</a>. I am also minoring in Economics and Management at <i class="fas fa-university"></i> <a href="https://www.sem.tsinghua.edu.cn/en/" class="link-accent">School of Economics and Management</a>, Tsinghua University.
+Greetings. My name is <span class="accent-text">Hongbo Ma</span> (马洪博) and I am currently a senior student at <i class="fas fa-university"></i> <a href="https://www.tsinghua.edu.cn/en/" class="link-accent">Tsinghua University</a>, majoring in <i class="fas fa-university"></i> <a href="https://www.cs.tsinghua.edu.cn/csen/" class="link-accent">Computer Science and Technology</a> in the respective department under <i class="fas fa-university"></i> <a href="https://www.xyc.tsinghua.edu.cn/en/" class="link-accent">Xinya College</a>. With an additional minor in Economics and Management under the <i class="fas fa-university"></i> <a href="https://www.sem.tsinghua.edu.cn/en/" class="link-accent">School of Economics and Management</a>, I am nearing the completion of my program and am ready to pursue further deeper research interests in my field.
 
-My research interests primarily focus on <span class="primary-gradient-text">world models</span>, <span class="primary-gradient-text">generative models</span>, and <span class="primary-gradient-text">intelligent agent systems</span>. I aim to develop embodied agents that can perceive, reason, and act in real-world environments, and explore scientific agents for solving complex real-world problems.
+Specifically, my research emphasizes the use of <span class="primary-gradient-text">generative models</span> and <span class="primary-gradient-text">intelligent agent systems</span> that utilize the concepts and framework of <span class="primary-gradient-text">world models</span>. My main objective is to develop embodied agents that are able to perceive, reason and act in their appropriate environments in the real world. I explore ways to solve complex problems, using agents to analyze context and subsequently monitor desired output.
 
-If you want to learn more about me, feel free to check my <a href="/data/CV.pdf" class="link-accent">CV</a>.
+For more detailed information, please review my <a href="/data/CV.pdf" class="link-accent">CV</a> and current publications below.
 
 <div class="quote-accent methodology-focus">
   <p class="focus-title"><i class="fas fa-compass"></i> Current methodology focus</p>
@@ -41,16 +41,16 @@ If you want to learn more about me, feel free to check my <a href="/data/CV.pdf"
       <ul>
         <li>Visual representation learning and generative modeling</li>
         <li>World and environment modeling for structured simulation spaces</li>
-        <li>Build high-fidelity, controllable simulators from real observations</li>
+        <li>Building high-fidelity, controllable simulators from real observations</li>
       </ul>
     </div>
 
     <div class="mindmap-branch floating-card">
       <h3><i class="fas fa-robot"></i> Part II: Intelligent Agents (Sim2Sim)</h3>
       <ul>
-        <li><strong>Perceive</strong>: learn grounded state understanding in simulated worlds</li>
+        <li><strong>Perceiving</strong>: learn grounded state understanding in simulated worlds</li>
         <li><strong>Decision-making</strong>: reason and plan with efficient policy mechanisms</li>
-        <li><strong>Act</strong>: optimize agent behaviors through closed-loop interaction</li>
+        <li><strong>Acting</strong>: optimize agent behaviors through closed-loop interaction</li>
       </ul>
     </div>
 

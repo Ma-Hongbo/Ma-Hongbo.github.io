@@ -48,9 +48,9 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
     <div class="mindmap-branch floating-card">
       <h3><i class="fas fa-robot"></i> Part II: Intelligent Agents (Sim2Sim)</h3>
       <ul>
-        <li><strong>Perceiving</strong>: learn grounded state understanding in simulated worlds</li>
-        <li><strong>Decision-making</strong>: reason and plan with efficient policy mechanisms</li>
-        <li><strong>Acting</strong>: optimize agent behaviors through closed-loop interaction</li>
+        <li>Perceiving: learn grounded state understanding in simulated worlds</li>
+        <li>Decision-making: reason and plan with efficient policy mechanisms</li>
+        <li>Acting: optimize agent behaviors through closed-loop interaction</li>
       </ul>
     </div>
 

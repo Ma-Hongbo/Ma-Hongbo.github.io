@@ -433,3 +433,41 @@ body,
     grid-column: auto;
   }
 }
+
+/* Typography refinement: lighter body text + serif content headings */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content td,
+.page__content blockquote,
+.post-content,
+.post-content p,
+.post-content li,
+.post-content td,
+.post-content blockquote,
+.paper-box-text p,
+.paper-box-text .authors,
+.paper-box-text .venue,
+.research-mindmap .mindmap-core p,
+.research-mindmap .mindmap-branch p,
+.research-mindmap .mindmap-branch li,
+.research-mindmap .mindmap-extension p {
+  font-weight: 400 !important;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.paper-box-text h3 {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}

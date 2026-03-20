@@ -123,6 +123,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
     <div class="links">
       <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+      <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback" class="btn-accent"><i class="fas fa-video"></i> Video</a>
       <a href="https://github.com/ma-hongbo/StyleTailor" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>

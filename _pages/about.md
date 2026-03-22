@@ -14,7 +14,7 @@ redirect_from:
 
 Greetings. My name is <span class="accent-text">Hongbo Ma</span> (马洪博) and I am currently a senior student at <i class="fas fa-university"></i> <a href="https://www.tsinghua.edu.cn/en/" class="link-accent">Tsinghua University</a>, majoring in <i class="fas fa-university"></i> <a href="https://www.cs.tsinghua.edu.cn/csen/" class="link-accent">Computer Science and Technology</a> in the respective department under <i class="fas fa-university"></i> <a href="https://www.xyc.tsinghua.edu.cn/en/" class="link-accent">Xinya College</a>. With an additional minor in Economics and Management under the <i class="fas fa-university"></i> <a href="https://www.sem.tsinghua.edu.cn/en/" class="link-accent">School of Economics and Management</a>, I am nearing the completion of my program and am ready to pursue further deeper research interests in my field.
 
-Specifically, my research emphasizes the use of <span class="primary-gradient-text">generative models</span> and <span class="primary-gradient-text">intelligent agent systems</span> that utilize the concepts and framework of <span class="primary-gradient-text">world models</span>. My main objective is to develop embodied agents that are able to perceive, reason and act in their appropriate environments in the real world. I explore ways to solve complex problems, using agents to analyze context and subsequently monitor desired output.
+Specifically, my research emphasizes the use of <span class="primary-gradient-text">generative models</span> and <span class="primary-gradient-text">multi-agent system</span> that utilize the concepts and framework of <span class="primary-gradient-text">world models</span>. My main objective is to develop embodied agents that are able to perceive, reason and act in their appropriate environments in the real world. I explore ways to solve complex problems, using agents to analyze context and subsequently monitor desired output.
 
 For more detailed information, please review my <a href="/data/CV.pdf" class="link-accent">CV</a> and current publications below.
 
@@ -23,7 +23,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
   <ol class="focus-list">
     <li>Visual representation learning and generative modeling</li>
     <li>World and environment modeling</li>
-    <li>Efficient reasoning and decision-making for intelligent agents</li>
+    <li>Efficient reasoning and decision-making for multi-agent system</li>
     <li>Training and generalization in real-world environments</li>
   </ol>
 </div>
@@ -46,7 +46,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
     </div>
 
     <div class="mindmap-branch floating-card">
-      <h3><i class="fas fa-robot"></i> Part II: Intelligent Agents (Sim2Sim)</h3>
+      <h3><i class="fas fa-robot"></i> Part II: Multi-Agent System (Sim2Sim)</h3>
       <ul>
         <li>Perceiving: learn grounded state understanding in simulated worlds</li>
         <li>Decision-making: reason and plan with efficient policy mechanisms</li>
@@ -117,7 +117,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
   <div class='paper-box-text'>
     <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
     <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
-    <div class="venue">The Fortieth Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</div>
+    <div class="venue">The Fortieth Annual AAAI Conference on Artificial ligence (AAAI 2026)</div>
     <div class="paper-status status-oral">Oral</div>
     <div class="paper-status-note">Top 4.5% (1,058/23,680)</div>
     <div class="links">

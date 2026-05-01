@@ -78,6 +78,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 <span class='anchor' id='news'></span>
 
 # <i class="fas fa-fire"></i> News
+- *2026.5*: <a href="https://arxiv.org/abs/2604.02322" class="link-accent">BCR</a> is accepted by ICML 2026! 🎉🎉🎉
 - *2025.11*: <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="link-accent">StyleTailor</a> is accepted by AAAI 2026 and selected as Oral (Top 4.5%)! 🎉🎉🎉
 - *2025.5*: One paper is accepted by ICML 2025! 🎉
 - *2025.1*: One paper is accepted by ICLR 2025! 🎉
@@ -88,27 +89,28 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Batched Contextual Reinforcement.png' alt="Batched Contextual Reinforcement" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Batched Contextual Reinforcement</h3>
-    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-    <div class="links">
-       <a href="https://arxiv.org/abs/2604.02322" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
     <img src='images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png' alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
     <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <span class="author-me">Hongbo Ma</span>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
     <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">ICML 2026</div>
+    <img src='images/publications/Batched Contextual Reinforcement.png' alt="Batched Contextual Reinforcement" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Batched Contextual Reinforcement</h3>
+    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</div>
+    <div class="venue">Forty-Third International Conference on Machine Learning (ICML 2026)</div>
+    <div class="paper-status status-poster">Poster (Regular)</div>
+    <div class="links">
+       <a href="https://arxiv.org/abs/2604.02322" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+    </div>
   </div>
 </div>
 

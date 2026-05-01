@@ -107,7 +107,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
     <h3>Batched Contextual Reinforcement</h3>
     <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</div>
     <div class="venue">Forty-Third International Conference on Machine Learning (ICML 2026)</div>
-    <div class="paper-status status-poster">Poster (Regular)</div>
+    <div class="paper-status status-poster">Poster</div>
     <div class="links">
        <a href="https://arxiv.org/abs/2604.02322" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
     </div>

@@ -89,6 +89,18 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Concurrent Constraint Reinforcement</h3>
+    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
     <img src='images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png' alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer" width="100%">
   </div>
   <div class='paper-box-text'>

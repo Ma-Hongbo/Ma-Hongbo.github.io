@@ -194,6 +194,11 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 - *2024.07 - 2025.02*: Research Intern, GenSi Lab, Tsinghua University.
 - *2024.02 - 2024.06*: Research Intern, ATOM Lab, Tsinghua University.
 
+<span class='anchor' id='services'></span>
+
+# <i class="fas fa-handshake"></i> Services
+- NeurIPS 2026, Reviewer
+
 <span class='anchor' id='blogs'></span>
 
 # <i class="fas fa-blog"></i> Blogs

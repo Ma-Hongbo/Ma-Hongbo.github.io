@@ -89,6 +89,18 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse.png' alt="Concurrent Constraint Reinforcement" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</h3>
+    <div class="authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
     <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
   </div>
   <div class='paper-box-text'>

@@ -95,6 +95,9 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
     <h3>Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</h3>
     <div class="authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</div>
     <div class="paper-status status-under-review">Under Review</div>
+    <div class="links">
+       <a href="https://arxiv.org/pdf/2605.09965" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+    </div>
   </div>
 </div>
 

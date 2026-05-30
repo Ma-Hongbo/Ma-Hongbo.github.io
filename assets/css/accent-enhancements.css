@@ -568,8 +568,126 @@ body {
   margin-top: 1rem;
 }
 
+/* Publication archive tabs and author-role grouping */
+.publication-archive {
+  margin-top: 1.25rem;
+}
+
+.publication-year-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.publication-year-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 1.5rem 0;
+  padding: 0.3rem;
+  border: 1px solid rgba(249, 115, 22, 0.18);
+  border-radius: 999px;
+  background: #fff7ed;
+  box-shadow: 0 8px 24px rgba(1, 47, 99, 0.06);
+}
+
+.publication-year-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 5.25rem;
+  min-height: 2.35rem;
+  padding: 0.45rem 1.15rem;
+  border-radius: 999px;
+  color: #9a3412;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1;
+  transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.publication-year-tab:hover,
+.publication-year-tab:focus-visible {
+  color: #012f63;
+  transform: translateY(-1px);
+}
+
+#pub-year-2026:checked ~ .publication-year-tabs label[for="pub-year-2026"],
+#pub-year-2025:checked ~ .publication-year-tabs label[for="pub-year-2025"] {
+  color: #ffffff;
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  box-shadow: 0 8px 18px rgba(249, 115, 22, 0.22);
+}
+
+.publication-year-panel {
+  display: none;
+}
+
+#pub-year-2026:checked ~ .publication-year-2026,
+#pub-year-2025:checked ~ .publication-year-2025 {
+  display: block;
+}
+
+.publication-author-group--major::before {
+  content: "Major Author";
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 0.9rem 0;
+  padding: 0.24rem 0.72rem;
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: 999px;
+  background: #fff7ed;
+  color: #9a3412;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.publication-author-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0 1.45rem 0;
+  color: #9a3412;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.publication-author-divider::before,
+.publication-author-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(249, 115, 22, 0), rgba(249, 115, 22, 0.38), rgba(249, 115, 22, 0));
+}
+
+.publication-author-divider span {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
 /* 响应式设计 - 移动端改为上下布局 */
 @media (max-width: 768px) {
+  .publication-year-tabs {
+    display: flex;
+    width: 100%;
+  }
+
+  .publication-year-tab {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .publication-author-divider {
+    gap: 0.75rem;
+  }
+
   .paper-box {
     flex-direction: column;
     margin-bottom: 1.8rem;

@@ -86,157 +86,183 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 
 # <i class="fas fa-file-alt"></i> Publications
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Language as Reasoning Path" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Language as Reasoning Path: Uncovering Language-Specific Mathematical Reasoning in Large Language Models</h3>
-    <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Jiajun Fan*, Yunqian Selina Cheng, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
+<div class="publication-archive">
+  <input class="publication-year-input" type="radio" name="publication-year" id="pub-year-2026" checked>
+  <input class="publication-year-input" type="radio" name="publication-year" id="pub-year-2025">
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Constraint-First Reasoning" width="100%">
+  <div class="publication-year-tabs" role="tablist" aria-label="Publication years">
+    <label class="publication-year-tab" id="pub-tab-2026" for="pub-year-2026" role="tab" aria-controls="pub-panel-2026">2026</label>
+    <label class="publication-year-tab" id="pub-tab-2025" for="pub-year-2025" role="tab" aria-controls="pub-panel-2025">2025</label>
   </div>
-  <div class='paper-box-text'>
-    <h3>Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</h3>
-    <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Auditing Generated Skill Libraries" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Auditing Generated Skill Libraries for Embodied Language Agents</h3>
-    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
+  <div class="publication-year-panel publication-year-2026" id="pub-panel-2026" role="tabpanel" aria-labelledby="pub-tab-2026">
+    <div class="publication-author-group publication-author-group--major">
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Language as Reasoning Path" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Language as Reasoning Path: Uncovering Language-Specific Mathematical Reasoning in Large Language Models</h3>
+          <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Jiajun Fan*, Yunqian Selina Cheng, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>From Melee to Consensus: Adaptive Moderated Debate for Inference-Time LLM Reasoning</h3>
-    <div class="authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Constraint-First Reasoning" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</h3>
+          <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse.png' alt="Towards Generalist Game Players" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</h3>
-    <div class="authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</div>
-    <div class="paper-status status-under-review">Under Review</div>
-    <div class="links">
-       <a href="https://arxiv.org/pdf/2605.09965" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Auditing Generated Skill Libraries" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Auditing Generated Skill Libraries for Embodied Language Agents</h3>
+          <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
+
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>From Melee to Consensus: Adaptive Moderated Debate for Inference-Time LLM Reasoning</h3>
+          <div class="authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
+
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Concurrent Constraint Reinforcement</h3>
+          <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
+
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">ICML 2026</div>
+          <img src='images/publications/Batched Contextual Reinforcement.png' alt="Batched Contextual Reinforcement" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Batched Contextual Reinforcement</h3>
+          <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</div>
+          <div class="venue">Forty-Third International Conference on Machine Learning (ICML 2026)</div>
+          <div class="paper-status status-poster">Poster</div>
+          <div class="links">
+             <a href="https://arxiv.org/abs/2604.02322" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-author-divider"><span>Minor Author</span></div>
+
+    <div class="publication-author-group publication-author-group--minor">
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse.png' alt="Towards Generalist Game Players" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</h3>
+          <div class="authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</div>
+          <div class="paper-status status-under-review">Under Review</div>
+          <div class="links">
+             <a href="https://arxiv.org/pdf/2605.09965" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+          </div>
+        </div>
+      </div>
+
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png' alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
+          <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <span class="author-me">Hongbo Ma</span>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Concurrent Constraint Reinforcement</h3>
-    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer.png' alt="Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion-Transformer" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Towards High-Fidelity Mobile Video Synthesis with Slimmed Diffusion Transformer</h3>
-    <div class="authors">Juncheng Yan, Qi Qin, Yinan Liang, <span class="author-me">Hongbo Ma</span>, Le Zhuo, Yuandong Pu, Yi Xin, Wenzhao Zheng, Yu Qiao, Yihao Liu, Jiwen Lu</div>
-    <div class="paper-status status-under-review">Under Review</div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICML 2026</div>
-    <img src='images/publications/Batched Contextual Reinforcement.png' alt="Batched Contextual Reinforcement" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Batched Contextual Reinforcement</h3>
-    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</div>
-    <div class="venue">Forty-Third International Conference on Machine Learning (ICML 2026)</div>
-    <div class="paper-status status-poster">Poster</div>
-    <div class="links">
-       <a href="https://arxiv.org/abs/2604.02322" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+  <div class="publication-year-panel publication-year-2025" id="pub-panel-2025" role="tabpanel" aria-labelledby="pub-tab-2025">
+    <div class="publication-author-group publication-author-group--major">
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">AAAI 2026</div>
+          <img src='images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png' alt="StyleTailor" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
+          <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
+          <div class="venue">The Fortieth Annual AAAI Conference on Artificial ligence (AAAI 2026)</div>
+          <div class="paper-status status-oral">Oral</div>
+          <div class="paper-status-note">Top 4.5% (1,058/23,680)</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+            <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback" class="btn-accent"><i class="fas fa-video"></i> Video</a>
+            <a href="https://github.com/ma-hongbo/StyleTailor" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">AAAI 2026</div>
-    <img src='images/publications/StyleTailor- Towards Personalized Fashion Styling via Hierarchical Negative Feedback.png' alt="StyleTailor" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</h3>
-    <div class="authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</div>
-    <div class="venue">The Fortieth Annual AAAI Conference on Artificial ligence (AAAI 2026)</div>
-    <div class="paper-status status-oral">Oral</div>
-    <div class="paper-status-note">Top 4.5% (1,058/23,680)</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2508.06555" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="https://ma-hongbo.github.io/StyleTailor.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project</a>
-      <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback" class="btn-accent"><i class="fas fa-video"></i> Video</a>
-      <a href="https://github.com/ma-hongbo/StyleTailor" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
+    <div class="publication-author-divider"><span>Minor Author</span></div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICML 2025</div>
-    <img src='images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png' alt="Empower Structure-based Molecule Optimization with Gradient Guidance" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Empower Structure-based Molecule Optimization with Gradient Guidance</h3>
-    <div class="authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</div>
-    <div class="venue">Forty-Second International Conference on Machine Learning (ICML 2025)</div>
-    <div class="paper-status status-poster">Poster</div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2411.13280" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
-    </div>
-  </div>
-</div>
+    <div class="publication-author-group publication-author-group--minor">
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">ICML 2025</div>
+          <img src='images/publications/Empower Structure-Based Molecule Optimization with Gradient Guided Bayesian Flow Networks.png' alt="Empower Structure-based Molecule Optimization with Gradient Guidance" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Empower Structure-based Molecule Optimization with Gradient Guidance</h3>
+          <div class="authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</div>
+          <div class="venue">Forty-Second International Conference on Machine Learning (ICML 2025)</div>
+          <div class="paper-status status-poster">Poster</div>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2411.13280" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+          </div>
+        </div>
+      </div>
 
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">ICLR 2025</div>
-    <img src='images/publications/Redefining the task of Bioactivity Prediction.png' alt="Redefining the Task of Bioactivity Prediction" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3>Redefining the Task of Bioactivity Prediction</h3>
-    <div class="authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</div>
-    <div class="venue">The Thirteenth International Conference on Learning Representations (ICLR 2025)</div>
-    <div class="paper-status status-poster">Poster</div>
-    <div class="links">
-      <a href="https://openreview.net/pdf?id=S8gbnkCgxZ" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">ICLR 2025</div>
+          <img src='images/publications/Redefining the task of Bioactivity Prediction.png' alt="Redefining the Task of Bioactivity Prediction" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Redefining the Task of Bioactivity Prediction</h3>
+          <div class="authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</div>
+          <div class="venue">The Thirteenth International Conference on Learning Representations (ICLR 2025)</div>
+          <div class="paper-status status-poster">Poster</div>
+          <div class="links">
+            <a href="https://openreview.net/pdf?id=S8gbnkCgxZ" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

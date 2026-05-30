@@ -89,7 +89,55 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">Under Review</div>
-    <img src='images/publications/Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse.png' alt="Concurrent Constraint Reinforcement" width="100%">
+    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Language as Reasoning Path" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Language as Reasoning Path: Uncovering Language-Specific Mathematical Reasoning in Large Language Models</h3>
+    <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Jiajun Fan*, Yunqian Selina Cheng, Ge Liu</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Constraint-First Reasoning" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</h3>
+    <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Auditing Generated Skill Libraries" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>Auditing Generated Skill Libraries for Embodied Language Agents</h3>
+    <div class="authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Concurrent Constraint Reinforcement" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3>From Melee to Consensus: Adaptive Moderated Debate for Inference-Time LLM Reasoning</h3>
+    <div class="authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng, Ge Liu</div>
+    <div class="paper-status status-under-review">Under Review</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">Under Review</div>
+    <img src='images/publications/Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse.png' alt="Towards Generalist Game Players" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3>Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</h3>

@@ -96,6 +96,8 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
   </div>
 
   <div class="publication-year-panel publication-year-2026" id="pub-panel-2026" role="tabpanel" aria-labelledby="pub-tab-2026">
+    <div class="publication-author-divider publication-author-divider--major"><span>Major Author</span></div>
+
     <div class="publication-author-group publication-author-group--major">
       <div class='paper-box floating-card'>
         <div class='paper-box-image'>
@@ -207,6 +209,8 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
   </div>
 
   <div class="publication-year-panel publication-year-2025" id="pub-panel-2025" role="tabpanel" aria-labelledby="pub-tab-2025">
+    <div class="publication-author-divider publication-author-divider--major"><span>Major Author</span></div>
+
     <div class="publication-author-group publication-author-group--major">
       <div class='paper-box floating-card'>
         <div class='paper-box-image'>

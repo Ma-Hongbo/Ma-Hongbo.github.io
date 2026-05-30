@@ -630,22 +630,6 @@ body {
   display: block;
 }
 
-.publication-author-group--major::before {
-  content: "Major Author";
-  display: inline-flex;
-  align-items: center;
-  margin: 0 0 0.9rem 0;
-  padding: 0.24rem 0.72rem;
-  border: 1px solid rgba(249, 115, 22, 0.2);
-  border-radius: 999px;
-  background: #fff7ed;
-  color: #9a3412;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
 .publication-author-divider {
   display: flex;
   align-items: center;
@@ -656,6 +640,10 @@ body {
   font-weight: 800;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+
+.publication-author-divider--major {
+  margin-top: 0;
 }
 
 .publication-author-divider::before,

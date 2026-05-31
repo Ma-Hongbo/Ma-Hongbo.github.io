@@ -102,7 +102,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
       <div class='paper-box floating-card'>
         <div class='paper-box-image'>
           <div class="badge pulse-accent">Under Review</div>
-          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Language as Reasoning Path" width="100%">
+          <img src='images/publications/Language as Reasoning Path.png' alt="Language as Reasoning Path.png" width="100%">
         </div>
         <div class='paper-box-text'>
           <h3>Language as Reasoning Path: Uncovering Language-Specific Mathematical Reasoning in Large Language Models</h3>

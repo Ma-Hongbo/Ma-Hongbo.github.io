@@ -98,6 +98,31 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
   <div class="publication-year-panel publication-year-2026" id="pub-panel-2026" role="tabpanel" aria-labelledby="pub-tab-2026">
     <div class="publication-author-divider publication-author-divider--major"><span>Major Author</span></div>
 
+    <!-- <div class="publication-author-group publication-author-group--major">
+      <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Language as Reasoning Path.png' alt="Language as Reasoning Path.png" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Language as Reasoning Path: Uncovering Language-Specific Mathematical Reasoning in Large Language Models</h3>
+          <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Jiajun Fan*, Yunqian Selina Cheng, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div> -->
+
+      <!-- <div class='paper-box floating-card'>
+        <div class='paper-box-image'>
+          <div class="badge pulse-accent">Under Review</div>
+          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Constraint-First Reasoning" width="100%">
+        </div>
+        <div class='paper-box-text'>
+          <h3>Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</h3>
+          <div class="authors"> <span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</div>
+          <div class="paper-status status-under-review">Under Review</div>
+        </div>
+      </div> -->
+
       <div class='paper-box floating-card'>
         <div class='paper-box-image'>
           <div class="badge pulse-accent">Under Review</div>
@@ -266,6 +291,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 
 # <i class="fas fa-handshake"></i> Services
 - NeurIPS 2026, Reviewer
+- ICML 2026 Workshop AI4Math, Reviewer
 
 <span class='anchor' id='blogs'></span>
 

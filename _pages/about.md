@@ -115,7 +115,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
       <!-- <div class='paper-box floating-card'>
         <div class='paper-box-image'>
           <div class="badge pulse-accent">Under Review</div>
-          <img src='images/publications/Concurrent Constraint Reinforcement.png' alt="Constraint-First Reasoning" width="100%">
+          <img src='images/publications/Constraint-First Reasoning.png' alt="Constraint-First Reasoning" width="100%">
         </div>
         <div class='paper-box-text'>
           <h3>Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</h3>

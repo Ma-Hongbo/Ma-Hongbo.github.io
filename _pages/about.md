@@ -294,6 +294,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 # <i class="fas fa-handshake"></i> Services
 - NeurIPS 2026, Reviewer
 - ICML 2026 Workshop AI4Math, Reviewer
+- ACL ARR 2026 May, Reviewer
 
 <span class='anchor' id='blogs'></span>
 

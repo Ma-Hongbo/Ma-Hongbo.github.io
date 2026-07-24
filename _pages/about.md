@@ -295,6 +295,7 @@ For more detailed information, please review my <a href="/data/CV.pdf" class="li
 - NeurIPS 2026, Reviewer
 - ICML 2026 Workshop AI4Math, Reviewer
 - ACL ARR 2026 May, Reviewer
+- AAAI 2027, Program Committee
 
 <span class='anchor' id='blogs'></span>
 

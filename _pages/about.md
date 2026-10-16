@@ -84,7 +84,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/Auditing%20Generated%20Skill%20Libraries.png" alt="Cover for Auditing Generated Skill Libraries for Embodied Language Agents" loading="lazy">
   <div>
-    <p class="publication-title">Auditing Generated Skill Libraries for Embodied Language Agents</p>
+    <p class="publication-title">Section-Aware Auditting and Compression of Generated Skill Libraries for Language Agents</p>
     <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</p>
     <p class="publication-venue">Under Review</p>
     <div class="publication-links"></div>
@@ -93,7 +93,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/Batched%20Contextual%20Reinforcement.png" alt="Cover for Batched Contextual Reinforcement" loading="lazy">
   <div>
-    <p class="publication-title"><a href="https://arxiv.org/abs/2604.02322">Batched Contextual Reinforcement</a></p>
+    <p class="publication-title">Batched Contextual Reinforcement</p>
     <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</p>
     <p class="publication-venue">ICML 2026 Poster</p>
     <div class="publication-links"><a href="https://arxiv.org/abs/2604.02322">Paper</a></div>
@@ -102,7 +102,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/StyleTailor-%20Towards%20Personalized%20Fashion%20Styling%20via%20Hierarchical%20Negative%20Feedback.png" alt="Cover for StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback" loading="lazy">
   <div>
-    <p class="publication-title"><a href="https://arxiv.org/abs/2508.06555">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</a></p>
+    <p class="publication-title">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</p>
     <p class="publication-authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</p>
     <p class="publication-venue">AAAI 2026 Oral</p>
     <div class="publication-links"><a href="https://arxiv.org/abs/2508.06555">Paper</a> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback">Video</a> <a href="https://github.com/ma-hongbo/StyleTailor">Code</a></div>
@@ -132,7 +132,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/Towards%20Generalist%20Game%20Players:%20A%20Survey%20of%20Foundation%20Models%20in%20the%20Game%20Multiverse.png" alt="Cover for Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse" loading="lazy">
   <div>
-    <p class="publication-title"><a href="https://arxiv.org/pdf/2605.09965">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</a></p>
+    <p class="publication-title">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</p>
     <p class="publication-authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</p>
     <p class="publication-venue">Under Review</p>
     <div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a></div>
@@ -141,7 +141,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/Empower%20Structure-Based%20Molecule%20Optimization%20with%20Gradient%20Guided%20Bayesian%20Flow%20Networks.png" alt="Cover for Empower Structure-based Molecule Optimization with Gradient Guidance" loading="lazy">
   <div>
-    <p class="publication-title"><a href="https://arxiv.org/abs/2411.13280">Empower Structure-based Molecule Optimization with Gradient Guidance</a></p>
+    <p class="publication-title">Empower Structure-based Molecule Optimization with Gradient Guidance</p>
     <p class="publication-authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</p>
     <p class="publication-venue">ICML 2025 Poster</p>
     <div class="publication-links"><a href="https://arxiv.org/abs/2411.13280">Paper</a></div>
@@ -150,7 +150,7 @@ redirect_from:
 <li class="publication-item">
   <img class="publication-image" src="/images/publications/Redefining%20the%20task%20of%20Bioactivity%20Prediction.png" alt="Cover for Redefining the Task of Bioactivity Prediction" loading="lazy">
   <div>
-    <p class="publication-title"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Redefining the Task of Bioactivity Prediction</a></p>
+    <p class="publication-title">Redefining the Task of Bioactivity Prediction</p>
     <p class="publication-authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</p>
     <p class="publication-venue">ICLR 2025 Poster</p>
     <div class="publication-links"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a></div>

@@ -41,8 +41,8 @@ redirect_from:
   <div>
     <p class="publication-title">Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</p>
     <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</p>
-    <p class="publication-venue">ACL ARR 2026 Oct</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -50,8 +50,8 @@ redirect_from:
   <div>
     <p class="publication-title">Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards</p>
     <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</p>
-    <p class="publication-venue">ACL ARR 2026 Oct</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -59,8 +59,8 @@ redirect_from:
   <div>
     <p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
     <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
-    <p class="publication-venue">ICLR 2027</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -68,8 +68,8 @@ redirect_from:
   <div>
     <p class="publication-title">ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation</p>
     <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Xi Zhu, Weizhi Zhang, Minghao Guo, Ye Li, Hamid Palangi, Jiaxuan You</p>
-    <p class="publication-venue">ICLR 2027</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -77,8 +77,8 @@ redirect_from:
   <div>
     <p class="publication-title">Does Scaling Reinforcement Learning Really Require More Training?</p>
     <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Ruihan Guo*, Ge Liu</p>
-    <p class="publication-venue">ICLR 2027</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -86,8 +86,8 @@ redirect_from:
   <div>
     <p class="publication-title">Auditing Generated Skill Libraries for Embodied Language Agents</p>
     <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</p>
-    <p class="publication-venue">ICASSP</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -95,8 +95,8 @@ redirect_from:
   <div>
     <p class="publication-title"><a href="https://arxiv.org/abs/2604.02322">Batched Contextual Reinforcement</a></p>
     <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</p>
-    <p class="publication-venue">ICML 2026</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2604.02322">Paper</a><span class="publication-status">Poster</span></div>
+    <p class="publication-venue">ICML 2026 Poster</p>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2604.02322">Paper</a></div>
   </div>
 </li>
 <li class="publication-item">
@@ -104,8 +104,8 @@ redirect_from:
   <div>
     <p class="publication-title"><a href="https://arxiv.org/abs/2508.06555">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</a></p>
     <p class="publication-authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</p>
-    <p class="publication-venue">AAAI 2026</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2508.06555">Paper</a> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback">Video</a> <a href="https://github.com/ma-hongbo/StyleTailor">Code</a><span class="publication-status">Oral</span></div>
+    <p class="publication-venue">AAAI 2026 Oral</p>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2508.06555">Paper</a> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback">Video</a> <a href="https://github.com/ma-hongbo/StyleTailor">Code</a></div>
   </div>
 </li>
 </ol>
@@ -116,8 +116,8 @@ redirect_from:
   <div>
     <p class="publication-title">Training-Free On-Policy Distillation</p>
     <p class="publication-authors">Bangji Yang*, Jiajun Fan*, Zhaoyu Zhu, <span class="author-me">Hongbo Ma</span>, Ge Liu</p>
-    <p class="publication-venue">ACL ARR 2026 Oct</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -125,8 +125,8 @@ redirect_from:
   <div>
     <p class="publication-title">How Much Can Language Models Gain from Test-Time Computation?</p>
     <p class="publication-authors">Bangji Yang, Jingyuan Li, Jiajun Fan, Yi Evie Zhang, Ruihan Guo, <span class="author-me">Hongbo Ma</span>, Neil He, Chumeng Liang, Qinglong Zheng, Zhanghan Ni, Ge Liu</p>
-    <p class="publication-venue">ICLR 2027</p>
-    <div class="publication-links"><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"></div>
   </div>
 </li>
 <li class="publication-item">
@@ -134,8 +134,8 @@ redirect_from:
   <div>
     <p class="publication-title"><a href="https://arxiv.org/pdf/2605.09965">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</a></p>
     <p class="publication-authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</p>
-    <p class="publication-venue">TMLR</p>
-    <div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a><span class="publication-status">Under Review</span></div>
+    <p class="publication-venue">Under Review</p>
+    <div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a></div>
   </div>
 </li>
 <li class="publication-item">
@@ -143,8 +143,8 @@ redirect_from:
   <div>
     <p class="publication-title"><a href="https://arxiv.org/abs/2411.13280">Empower Structure-based Molecule Optimization with Gradient Guidance</a></p>
     <p class="publication-authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</p>
-    <p class="publication-venue">ICML 2025</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2411.13280">Paper</a><span class="publication-status">Poster</span></div>
+    <p class="publication-venue">ICML 2025 Poster</p>
+    <div class="publication-links"><a href="https://arxiv.org/abs/2411.13280">Paper</a></div>
   </div>
 </li>
 <li class="publication-item">
@@ -152,8 +152,8 @@ redirect_from:
   <div>
     <p class="publication-title"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Redefining the Task of Bioactivity Prediction</a></p>
     <p class="publication-authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</p>
-    <p class="publication-venue">ICLR 2025</p>
-    <div class="publication-links"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a><span class="publication-status">Poster</span></div>
+    <p class="publication-venue">ICLR 2025 Poster</p>
+    <div class="publication-links"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a></div>
   </div>
 </li>
 </ol>
@@ -200,6 +200,6 @@ redirect_from:
 </section>
 
 <section id="blogs">
-<h2>Writing &amp; More</h2>
-<p>For longer reflections, visit my <a href="https://www.zhihu.com/people/22-13-70-62-20">Zhihu</a>. I also share shorter updates on <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e">Rednote</a> and collect posts on my <a href="/blogs/">blog page</a>.</p>
+<h2>Misc</h2>
+<p>I love writing. For longer reflections, visit my <a href="https://www.zhihu.com/people/22-13-70-62-20">Zhihu</a>. I also share shorter updates on <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e">Rednote</a> and collect posts on my <a href="/blogs/">blog page</a>.</p>
 </section>

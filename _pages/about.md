@@ -14,6 +14,7 @@ redirect_from:
 
 <section id="news">
 <h2>News</h2>
+<div class="news-frame">
 <ul class="news-list">
 <li><strong>2026.05</strong> — <a href="https://arxiv.org/abs/2604.02322">Batched Contextual Reinforcement</a> was accepted by ICML 2026.</li>
 <li><strong>2025.11</strong> — <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">StyleTailor</a> was accepted by AAAI 2026 as an Oral presentation (Top 4.5%).</li>
@@ -28,6 +29,7 @@ redirect_from:
 <li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
 <li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
 </ul>
+</div>
 </section>
 
 <section id="educations">
@@ -39,128 +41,140 @@ redirect_from:
 <section id="publications">
 <h2>Publications</h2>
 <p class="note">* denotes equal contribution.</p>
-<div class="publication-groups">
+<div class="publication-year-tabs" role="tablist" aria-label="Publication year">
+<button class="publication-year-tab" id="pub-tab-2026" type="button" role="tab" aria-selected="true" aria-controls="pub-panel-2026" tabindex="0">2026</button>
+<button class="publication-year-tab" id="pub-tab-2025" type="button" role="tab" aria-selected="false" aria-controls="pub-panel-2025" tabindex="-1">2025</button>
+</div>
+<div id="pub-panel-2026" class="publication-year-panel publication-groups" role="tabpanel" aria-labelledby="pub-tab-2026" tabindex="0">
 <h3 class="publication-group-heading">Major Author</h3>
 <ol class="publication-list">
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Constraint-First%20Reasoning.png" alt="Cover for Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving" loading="lazy">
-  <div>
-    <p class="publication-title">Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</p>
-    <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving" class="publication-image" loading="lazy" src="/images/publications/Constraint-First%20Reasoning.png"/>
+<div>
+<p class="publication-title">Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</p>
+<p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Does%20RLVR%20Need%20Long%20Rollout%20Windows.svg" alt="Cover for Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards" loading="lazy">
-  <div>
-    <p class="publication-title">Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards</p>
-    <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards" class="publication-image" loading="lazy" src="/images/publications/Does%20RLVR%20Need%20Long%20Rollout%20Windows.svg"/>
+<div>
+<p class="publication-title">Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards</p>
+<p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/S3%20Spectral%20Null-Space%20Swap.svg" alt="Cover for S3: Spectral Null-Space Swap Makes Reasoning Models Efficient" loading="lazy">
-  <div>
-    <p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
-    <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for S3: Spectral Null-Space Swap Makes Reasoning Models Efficient" class="publication-image" loading="lazy" src="/images/publications/S3%20Spectral%20Null-Space%20Swap.svg"/>
+<div>
+<p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
+<p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/ReSolve.svg" alt="Cover for ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation" loading="lazy">
-  <div>
-    <p class="publication-title">ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation</p>
-    <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Xi Zhu, Weizhi Zhang, Minghao Guo, Ye Li, Hamid Palangi, Jiaxuan You</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation" class="publication-image" loading="lazy" src="/images/publications/ReSolve.svg"/>
+<div>
+<p class="publication-title">ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation</p>
+<p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Xi Zhu, Weizhi Zhang, Minghao Guo, Ye Li, Hamid Palangi, Jiaxuan You</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Does%20Scaling%20Reinforcement%20Learning%20Really%20Require%20More%20Training.svg" alt="Cover for Does Scaling Reinforcement Learning Really Require More Training?" loading="lazy">
-  <div>
-    <p class="publication-title">Does Scaling Reinforcement Learning Really Require More Training?</p>
-    <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Ruihan Guo*, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for Does Scaling Reinforcement Learning Really Require More Training?" class="publication-image" loading="lazy" src="/images/publications/Does%20Scaling%20Reinforcement%20Learning%20Really%20Require%20More%20Training.svg"/>
+<div>
+<p class="publication-title">Does Scaling Reinforcement Learning Really Require More Training?</p>
+<p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Ruihan Guo*, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Auditing%20Generated%20Skill%20Libraries.png" alt="Cover for Auditing Generated Skill Libraries for Embodied Language Agents" loading="lazy">
-  <div>
-    <p class="publication-title">Section-Aware Auditting and Compression of Generated Skill Libraries for Language Agents</p>
-    <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for Auditing Generated Skill Libraries for Embodied Language Agents" class="publication-image" loading="lazy" src="/images/publications/Auditing%20Generated%20Skill%20Libraries.png"/>
+<div>
+<p class="publication-title">Section-Aware Auditting and Compression of Generated Skill Libraries for Language Agents</p>
+<p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Batched%20Contextual%20Reinforcement.png" alt="Cover for Batched Contextual Reinforcement" loading="lazy">
-  <div>
-    <p class="publication-title">Batched Contextual Reinforcement</p>
-    <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</p>
-    <p class="publication-venue">ICML 2026 Poster</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2604.02322">Paper</a></div>
-  </div>
-</li>
-<li class="publication-item">
-  <img class="publication-image" src="/images/publications/StyleTailor-%20Towards%20Personalized%20Fashion%20Styling%20via%20Hierarchical%20Negative%20Feedback.png" alt="Cover for StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback" loading="lazy">
-  <div>
-    <p class="publication-title">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</p>
-    <p class="publication-authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</p>
-    <p class="publication-venue">AAAI 2026 Oral</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2508.06555">Paper</a> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback">Video</a> <a href="https://github.com/ma-hongbo/StyleTailor">Code</a></div>
-  </div>
+<img alt="Cover for Batched Contextual Reinforcement" class="publication-image" loading="lazy" src="/images/publications/Batched%20Contextual%20Reinforcement.png"/>
+<div>
+<p class="publication-title">Batched Contextual Reinforcement</p>
+<p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Jiajun Fan, Ge Liu</p>
+<p class="publication-venue">ICML 2026 Poster</p>
+<div class="publication-links"><a href="https://arxiv.org/abs/2604.02322">Paper</a></div>
+</div>
 </li>
 </ol>
 <h3 class="publication-group-heading">Secondary Author</h3>
 <ol class="publication-list">
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Training-Free%20On-Policy%20Distillation.svg" alt="Cover for Training-Free On-Policy Distillation" loading="lazy">
-  <div>
-    <p class="publication-title">Training-Free On-Policy Distillation</p>
-    <p class="publication-authors">Bangji Yang*, Jiajun Fan*, Zhaoyu Zhu, <span class="author-me">Hongbo Ma</span>, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for Training-Free On-Policy Distillation" class="publication-image" loading="lazy" src="/images/publications/Training-Free%20On-Policy%20Distillation.svg"/>
+<div>
+<p class="publication-title">Training-Free On-Policy Distillation</p>
+<p class="publication-authors">Bangji Yang*, Jiajun Fan*, Zhaoyu Zhu, <span class="author-me">Hongbo Ma</span>, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Test-Time%20Computation.svg" alt="Cover for How Much Can Language Models Gain from Test-Time Computation?" loading="lazy">
-  <div>
-    <p class="publication-title">How Much Can Language Models Gain from Test-Time Computation?</p>
-    <p class="publication-authors">Bangji Yang, Jingyuan Li, Jiajun Fan, Yi Evie Zhang, Ruihan Guo, <span class="author-me">Hongbo Ma</span>, Neil He, Chumeng Liang, Qinglong Zheng, Zhanghan Ni, Ge Liu</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"></div>
-  </div>
+<img alt="Cover for How Much Can Language Models Gain from Test-Time Computation?" class="publication-image" loading="lazy" src="/images/publications/Test-Time%20Computation.svg"/>
+<div>
+<p class="publication-title">How Much Can Language Models Gain from Test-Time Computation?</p>
+<p class="publication-authors">Bangji Yang, Jingyuan Li, Jiajun Fan, Yi Evie Zhang, Ruihan Guo, <span class="author-me">Hongbo Ma</span>, Neil He, Chumeng Liang, Qinglong Zheng, Zhanghan Ni, Ge Liu</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Towards%20Generalist%20Game%20Players:%20A%20Survey%20of%20Foundation%20Models%20in%20the%20Game%20Multiverse.png" alt="Cover for Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse" loading="lazy">
-  <div>
-    <p class="publication-title">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</p>
-    <p class="publication-authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</p>
-    <p class="publication-venue">Under Review</p>
-    <div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a></div>
-  </div>
+<img alt="Cover for Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse" class="publication-image" loading="lazy" src="/images/publications/Towards%20Generalist%20Game%20Players:%20A%20Survey%20of%20Foundation%20Models%20in%20the%20Game%20Multiverse.png"/>
+<div>
+<p class="publication-title">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</p>
+<p class="publication-authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</p>
+<p class="publication-venue">Under Review</p>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a></div>
+</div>
+</li>
+</ol>
+</div>
+<div id="pub-panel-2025" class="publication-year-panel publication-groups" role="tabpanel" aria-labelledby="pub-tab-2025" tabindex="0" hidden>
+<h3 class="publication-group-heading">Major Author</h3>
+<ol class="publication-list">
+<li class="publication-item">
+<img alt="Cover for StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback" class="publication-image" loading="lazy" src="/images/publications/StyleTailor-%20Towards%20Personalized%20Fashion%20Styling%20via%20Hierarchical%20Negative%20Feedback.png"/>
+<div>
+<p class="publication-title">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback</p>
+<p class="publication-authors"><span class="author-me">Hongbo Ma</span>, Fei Shen, Hongbin Xu, Xiaoce Wang, Gang Xu, Jinkai Zheng, Liangqiong Qu, Ming Li</p>
+<p class="publication-venue">AAAI 2026 Oral</p>
+<div class="publication-links"><a href="https://arxiv.org/abs/2508.06555">Paper</a> <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">Project</a> <a href="https://underline.io/lecture/141675-styletailor-towards-personalized-fashion-styling-via-hierarchical-negative-feedback">Video</a> <a href="https://github.com/ma-hongbo/StyleTailor">Code</a></div>
+</div>
+</li>
+</ol>
+<h3 class="publication-group-heading">Secondary Author</h3>
+<ol class="publication-list">
+<li class="publication-item">
+<img alt="Cover for Empower Structure-based Molecule Optimization with Gradient Guidance" class="publication-image" loading="lazy" src="/images/publications/Empower%20Structure-Based%20Molecule%20Optimization%20with%20Gradient%20Guided%20Bayesian%20Flow%20Networks.png"/>
+<div>
+<p class="publication-title">Empower Structure-based Molecule Optimization with Gradient Guidance</p>
+<p class="publication-authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</p>
+<p class="publication-venue">ICML 2025 Poster</p>
+<div class="publication-links"><a href="https://arxiv.org/abs/2411.13280">Paper</a></div>
+</div>
 </li>
 <li class="publication-item">
-  <img class="publication-image" src="/images/publications/Empower%20Structure-Based%20Molecule%20Optimization%20with%20Gradient%20Guided%20Bayesian%20Flow%20Networks.png" alt="Cover for Empower Structure-based Molecule Optimization with Gradient Guidance" loading="lazy">
-  <div>
-    <p class="publication-title">Empower Structure-based Molecule Optimization with Gradient Guidance</p>
-    <p class="publication-authors">Keyue Qiu*, Yuxuan Song*, Jie Yu, <span class="author-me">Hongbo Ma</span>, Ziyao Cao, Mingyue Zheng, Hao Zhou, Wei-Ying Ma</p>
-    <p class="publication-venue">ICML 2025 Poster</p>
-    <div class="publication-links"><a href="https://arxiv.org/abs/2411.13280">Paper</a></div>
-  </div>
-</li>
-<li class="publication-item">
-  <img class="publication-image" src="/images/publications/Redefining%20the%20task%20of%20Bioactivity%20Prediction.png" alt="Cover for Redefining the Task of Bioactivity Prediction" loading="lazy">
-  <div>
-    <p class="publication-title">Redefining the Task of Bioactivity Prediction</p>
-    <p class="publication-authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</p>
-    <p class="publication-venue">ICLR 2025 Poster</p>
-    <div class="publication-links"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a></div>
-  </div>
+<img alt="Cover for Redefining the Task of Bioactivity Prediction" class="publication-image" loading="lazy" src="/images/publications/Redefining%20the%20task%20of%20Bioactivity%20Prediction.png"/>
+<div>
+<p class="publication-title">Redefining the Task of Bioactivity Prediction</p>
+<p class="publication-authors">Yanwen Huang*, Bowen Gao*, Yinjun Jia, <span class="author-me">Hongbo Ma</span>, Wei-Ying Ma, Ya-Qin Zhang, Yanyan Lan</p>
+<p class="publication-venue">ICLR 2025 Poster</p>
+<div class="publication-links"><a href="https://openreview.net/pdf?id=S8gbnkCgxZ">Paper</a></div>
+</div>
 </li>
 </ol>
 </div>

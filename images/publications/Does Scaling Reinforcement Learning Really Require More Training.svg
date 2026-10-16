@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 380" role="img" aria-labelledby="title desc">
+  <title id="title">Does Scaling Reinforcement Learning Really Require More Training?</title>
+  <desc id="desc">Illustrative cover for the research paper</desc>
+  <rect width="600" height="380" fill="#f6f8fa"/>
+  <path d="M0 0h600v10H0z" fill="#397052"/>
+  <g opacity=".13" fill="none" stroke="#397052" stroke-width="2">
+    <circle cx="490" cy="196" r="136"/><circle cx="490" cy="196" r="96"/><circle cx="490" cy="196" r="56"/>
+    <path d="M370 260 560 70M348 125 580 270"/>
+  </g>
+  <g fill="#397052"><circle cx="490" cy="196" r="14"/><circle cx="397" cy="102" r="8"/><circle cx="564" cy="265" r="8"/></g>
+  <text x="42" y="64" fill="#397052" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">RESEARCH PAPER</text>
+  <text x="42" y="202" fill="#043361" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">Scaling RL</text>
+  <rect x="42" y="228" width="84" height="4" fill="#397052"/>
+  <text x="42" y="272" fill="#465a6c" font-family="Arial, Helvetica, sans-serif" font-size="26">Training efficiency</text>
+  <text x="42" y="336" fill="#758391" font-family="Arial, Helvetica, sans-serif" font-size="17">Hongbo Ma · Publications</text>
+</svg>

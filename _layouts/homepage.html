@@ -1,0 +1,42 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hongbo Ma's academic homepage: research, publications, awards, and academic service.">
+    <link rel="canonical" href="{{ '/' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+    <title>Hongbo Ma 马洪博 | Tsinghua University</title>
+    <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/minimal-home.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="home-wrapper">
+      <aside class="home-sidebar" aria-label="Profile">
+        <a class="profile-avatar" href="{{ '/' | relative_url }}" aria-label="Hongbo Ma homepage">
+          <img src="{{ '/images/profile.png' | relative_url }}" alt="Hongbo Ma">
+        </a>
+        <h1>Hongbo Ma <span lang="zh">马洪博</span></h1>
+        <p class="profile-position">Undergraduate Researcher</p>
+        <p class="profile-affiliation">Xinya College<br>Tsinghua University</p>
+        <a class="profile-email" href="mailto:mahb22@mails.tsinghua.edu.cn">mahb22@mails.tsinghua.edu.cn</a>
+        <nav class="social-links" aria-label="Profile links">
+          <a href="https://scholar.google.com/citations?user=1NIc69QAAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="{{ '/data/CV.pdf' | relative_url }}" aria-label="Curriculum vitae" title="CV"><span class="cv-icon" aria-hidden="true">CV</span></a>
+          <a href="https://github.com/Ma-Hongbo" aria-label="GitHub" title="GitHub"><span class="cv-icon" aria-hidden="true">GH</span></a>
+          <a href="https://orcid.org/0009-0009-6763-1492" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+        </nav>
+      </aside>
+      <main id="main-content" class="home-content">
+        {{ content }}
+        <footer class="home-footer">
+          <small>Built with Jekyll. Layout adapted from <a href="https://github.com/Songard/Songard.github.io">Minimal Light</a>.</small>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

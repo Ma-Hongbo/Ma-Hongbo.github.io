@@ -30,6 +30,12 @@ redirect_from:
 </ul>
 </section>
 
+<section id="educations">
+<h2>Education</h2>
+<p><strong>2023.09 - Present | Minor in Economics and Management</strong>, Tsinghua University</p>
+<p><strong>2022.09 - Present | B.S. in Computer Science and Technology</strong>, Tsinghua University</p>
+</section>
+
 <section id="publications">
 <h2>Publications</h2>
 <p class="note">* denotes equal contribution.</p>
@@ -160,12 +166,6 @@ redirect_from:
 </div>
 </section>
 
-<section id="educations">
-<h2>Education</h2>
-<p><strong>2023.09 - Present | Minor in Economics and Management</strong>, Tsinghua University</p>
-<p><strong>2022.09 - Present | B.S. in Computer Science and Technology</strong>, Tsinghua University</p>
-</section>
-
 <section id="internships">
 <h2>Research Experience</h2>
 <div class="experience-item"><p><strong>2025.12 - Present | Research Intern</strong> Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign</p></div>
@@ -173,6 +173,21 @@ redirect_from:
 <div class="experience-item"><p><strong>2025.05 - 2025.08 | Research Intern</strong> Guangming Lab, Shenzhen</p></div>
 <div class="experience-item"><p><strong>2024.07 - 2025.02 | Research Intern</strong> GenSi Lab, Tsinghua University</p></div>
 <div class="experience-item"><p><strong>2024.02 - 2024.06 | Research Intern</strong> ATOM Lab, Tsinghua University</p></div>
+</section>
+
+<section id="services">
+<h2>Academic Service</h2>
+<ul class="inline-list">
+<li><strong>NeurIPS 2026</strong>, Reviewer</li>
+<li><strong>ICML 2026 Workshop AI4Math</strong>, Reviewer</li>
+<li><strong>ACL ARR 2026 May, 2026 Oct</strong>, Reviewer</li>
+<li><strong>AAAI 2027</strong>, Program Committee</li>
+<li><strong>ICLR 2027</strong>, Reviewer</li>
+</ul>
+</section>
+
+<section id="talks">
+<h2>Invited Talks</h2>
 </section>
 
 <section id="awards">
@@ -185,17 +200,6 @@ redirect_from:
 <li><strong>2023 - 2024 | Outstanding Social Work Scholarship</strong>, Tsinghua University</li>
 <li><strong>2022 - 2023 | Outstanding Social Work Scholarship</strong>, Tsinghua University</li>
 <li><strong>2022 - 2026 | Second Prize Freshman Scholarship</strong>, Tsinghua University</li>
-</ul>
-</section>
-
-<section id="services">
-<h2>Academic Service</h2>
-<ul class="inline-list">
-<li><strong>NeurIPS 2026</strong>, Reviewer</li>
-<li><strong>ICML 2026 Workshop AI4Math</strong>, Reviewer</li>
-<li><strong>ACL ARR 2026 May, 2026 Oct</strong>, Reviewer</li>
-<li><strong>AAAI 2027</strong>, Program Committee</li>
-<li><strong>ICLR 2027</strong>, Reviewer</li>
 </ul>
 </section>
 

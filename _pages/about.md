@@ -8,16 +8,8 @@ redirect_from:
 
 <section id="about-me">
 <h2>About me</h2>
-<p>I am a senior undergraduate student in <strong>Computer Science and Technology</strong> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, studying in the Department of Computer Science and Technology and Xinya College. I also minor in Economics and Management at the School of Economics and Management.</p>
+<p>I am a senior undergraduate student in <strong>Computer Science and Technology</strong> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, studying in the <a href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a> and <a href="https://www.xyc.tsinghua.edu.cn/en/">Xinya College</a>. I also minor in Economics and Management at the <a href="https://www.sem.tsinghua.edu.cn/en/">School of Economics and Management</a>.</p>
 <p>My research focuses on building efficient, interpretable, and reliable decision-making systems for cross-modal intelligence. I work with LLMs and VLMs on embodied perception, reasoning, and action under real-world constraints. My broader goal is to develop agents that can understand their environment, reason over context, and act effectively. For more details, see my <a href="/data/CV.pdf">CV</a> and the publications below.</p>
-</section>
-
-<section id="research-focus">
-<h2>Research Focus</h2>
-<p>My current work follows a <strong>Real2Sim → Sim2Sim → Sim2Real</strong> loop built around world models, generative models, and multi-agent systems. It combines visual representation learning, world and environment modeling, efficient reasoning and decision-making, and training for real-world generalization.</p>
-<p><strong>World Modeling (Real2Sim).</strong> I study visual representation learning and generative modeling to build high-fidelity, controllable simulators from real observations.</p>
-<p><strong>Multi-Agent Systems (Sim2Sim).</strong> I work on grounded state understanding, efficient reasoning and planning, and closed-loop optimization of agent behavior in simulated worlds.</p>
-<p><strong>Real Deployment (Sim2Real).</strong> I study efficient execution, adaptation, and generalization in dynamic environments. This direction also extends to scientific agents for tasks such as molecular design and experiment planning, where validated strategies can be returned to real-world settings.</p>
 </section>
 
 <section id="news">
@@ -26,6 +18,14 @@ redirect_from:
 <li><strong>2026.05</strong> — <a href="https://arxiv.org/abs/2604.02322">Batched Contextual Reinforcement</a> was accepted by ICML 2026.</li>
 <li><strong>2025.11</strong> — <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">StyleTailor</a> was accepted by AAAI 2026 as an Oral presentation (Top 4.5%).</li>
 <li><strong>2025.05</strong> — One paper was accepted by ICML 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
+<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
 <li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
 </ul>
 </section>

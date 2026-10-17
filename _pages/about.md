@@ -194,15 +194,15 @@ redirect_from:
 <section id="teaching">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-teaching"></use></svg><span class="section-heading-text">Teaching</span></h2>
 <ul class="inline-list">
-<li><strong>Common Course of Xinya College (2)</strong>, TA (26Fall)</li>
+<li><strong>2026 Fall</strong> — Common Course of Xinya College (2), TA</li>
 </ul>
 </section>
 
 <section id="talks">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-talks"></use></svg><span class="section-heading-text">Invited Talks</span></h2>
 <ul class="inline-list">
-<li><strong>2026.10.18</strong> — I gave a talk titled “Interpretable Analysis of LLM Weight Space and Training-Free Capability Unlocking” at Xinya College Colloquium No. 109.</li>
-<li><strong>2026.05.17</strong> — I gave a talk titled “Optimizing LLM Reasoning Efficiency with Reinforcement Learning” at Xinya College Colloquium No. 105.</li>
+<li><strong>2026.10.18</strong> — I gave a talk titled “Interpretable Analysis of LLM Weight Space and Training-Free Capability Unlocking” at <a href="https://mp.weixin.qq.com/s/6cozI3-LGUl1CpiASzJA6g">Xinya College Colloquium No. 109</a>.</li>
+<li><strong>2026.05.17</strong> — I gave a talk titled “Optimizing LLM Reasoning Efficiency with Reinforcement Learning” at <a href="https://mp.weixin.qq.com/s/HlbdpV00H-Ng3x-GAsvc8Q">Xinya College Colloquium No. 105</a>.</li>
 </ul>
 </section>
 

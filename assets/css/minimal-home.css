@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Ubuntu+Mono&display=swap");
 
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  src: url("../fonts/fa-brands-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
 :root {
   color-scheme: light dark;
   --background: #fff;
@@ -46,10 +54,10 @@ strong { color: var(--strong); font-weight: 600; }
 .home-topbar__inner {
   display: flex;
   align-items: center;
-  gap: .12rem;
+  gap: .18rem;
   width: min(1060px, calc(100% - 32px));
   margin: 0 auto;
-  padding-left: clamp(49px, calc((100% - 960px) / 2 + 33px), 99px);
+  padding-left: clamp(45px, calc((100% - 960px) / 2 + 29px), 95px);
   overflow-x: auto;
   scrollbar-width: thin;
   white-space: nowrap;
@@ -58,13 +66,11 @@ strong { color: var(--strong); font-weight: 600; }
   display: inline-flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: .24rem;
-  padding: .78rem .3rem;
+  padding: .78rem .5rem;
   color: var(--heading);
-  font-size: .78rem;
+  font-size: .86rem;
   font-weight: 600;
 }
-.nav-icon { width: .88rem; height: .88rem; flex: 0 0 auto; }
 .home-topbar a:hover,
 .home-topbar a:focus-visible {
   color: var(--link);
@@ -137,7 +143,8 @@ strong { color: var(--strong); font-weight: 600; }
 }
 .social-links a:hover { transform: translateY(-2px); text-decoration: none; }
 .cv-icon { font: 700 .82rem/1 Georgia, serif; }
-.github-icon { display: block; width: 1.18rem; height: 1.18rem; fill: currentColor; }
+.social-links .fab { font: normal 400 1.2rem/1 "Font Awesome 5 Brands"; }
+.social-links .fa-github::before { content: "\f09b"; }
 
 .home-content {
   min-width: 0;
@@ -154,7 +161,15 @@ strong { color: var(--strong); font-weight: 600; }
   font-weight: 600;
   line-height: 1.15;
 }
-.section-icon { width: 1.12rem; height: 1.12rem; flex: 0 0 auto; color: var(--link); }
+.section-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  flex: 0 0 auto;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--link);
+}
 .home-content h3 {
   margin: 1.05rem 0 .35rem;
   color: var(--heading);

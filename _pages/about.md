@@ -20,14 +20,6 @@ redirect_from:
 <li><strong>2025.11</strong> — <a href="https://ma-hongbo.github.io/StyleTailor.github.io/">StyleTailor</a> was accepted by AAAI 2026 as an Oral presentation (Top 4.5%).</li>
 <li><strong>2025.05</strong> — One paper was accepted by ICML 2025.</li>
 <li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
-<li><strong>2025.01</strong> — One paper was accepted by ICLR 2025.</li>
 </ul>
 </div>
 </section>

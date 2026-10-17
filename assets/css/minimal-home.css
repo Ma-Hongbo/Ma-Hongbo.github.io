@@ -190,6 +190,29 @@ strong { color: var(--strong); font-weight: 600; }
 .experience-item { margin-bottom: 1rem; }
 .experience-item p { margin: 0; }
 .experience-item strong { display: block; }
+.experience-institution { white-space: nowrap; }
+.institution-logo {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.12em;
+  background-repeat: no-repeat;
+}
+.institution-logo--uiuc {
+  background-image: url("/images/institutions/uiuc-block-i.svg");
+  background-size: contain;
+  background-position: center;
+}
+.institution-logo--guangming {
+  background-image: url("/images/institutions/guangming-lab.png");
+  background-size: 2em 2em;
+  background-position: center top;
+}
+.institution-logo--tsinghua {
+  background-image: url("/images/institutions/tsinghua-seal.jpg");
+  background-size: auto 1.32em;
+  background-position: center;
+}
 .note { color: var(--muted); font-size: .9rem; }
 .news-list { list-style: none; padding: 0 !important; }
 .news-list li { margin-bottom: .4rem; }
@@ -300,6 +323,9 @@ strong { color: var(--strong); font-weight: 600; }
   .home-wrapper { display: block; width: min(700px, calc(100% - 30px)); }
   .home-sidebar { position: static; padding: 2rem 0 1.5rem; }
   .home-content { border-top: 1px solid var(--line); padding-top: 1.6rem; }
+}
+@media (max-width: 620px) {
+  .experience-institution { white-space: normal; }
 }
 @media (max-width: 520px) {
   .profile-avatar { width: 112px; height: 112px; }

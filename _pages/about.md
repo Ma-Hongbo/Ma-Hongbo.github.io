@@ -174,10 +174,10 @@ redirect_from:
 
 <section id="internships">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-research"></use></svg><span class="section-heading-text">Research Experience</span></h2>
-<div class="experience-item"><p><strong>2025.12 - Present | Research Intern</strong> Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign</p></div>
-<div class="experience-item"><p><strong>2025.05 - 2025.08 | Research Intern</strong> Guangming Lab, Shenzhen</p></div>
-<div class="experience-item"><p><strong>2024.07 - 2025.02 | Research Intern</strong> GenSi Lab, Tsinghua University</p></div>
-<div class="experience-item"><p><strong>2024.02 - 2024.06 | Research Intern</strong> ATOM Lab, Tsinghua University</p></div>
+<div class="experience-item"><p><strong>2025.12 - Present | Research Intern</strong><span class="experience-institution"><span class="institution-logo institution-logo--uiuc" aria-hidden="true"></span> Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign</span></p></div>
+<div class="experience-item"><p><strong>2025.05 - 2025.08 | Research Intern</strong><span class="experience-institution"><span class="institution-logo institution-logo--guangming" aria-hidden="true"></span> Guangming Lab, Shenzhen</span></p></div>
+<div class="experience-item"><p><strong>2024.07 - 2025.02 | Research Intern</strong><span class="experience-institution"><span class="institution-logo institution-logo--tsinghua" aria-hidden="true"></span> GenSi Lab, Tsinghua University</span></p></div>
+<div class="experience-item"><p><strong>2024.02 - 2024.06 | Research Intern</strong><span class="experience-institution"><span class="institution-logo institution-logo--tsinghua" aria-hidden="true"></span> ATOM Lab, Tsinghua University</span></p></div>
 </section>
 
 <section id="services">

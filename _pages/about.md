@@ -183,7 +183,6 @@ redirect_from:
 <section id="internships">
 <h2>Research Experience</h2>
 <div class="experience-item"><p><strong>2025.12 - Present | Research Intern</strong> Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign</p></div>
-<div class="experience-item"><p><strong>2025.09 - 2025.10 | Research Intern</strong> i-Vision Group, Tsinghua University</p></div>
 <div class="experience-item"><p><strong>2025.05 - 2025.08 | Research Intern</strong> Guangming Lab, Shenzhen</p></div>
 <div class="experience-item"><p><strong>2024.07 - 2025.02 | Research Intern</strong> GenSi Lab, Tsinghua University</p></div>
 <div class="experience-item"><p><strong>2024.02 - 2024.06 | Research Intern</strong> ATOM Lab, Tsinghua University</p></div>

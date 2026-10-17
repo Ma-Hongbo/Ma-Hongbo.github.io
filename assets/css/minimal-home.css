@@ -170,6 +170,12 @@ strong { color: var(--strong); font-weight: 600; }
   border-radius: 4px;
   color: var(--link);
 }
+.section-heading-text {
+  text-decoration: underline;
+  text-decoration-color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
 .home-content h3 {
   margin: 1.05rem 0 .35rem;
   color: var(--heading);
@@ -179,7 +185,6 @@ strong { color: var(--strong); font-weight: 600; }
 .home-content p, .home-content ul, .home-content ol { margin: 0 0 1rem; }
 .home-content ul { padding-left: 1.25rem; }
 .home-content li { margin-bottom: .28rem; }
-.home-content section:target h2 { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: .25rem; }
 .inline-list { list-style: none; padding: 0 !important; }
 .inline-list li { margin-bottom: .6rem; }
 .experience-item { margin-bottom: 1rem; }

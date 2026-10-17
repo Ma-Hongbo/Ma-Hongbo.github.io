@@ -7,13 +7,13 @@ redirect_from:
 ---
 
 <section id="about-me">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-about"></use></svg>About me</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-about"></use></svg><span class="section-heading-text">About me</span></h2>
 <p>I am a senior undergraduate student in <strong>Computer Science and Technology</strong> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>, studying in the <a href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a> and <a href="https://www.xyc.tsinghua.edu.cn/en/">Xinya College</a>. I also minor in Economics and Management at the <a href="https://www.sem.tsinghua.edu.cn/en/">School of Economics and Management</a>.</p>
 <p>My research focuses on building efficient, interpretable, and reliable decision-making systems for cross-modal intelligence. I work with LLMs and VLMs on embodied perception, reasoning, and action under real-world constraints. My broader goal is to develop agents that can understand their environment, reason over context, and act effectively. For more details, see my <a href="/data/CV.pdf">CV</a> and the publications below.</p>
 </section>
 
 <section id="news">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-news"></use></svg>News</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-news"></use></svg><span class="section-heading-text">News</span></h2>
 <div class="news-frame">
 <ul class="news-list">
 <li><strong>2026.05</strong> — <a href="https://arxiv.org/abs/2604.02322">Batched Contextual Reinforcement</a> was accepted by ICML 2026.</li>
@@ -33,13 +33,13 @@ redirect_from:
 </section>
 
 <section id="educations">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-education"></use></svg>Education</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-education"></use></svg><span class="section-heading-text">Education</span></h2>
 <p><strong>2023.09 - Present | Minor in Economics and Management</strong>, Tsinghua University</p>
 <p><strong>2022.09 - Present | B.S. in Computer Science and Technology</strong>, Tsinghua University</p>
 </section>
 
 <section id="publications">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-publications"></use></svg>Publications</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-publications"></use></svg><span class="section-heading-text">Publications</span></h2>
 <p class="note">* denotes equal contribution.</p>
 <div class="publication-year-tabs" role="tablist" aria-label="Publication year">
 <button class="publication-year-tab" id="pub-tab-2026" type="button" role="tab" aria-selected="true" aria-controls="pub-panel-2026" tabindex="0">2026</button>
@@ -181,7 +181,7 @@ redirect_from:
 </section>
 
 <section id="internships">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-research"></use></svg>Research Experience</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-research"></use></svg><span class="section-heading-text">Research Experience</span></h2>
 <div class="experience-item"><p><strong>2025.12 - Present | Research Intern</strong> Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign</p></div>
 <div class="experience-item"><p><strong>2025.05 - 2025.08 | Research Intern</strong> Guangming Lab, Shenzhen</p></div>
 <div class="experience-item"><p><strong>2024.07 - 2025.02 | Research Intern</strong> GenSi Lab, Tsinghua University</p></div>
@@ -189,7 +189,7 @@ redirect_from:
 </section>
 
 <section id="services">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-service"></use></svg>Academic Service</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-service"></use></svg><span class="section-heading-text">Academic Service</span></h2>
 <ul class="inline-list">
 <li><strong>NeurIPS 2026</strong>, Reviewer</li>
 <li><strong>ICML 2026 Workshop AI4Math</strong>, Reviewer</li>
@@ -200,15 +200,15 @@ redirect_from:
 </section>
 
 <section id="teaching">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-teaching"></use></svg>Teaching</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-teaching"></use></svg><span class="section-heading-text">Teaching</span></h2>
 </section>
 
 <section id="talks">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-talks"></use></svg>Invited Talks</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-talks"></use></svg><span class="section-heading-text">Invited Talks</span></h2>
 </section>
 
 <section id="awards">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-awards"></use></svg>Awards &amp; Scholarships</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-awards"></use></svg><span class="section-heading-text">Awards &amp; Scholarships</span></h2>
 <ul class="inline-list">
 <li><strong>2025 - 2026 | Comprehensive Excellence Scholarship</strong>, Tsinghua University</li>
 <li><strong>2024 - 2025 | Outstanding Scientific and Technological Innovation Scholarship</strong>, Tsinghua University</li>
@@ -221,6 +221,6 @@ redirect_from:
 </section>
 
 <section id="blogs">
-<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-misc"></use></svg>Misc</h2>
+<h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-misc"></use></svg><span class="section-heading-text">Misc</span></h2>
 <p>I love writing. For longer reflections, visit my <a href="https://www.zhihu.com/people/22-13-70-62-20">Zhihu</a>. I also share shorter updates on <a href="https://www.xiaohongshu.com/user/profile/64d44d3f000000000e025c3e">Rednote</a> and collect posts on my <a href="/blogs/">blog page</a>.</p>
 </section>

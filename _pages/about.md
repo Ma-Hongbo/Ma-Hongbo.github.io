@@ -64,7 +64,7 @@ redirect_from:
 <p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
 <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"><a href="https://arxiv.org/pdf/2610.01110">Paper</a></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2609.37976">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">

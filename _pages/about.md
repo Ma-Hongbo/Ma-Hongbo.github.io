@@ -41,7 +41,7 @@ redirect_from:
 <h3 class="publication-group-heading">Major Author</h3>
 <ol class="publication-list">
 <li class="publication-item">
-<img alt="Cover for Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving" class="publication-image" loading="lazy" src="/images/publications/Constraint-First%20Reasoning.png"/>
+<img alt="Figures and tables from Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving" class="publication-image" loading="lazy" src="/images/publications/Constraint-First%20Reasoning.png"/>
 <div>
 <p class="publication-title">Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</p>
 <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</p>
@@ -50,7 +50,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards" class="publication-image" loading="lazy" src="/images/publications/Does%20RLVR%20Need%20Long%20Rollout%20Windows.svg"/>
+<img alt="Figures and tables from Batched Contextual Reinforcement II: Does RLVR Need Long Rollout Windows?" class="publication-image" loading="lazy" src="/images/publications/Does%20RLVR%20Need%20Long%20Rollout%20Windows.png"/>
 <div>
 <p class="publication-title">Batched Contextual Reinforcement II: Does RLVR Need Long Rollout Windows?</p>
 <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</p>
@@ -59,7 +59,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for S3: Spectral Null-Space Swap Makes Reasoning Models Efficient" class="publication-image" loading="lazy" src="/images/publications/S3%20Spectral%20Null-Space%20Swap.svg"/>
+<img alt="Figures and tables from S3: Spectral Null-Space Swap Makes Reasoning Models Efficient" class="publication-image" loading="lazy" src="/images/publications/S3%20Spectral%20Null-Space%20Swap.png"/>
 <div>
 <p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
 <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
@@ -68,7 +68,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation" class="publication-image" loading="lazy" src="/images/publications/ReSolve.svg"/>
+<img alt="Figures and tables from ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation" class="publication-image" loading="lazy" src="/images/publications/ReSolve.png"/>
 <div>
 <p class="publication-title">ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Xi Zhu, Weizhi Zhang, Minghao Guo, Ye Li, Hamid Palangi, Jiaxuan You</p>
@@ -77,7 +77,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for Does Scaling Reinforcement Learning Really Require More Training?" class="publication-image" loading="lazy" src="/images/publications/Does%20Scaling%20Reinforcement%20Learning%20Really%20Require%20More%20Training.svg"/>
+<img alt="Figures and tables from Does Scaling Reinforcement Learning Really Require More Training?" class="publication-image" loading="lazy" src="/images/publications/Does%20Scaling%20Reinforcement%20Learning%20Really%20Require%20More%20Training.png"/>
 <div>
 <p class="publication-title">Does Scaling Reinforcement Learning Really Require More Training?</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Ruihan Guo*, Ge Liu</p>
@@ -86,7 +86,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for Auditing Generated Skill Libraries for Embodied Language Agents" class="publication-image" loading="lazy" src="/images/publications/Auditing%20Generated%20Skill%20Libraries.png"/>
+<img alt="Figures and tables from Section-Aware Auditting and Compression of Generated Skill Libraries for Language Agents" class="publication-image" loading="lazy" src="/images/publications/Auditing%20Generated%20Skill%20Libraries.png"/>
 <div>
 <p class="publication-title">Section-Aware Auditting and Compression of Generated Skill Libraries for Language Agents</p>
 <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Qinglong Zheng*, Jiajun Fan, JIA-HONG HUANG, Ge Liu</p>
@@ -107,7 +107,7 @@ redirect_from:
 <h3 class="publication-group-heading">Secondary Author</h3>
 <ol class="publication-list">
 <li class="publication-item">
-<img alt="Cover for Training-Free On-Policy Distillation" class="publication-image" loading="lazy" src="/images/publications/Training-Free%20On-Policy%20Distillation.svg"/>
+<img alt="Figures and tables from Training-Free On-Policy Distillation" class="publication-image" loading="lazy" src="/images/publications/Training-Free%20On-Policy%20Distillation.png"/>
 <div>
 <p class="publication-title">Training-Free On-Policy Distillation</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, Zhaoyu Zhu, <span class="author-me">Hongbo Ma</span>, Ge Liu</p>
@@ -116,7 +116,7 @@ redirect_from:
 </div>
 </li>
 <li class="publication-item">
-<img alt="Cover for How Much Can Language Models Gain from Test-Time Computation?" class="publication-image" loading="lazy" src="/images/publications/Test-Time%20Computation.svg"/>
+<img alt="Figures and tables from How Much Can Language Models Gain from Test-Time Computation?" class="publication-image" loading="lazy" src="/images/publications/Test-Time%20Computation.png"/>
 <div>
 <p class="publication-title">How Much Can Language Models Gain from Test-Time Computation?</p>
 <p class="publication-authors">Bangji Yang, Jingyuan Li, Jiajun Fan, Yi Evie Zhang, Ruihan Guo, <span class="author-me">Hongbo Ma</span>, Neil He, Chumeng Liang, Qinglong Zheng, Zhanghan Ni, Ge Liu</p>

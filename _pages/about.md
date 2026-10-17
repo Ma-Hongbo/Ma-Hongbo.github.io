@@ -209,8 +209,8 @@ redirect_from:
 <section id="talks">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-talks"></use></svg><span class="section-heading-text">Invited Talks</span></h2>
 <ul class="inline-list">
-<li><strong>2026.05.17</strong> — I gave a talk titled “Optimizing LLM Reasoning Efficiency with Reinforcement Learning” at Xinya College Colloquium No. 105.</li>
 <li><strong>2026.10.18</strong> — I gave a talk titled “Interpretable Analysis of LLM Weight Space and Training-Free Capability Unlocking” at Xinya College Colloquium No. 109.</li>
+<li><strong>2026.05.17</strong> — I gave a talk titled “Optimizing LLM Reasoning Efficiency with Reinforcement Learning” at Xinya College Colloquium No. 105.</li>
 </ul>
 </section>
 

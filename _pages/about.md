@@ -52,7 +52,7 @@ redirect_from:
 <li class="publication-item">
 <img alt="Cover for Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards" class="publication-image" loading="lazy" src="/images/publications/Does%20RLVR%20Need%20Long%20Rollout%20Windows.svg"/>
 <div>
-<p class="publication-title">Does RLVR Need Long Rollout Windows? Efficient Training with Concurrent Rewards</p>
+<p class="publication-title">Batched Contextual Reinforcement II: Does RLVR Need Long Rollout Windows?</p>
 <p class="publication-authors">Bangji Yang*, <span class="author-me">Hongbo Ma*</span>, Ruihan Liu, Jiajun Fan, Xi Zhu, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
 <div class="publication-links"></div>

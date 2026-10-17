@@ -46,7 +46,7 @@ redirect_from:
 <p class="publication-title">Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving</p>
 <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Bangji Yang*, Yunqian Selina Cheng*, Jiajun Fan, Hanwen Zhang, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2608.05254">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">
@@ -64,7 +64,7 @@ redirect_from:
 <p class="publication-title">S<sup>3</sup>: Spectral Null-Space Swap Makes Reasoning Models Efficient</p>
 <p class="publication-authors"><span class="author-me">Hongbo Ma*</span>, Sansheng Cao*, Jiajun Fan, Bangji Yang, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2610.01110">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">
@@ -73,7 +73,7 @@ redirect_from:
 <p class="publication-title">ReSolve: Reusing Candidate Reasoning through Selective Generative Moderation</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Xi Zhu, Weizhi Zhang, Minghao Guo, Ye Li, Hamid Palangi, Jiaxuan You</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2610.01140">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">
@@ -82,7 +82,7 @@ redirect_from:
 <p class="publication-title">Does Scaling Reinforcement Learning Really Require More Training?</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, <span class="author-me">Hongbo Ma*</span>, Ruihan Guo*, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2610.01133">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">
@@ -112,7 +112,7 @@ redirect_from:
 <p class="publication-title">Training-Free On-Policy Distillation</p>
 <p class="publication-authors">Bangji Yang*, Jiajun Fan*, Zhaoyu Zhu, <span class="author-me">Hongbo Ma</span>, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2610.22236">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">
@@ -121,7 +121,7 @@ redirect_from:
 <p class="publication-title">How Much Can Language Models Gain from Test-Time Computation?</p>
 <p class="publication-authors">Bangji Yang, Jingyuan Li, Jiajun Fan, Yi Evie Zhang, Ruihan Guo, <span class="author-me">Hongbo Ma</span>, Neil He, Chumeng Liang, Qinglong Zheng, Zhanghan Ni, Ge Liu</p>
 <p class="publication-venue">Under Review</p>
-<div class="publication-links"></div>
+<div class="publication-links"><a href="https://arxiv.org/pdf/2610.01110">Paper</a></div>
 </div>
 </li>
 <li class="publication-item">

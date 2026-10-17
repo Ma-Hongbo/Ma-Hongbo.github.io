@@ -202,15 +202,15 @@ redirect_from:
 <section id="teaching">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-teaching"></use></svg><span class="section-heading-text">Teaching</span></h2>
 <ul class="inline-list">
-<li><strong>Common Course of Xinya College (2)</strong>, TA</li>
+<li><strong>Common Course of Xinya College (2)</strong>, TA (26Fall)</li>
 </ul>
 </section>
 
 <section id="talks">
 <h2><svg class="section-icon" width="20" height="20" aria-hidden="true"><use href="#icon-talks"></use></svg><span class="section-heading-text">Invited Talks</span></h2>
 <ul class="inline-list">
-<li><strong>2026.05.17</strong> — I gave a talk titled <span lang="zh">“强化学习优化大模型推理效率”</span> at Xinya College Colloquium No. 105.</li>
-<li><strong>2026.10.18</strong> — I gave a talk titled <span lang="zh">“大模型权重空间的可解释分析与Training-Free能力释放”</span> at Xinya College Colloquium No. 109.</li>
+<li><strong>2026.05.17</strong> — I gave a talk titled “Optimizing LLM Reasoning Efficiency with Reinforcement Learning” at Xinya College Colloquium No. 105.</li>
+<li><strong>2026.10.18</strong> — I gave a talk titled “Interpretable Analysis of LLM Weight Space and Training-Free Capability Unlocking” at Xinya College Colloquium No. 109.</li>
 </ul>
 </section>
 

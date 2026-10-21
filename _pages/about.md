@@ -129,7 +129,7 @@ redirect_from:
 <div>
 <p class="publication-title">Towards Generalist Game Players: A Survey of Foundation Models in the Game Multiverse</p>
 <p class="publication-authors">Kuan Zhang*, Dongchen Liu*, Qiyue Zhao*, Tianyu Xin*, Yue Su*, Haisheng Wang, Han Yin, <span class="author-me">Hongbo Ma</span>, Peize Li, Tianjun Gu, Xiangnan Wu, Xinran Zhang, Yongxuan Li, Zirong Chen, Yiming Li</p>
-<p class="publication-venue">Under Review</p>
+<p class="publication-venue">TMLR</p>
 <div class="publication-links"><a href="https://arxiv.org/pdf/2605.09965">Paper</a></div>
 </div>
 </li>

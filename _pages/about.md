@@ -188,6 +188,7 @@ redirect_from:
 <li><strong>ACL ARR 2026 May, 2026 Oct</strong>, Reviewer</li>
 <li><strong>AAAI 2027</strong>, Program Committee</li>
 <li><strong>ICLR 2027</strong>, Reviewer</li>
+<li><strong>Pattern Recognition</strong>, Reviewer</li>
 </ul>
 </section>
 
